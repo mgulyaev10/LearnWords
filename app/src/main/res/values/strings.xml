@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">mvWords</string>
+    <string name="title_choose_native_language">Выберите свой родной язык</string>
+    <string name="title_choose_target_language">Выберите язык, который Вы хотите изучать</string>
+
+    <string name="russian">Русский</string>
+    <string name="english">English</string>
+    <string name="german">Deutsche</string>
+    <string name="spanish">Española</string>
+    <string name="french">Francés</string>
+    <string name="italian">Italiano</string>
+
+</resources>
