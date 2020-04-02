@@ -27,7 +27,7 @@ class HomeFragment: Fragment() {
     private fun showCategoriesFragment(isFirstLaunch: Boolean) {
         val fragment = CategoriesFragment.Builder(isFirstLaunch)
             .build()
-        Navigator.go(childFragmentManager, fragment, CategoriesFragment.TAG)
+        Navigator.go(childFragmentManager, fragment, CategoriesFragment.TAG, addToBackStack = false)
     }
 
     private fun showCardFragment() {

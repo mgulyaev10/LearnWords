@@ -15,10 +15,22 @@ class MainActivity : AppCompatActivity() {
         openHomeFragment()
     }
 
+    override fun onBackPressed() {
+        supportFragmentManager.fragments.forEach {
+            if (it.isVisible) {
+                if (it.childFragmentManager.backStackEntryCount > 0) {
+                    it.childFragmentManager.popBackStack()
+                    return
+                }
+            }
+        }
+        super.onBackPressed()
+    }
+
     private fun openHomeFragment() {
         val fragment = HomeFragment.Builder(Preference.isFirstLaunch(this))
             .build()
-        Navigator.go(supportFragmentManager, fragment, HomeFragment.TAG)
+        Navigator.go(supportFragmentManager, fragment, HomeFragment.TAG, addToBackStack = false)
     }
 
 }

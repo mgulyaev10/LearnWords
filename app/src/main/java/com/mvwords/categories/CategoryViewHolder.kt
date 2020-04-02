@@ -7,13 +7,23 @@ import androidx.appcompat.widget.AppCompatCheckBox
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.mvwords.R
+import com.mvwords.ViewHolderClickListener
 import core.Category
 
-class CategoryViewHolder(view: View): RecyclerView.ViewHolder(view) {
+class CategoryViewHolder(
+    view: View,
+    clickListener: ViewHolderClickListener
+): RecyclerView.ViewHolder(view) {
 
     private val image: ImageView = view.findViewById(R.id.image)
     private val title: TextView = view.findViewById(R.id.title)
     private val checkbox: AppCompatCheckBox = view.findViewById(R.id.checkbox)
+
+    init {
+        view.setOnClickListener {
+            clickListener.onClick(adapterPosition)
+        }
+    }
 
     fun bind(category: Category) {
         image.setImageDrawable(ContextCompat.getDrawable(itemView.context, category.getIcon()))

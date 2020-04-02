@@ -8,32 +8,19 @@ import com.mvwords.R
 
 object Navigator {
 
-    fun goAndClear(fragmentManager: FragmentManager, fragment: Fragment, tag: String) {
-        go(fragmentManager, fragment, tag, clearContainer = true)
-    }
-
-    fun go(fragmentManager: FragmentManager, fragment: Fragment, tag: String) {
-        go(fragmentManager, fragment, tag, clearContainer = false)
-    }
-
-    private fun go(fragmentManager: FragmentManager?, fragment: Fragment, tag: String, clearContainer: Boolean) {
+    fun go(fragmentManager: FragmentManager?, fragment: Fragment, tag: String, addToBackStack: Boolean = true) {
         if (fragmentManager == null) {
             return
         }
-        val transaction = if (clearContainer) {
-            removeAll(fragmentManager)
-        } else {
-            fragmentManager.beginTransaction()
-        }
-        transaction.add(R.id.container, fragment, tag).commit()
-    }
 
-    private fun removeAll(fragmentManager: FragmentManager): FragmentTransaction {
-        val transaction = fragmentManager.beginTransaction()
-        fragmentManager.fragments.forEach {
-            transaction.remove(it)
+        val transaction = fragmentManager
+            .beginTransaction()
+            .add(R.id.container, fragment, tag)
+
+        if (addToBackStack) {
+            transaction.addToBackStack(null)
         }
-        return transaction
+        transaction.commit()
     }
 
 }
