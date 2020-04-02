@@ -1,28 +1,29 @@
-package com.mvwords
+package com.mvwords.utils
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
+import com.mvwords.R
 
 object Navigator {
 
-    fun goAndClear(activity: FragmentActivity?, fragment: Fragment, tag: String) {
-        go(activity, fragment, tag, clearContainer = true)
+    fun goAndClear(fragmentManager: FragmentManager, fragment: Fragment, tag: String) {
+        go(fragmentManager, fragment, tag, clearContainer = true)
     }
 
-    fun go(activity: FragmentActivity?, fragment: Fragment, tag: String) {
-        go(activity, fragment, tag, clearContainer = false)
+    fun go(fragmentManager: FragmentManager, fragment: Fragment, tag: String) {
+        go(fragmentManager, fragment, tag, clearContainer = false)
     }
 
-    private fun go(activity: FragmentActivity?, fragment: Fragment, tag: String, clearContainer: Boolean) {
-        if (activity == null) {
+    private fun go(fragmentManager: FragmentManager?, fragment: Fragment, tag: String, clearContainer: Boolean) {
+        if (fragmentManager == null) {
             return
         }
         val transaction = if (clearContainer) {
-            removeAll(activity.supportFragmentManager)
+            removeAll(fragmentManager)
         } else {
-            activity.supportFragmentManager.beginTransaction()
+            fragmentManager.beginTransaction()
         }
         transaction.add(R.id.container, fragment, tag).commit()
     }

@@ -1,0 +1,8020 @@
+[
+    {
+        "category_id": 0,
+        "words": [
+            {
+                "ru": "клавиатура",
+                "en": "keyboard"
+            },
+            {
+                "ru": "отчислить",
+                "en": "expel"
+            },
+            {
+                "ru": "заведующий кафедрой",
+                "en": "head"
+            },
+            {
+                "ru": "учебник",
+                "en": "school book"
+            },
+            {
+                "ru": "бумага",
+                "en": "paper"
+            },
+            {
+                "ru": "школьник",
+                "en": "schoolboy"
+            },
+            {
+                "ru": "академия",
+                "en": "academy"
+            },
+            {
+                "ru": "экзаменовать",
+                "en": "examine"
+            },
+            {
+                "ru": "язык",
+                "en": "language"
+            },
+            {
+                "ru": "дисковод",
+                "en": "disk drive"
+            },
+            {
+                "ru": "учитель",
+                "en": "teacher"
+            },
+            {
+                "ru": "домашнее задание",
+                "en": "homework"
+            },
+            {
+                "ru": "страница",
+                "en": "page"
+            },
+            {
+                "ru": "директор школы",
+                "en": "headmaster"
+            },
+            {
+                "ru": "перерыв",
+                "en": "break"
+            },
+            {
+                "ru": "исправлять",
+                "en": "correct"
+            },
+            {
+                "ru": "словарь",
+                "en": "dictionary"
+            },
+            {
+                "ru": "свидетельство",
+                "en": "certificate"
+            },
+            {
+                "ru": "учеба",
+                "en": "studies"
+            },
+            {
+                "ru": "справочник",
+                "en": "reference book"
+            },
+            {
+                "ru": "воспитанный",
+                "en": "well-bred"
+            },
+            {
+                "ru": "проректор",
+                "en": "vice-principal"
+            },
+            {
+                "ru": "портфель",
+                "en": "briefcase"
+            },
+            {
+                "ru": "невоспитанный",
+                "en": "ill-bred"
+            },
+            {
+                "ru": "отлично",
+                "en": "excellent"
+            },
+            {
+                "ru": "букварь",
+                "en": "Abc book"
+            },
+            {
+                "ru": "парта",
+                "en": "desk"
+            },
+            {
+                "ru": "распечатка",
+                "en": "print-outs"
+            },
+            {
+                "ru": "мышь компьютерная",
+                "en": "mouse"
+            },
+            {
+                "ru": "текст",
+                "en": "text"
+            },
+            {
+                "ru": "деканат",
+                "en": "dean's office"
+            },
+            {
+                "ru": "дневник",
+                "en": "pupil's mark book"
+            },
+            {
+                "ru": "экран",
+                "en": "screen"
+            },
+            {
+                "ru": "атлас",
+                "en": "atlas"
+            },
+            {
+                "ru": "неудовлетворительно",
+                "en": "unsatisfactory"
+            },
+            {
+                "ru": "ректорат",
+                "en": "principal's office"
+            },
+            {
+                "ru": "ручка",
+                "en": "pen"
+            },
+            {
+                "ru": "пример (математический)",
+                "en": "sum"
+            },
+            {
+                "ru": "подготовка",
+                "en": "training"
+            },
+            {
+                "ru": "студент",
+                "en": "student"
+            },
+            {
+                "ru": "аттестат",
+                "en": "school-leaving certificate"
+            },
+            {
+                "ru": "бакалавр",
+                "en": "bachelor's degree"
+            },
+            {
+                "ru": "блокнот",
+                "en": "notebook"
+            },
+            {
+                "ru": "анатомия",
+                "en": "anatomy"
+            },
+            {
+                "ru": "гимназия",
+                "en": "gymnasium"
+            },
+            {
+                "ru": "некомпетентный",
+                "en": "incompetent"
+            },
+            {
+                "ru": "плата за обучение",
+                "en": "fees"
+            },
+            {
+                "ru": "биология",
+                "en": "biology"
+            },
+            {
+                "ru": "преподавание",
+                "en": "teaching"
+            },
+            {
+                "ru": "предмет обучения",
+                "en": "subject"
+            },
+            {
+                "ru": "доска",
+                "en": "blackboard"
+            },
+            {
+                "ru": "одноклассник",
+                "en": "classmate"
+            },
+            {
+                "ru": "глоссарий",
+                "en": "glossary"
+            },
+            {
+                "ru": "алгебра",
+                "en": "algebra"
+            },
+            {
+                "ru": "образование",
+                "en": "education"
+            },
+            {
+                "ru": "воспитывать",
+                "en": "bring up"
+            },
+            {
+                "ru": "учиться",
+                "en": "study"
+            },
+            {
+                "ru": "изучать",
+                "en": "learn"
+            },
+            {
+                "ru": "преподаватель в институте",
+                "en": "professor"
+            },
+            {
+                "ru": "практика",
+                "en": "practical work"
+            },
+            {
+                "ru": "первокурсник",
+                "en": "student of the first year"
+            },
+            {
+                "ru": "литература",
+                "en": "literature"
+            },
+            {
+                "ru": "выпускник",
+                "en": "graduate"
+            },
+            {
+                "ru": "хорошо",
+                "en": "good"
+            },
+            {
+                "ru": "математика",
+                "en": "mathematics"
+            },
+            {
+                "ru": "тетрадь",
+                "en": "copybook"
+            },
+            {
+                "ru": "поля",
+                "en": "margin"
+            },
+            {
+                "ru": "выпускные экзамены",
+                "en": "finals"
+            },
+            {
+                "ru": "грамотный",
+                "en": "literate"
+            },
+            {
+                "ru": "план лекций",
+                "en": "syllabus"
+            },
+            {
+                "ru": "рисование",
+                "en": "drawing"
+            },
+            {
+                "ru": "воспитание",
+                "en": "upbringing"
+            },
+            {
+                "ru": "программа обучения",
+                "en": "curriculum"
+            },
+            {
+                "ru": "журнал",
+                "en": "register"
+            },
+            {
+                "ru": "детский сад",
+                "en": "kindergarten"
+            },
+            {
+                "ru": "геометрия",
+                "en": "geometry"
+            },
+            {
+                "ru": "колледж",
+                "en": "college"
+            },
+            {
+                "ru": "факультет",
+                "en": "faculty"
+            },
+            {
+                "ru": "педагог",
+                "en": "schoolmaster"
+            },
+            {
+                "ru": "учить",
+                "en": "teach"
+            },
+            {
+                "ru": "диплом",
+                "en": "diploma"
+            },
+            {
+                "ru": "география",
+                "en": "geography"
+            },
+            {
+                "ru": "магистр",
+                "en": "master's degree"
+            },
+            {
+                "ru": "физика",
+                "en": "physics"
+            },
+            {
+                "ru": "неграмотный",
+                "en": "illiterate"
+            },
+            {
+                "ru": "декан",
+                "en": "dean"
+            },
+            {
+                "ru": "экзаменатор",
+                "en": "examiner"
+            },
+            {
+                "ru": "подсказать",
+                "en": "prompt"
+            },
+            {
+                "ru": "компьютер",
+                "en": "computer"
+            },
+            {
+                "ru": "стажер",
+                "en": "probationer"
+            },
+            {
+                "ru": "принтер",
+                "en": "printer"
+            },
+            {
+                "ru": "аспирант",
+                "en": "postgraduate"
+            },
+            {
+                "ru": "компетентный",
+                "en": "competent"
+            },
+            {
+                "ru": "фломастер",
+                "en": "felt-tip pen"
+            },
+            {
+                "ru": "стереть",
+                "en": "erase"
+            },
+            {
+                "ru": "шпаргалка",
+                "en": "crib"
+            },
+            {
+                "ru": "семинар",
+                "en": "seminar"
+            },
+            {
+                "ru": "ректор",
+                "en": "principal"
+            },
+            {
+                "ru": "писать",
+                "en": "write"
+            },
+            {
+                "ru": "история",
+                "en": "history"
+            },
+            {
+                "ru": "ясли",
+                "en": "day nursery"
+            },
+            {
+                "ru": "астрономия",
+                "en": "astronomy"
+            },
+            {
+                "ru": "программа",
+                "en": "program"
+            },
+            {
+                "ru": "дисплей",
+                "en": "display"
+            },
+            {
+                "ru": "школа",
+                "en": "school"
+            },
+            {
+                "ru": "практический курс",
+                "en": "training"
+            },
+            {
+                "ru": "университет",
+                "en": "university"
+            },
+            {
+                "ru": "старшеклассник",
+                "en": "senior pupil"
+            },
+            {
+                "ru": "спрашивать",
+                "en": "ask"
+            },
+            {
+                "ru": "праздники",
+                "en": "holidays"
+            },
+            {
+                "ru": "пенал",
+                "en": "pencil case"
+            },
+            {
+                "ru": "набирать текст",
+                "en": "typeset"
+            },
+            {
+                "ru": "развитие",
+                "en": "development"
+            },
+            {
+                "ru": "повторение",
+                "en": "repetition"
+            },
+            {
+                "ru": "кабинет",
+                "en": "private office"
+            },
+            {
+                "ru": "списывать",
+                "en": "copy off"
+            },
+            {
+                "ru": "химия",
+                "en": "chemistry"
+            },
+            {
+                "ru": "оценка",
+                "en": "mark"
+            },
+            {
+                "ru": "институт",
+                "en": "institute"
+            },
+            {
+                "ru": "лаборатория",
+                "en": "laboratory"
+            },
+            {
+                "ru": "аспирантура",
+                "en": "postgraduate studies"
+            },
+            {
+                "ru": "вопрос",
+                "en": "question"
+            },
+            {
+                "ru": "отметка",
+                "en": "school mark"
+            },
+            {
+                "ru": "экзамены",
+                "en": "exams"
+            },
+            {
+                "ru": "интернат",
+                "en": "boarding school"
+            },
+            {
+                "ru": "ботаника",
+                "en": "botany"
+            },
+            {
+                "ru": "тригонометрия",
+                "en": "trigщnometry"
+            },
+            {
+                "ru": "урок",
+                "en": "lesson"
+            },
+            {
+                "ru": "упражнение",
+                "en": "exercise"
+            },
+            {
+                "ru": "старшекурсник",
+                "en": "senior student"
+            },
+            {
+                "ru": "ответ",
+                "en": "answer"
+            },
+            {
+                "ru": "образованный",
+                "en": "educated"
+            },
+            {
+                "ru": "сумка",
+                "en": "bag"
+            },
+            {
+                "ru": "расписание",
+                "en": "timetable"
+            },
+            {
+                "ru": "класс",
+                "en": "class"
+            },
+            {
+                "ru": "зачет",
+                "en": "test"
+            },
+            {
+                "ru": "лекция",
+                "en": "lecture"
+            },
+            {
+                "ru": "кафедра",
+                "en": "department"
+            },
+            {
+                "ru": "черчение",
+                "en": "technical drawing"
+            },
+            {
+                "ru": "аудитория",
+                "en": "audience"
+            },
+            {
+                "ru": "мел",
+                "en": "chalk"
+            },
+            {
+                "ru": "каникулы",
+                "en": "vacation"
+            },
+            {
+                "ru": "курс",
+                "en": "course"
+            },
+            {
+                "ru": "дискета",
+                "en": "floppy disk"
+            },
+            {
+                "ru": "линейка",
+                "en": "ruler"
+            },
+            {
+                "ru": "ученик",
+                "en": "pupil"
+            },
+            {
+                "ru": "доцент",
+                "en": "associate professor"
+            },
+            {
+                "ru": "циркуль",
+                "en": "pair of compasses"
+            },
+            {
+                "ru": "удовлетворительно",
+                "en": "satisfactory"
+            },
+            {
+                "ru": "зоология",
+                "en": "zoology"
+            },
+            {
+                "ru": "физкультура",
+                "en": "physical education"
+            },
+            {
+                "ru": "карандаш",
+                "en": "pencil"
+            },
+            {
+                "ru": "опекун",
+                "en": "guardian"
+            },
+            {
+                "ru": "карта",
+                "en": "map"
+            },
+            {
+                "ru": "музыка",
+                "en": "music"
+            },
+            {
+                "ru": "школьница",
+                "en": "schoolgirl"
+            }
+        ],
+        "category": "Образование"
+    },
+    {
+        "category_id": 1,
+        "words": [
+            {
+                "ru": "отчим",
+                "en": "step-father"
+            },
+            {
+                "ru": "брак",
+                "en": "marriage"
+            },
+            {
+                "ru": "мачеха",
+                "en": "step-mother"
+            },
+            {
+                "ru": "отец",
+                "en": "father"
+            },
+            {
+                "ru": "внучка",
+                "en": "granddaughter"
+            },
+            {
+                "ru": "дети",
+                "en": "children"
+            },
+            {
+                "ru": "дядя",
+                "en": "uncle"
+            },
+            {
+                "ru": "брат-близнец",
+                "en": "twin-brother"
+            },
+            {
+                "ru": "дедушка",
+                "en": "grandfather"
+            },
+            {
+                "ru": "мама",
+                "en": "mummy"
+            },
+            {
+                "ru": "дочь",
+                "en": "daughter"
+            },
+            {
+                "ru": "бабушка",
+                "en": "grandmother"
+            },
+            {
+                "ru": "близнецы",
+                "en": "twins"
+            },
+            {
+                "ru": "сестра-близнец",
+                "en": "twin-sister"
+            },
+            {
+                "ru": "внук",
+                "en": "grandson"
+            },
+            {
+                "ru": "дедушка и бабушка",
+                "en": "grandparents"
+            },
+            {
+                "ru": "папа",
+                "en": "daddy"
+            },
+            {
+                "ru": "двоюродный брат",
+                "en": "cousin"
+            },
+            {
+                "ru": "муж",
+                "en": "husband"
+            },
+            {
+                "ru": "предложение",
+                "en": "proposal"
+            },
+            {
+                "ru": "приемный сын",
+                "en": "step-son"
+            },
+            {
+                "ru": "жениться",
+                "en": "marry"
+            },
+            {
+                "ru": "внучатая племянница",
+                "en": "grandniece"
+            },
+            {
+                "ru": "падчерица",
+                "en": "step-daughter"
+            },
+            {
+                "ru": "состоять в браке",
+                "en": "be married"
+            },
+            {
+                "ru": "холостой",
+                "en": "single"
+            },
+            {
+                "ru": "помолвка",
+                "en": "engagement"
+            },
+            {
+                "ru": "зять",
+                "en": "son-in-law"
+            },
+            {
+                "ru": "жених",
+                "en": "fiance"
+            },
+            {
+                "ru": "женатый",
+                "en": "married"
+            },
+            {
+                "ru": "предок",
+                "en": "ancestor"
+            },
+            {
+                "ru": "тетя",
+                "en": "aunt"
+            },
+            {
+                "ru": "шурин",
+                "en": "brother-in-law"
+            },
+            {
+                "ru": "семья",
+                "en": "family"
+            },
+            {
+                "ru": "невеста",
+                "en": "bride"
+            },
+            {
+                "ru": "сноха",
+                "en": "daughter-in-law"
+            },
+            {
+                "ru": "мать",
+                "en": "mother"
+            },
+            {
+                "ru": "сын",
+                "en": "son"
+            },
+            {
+                "ru": "родительский",
+                "en": "parental"
+            },
+            {
+                "ru": "супруг",
+                "en": "spouse"
+            },
+            {
+                "ru": "вдовец",
+                "en": "widower"
+            },
+            {
+                "ru": "развод",
+                "en": "divorce"
+            },
+            {
+                "ru": "отпрыск",
+                "en": "offspring"
+            },
+            {
+                "ru": "свекор",
+                "en": "father-in-law"
+            },
+            {
+                "ru": "племянница",
+                "en": "niece"
+            },
+            {
+                "ru": "вдова",
+                "en": "widow"
+            },
+            {
+                "ru": "свадьба",
+                "en": "wedding"
+            },
+            {
+                "ru": "жена",
+                "en": "wife"
+            },
+            {
+                "ru": "свекровь",
+                "en": "mother-in-law"
+            },
+            {
+                "ru": "родители",
+                "en": "parents"
+            },
+            {
+                "ru": "сестра",
+                "en": "sister"
+            },
+            {
+                "ru": "племянник",
+                "en": "nephew"
+            },
+            {
+                "ru": "развестись",
+                "en": "get divorced"
+            },
+            {
+                "ru": "родственник",
+                "en": "relative"
+            },
+            {
+                "ru": "правнук",
+                "en": "great-grandchild"
+            },
+            {
+                "ru": "брат",
+                "en": "brother"
+            },
+            {
+                "ru": "сирота",
+                "en": "orphan"
+            },
+            {
+                "ru": "свояченица",
+                "en": "sister-in-law"
+            },
+            {
+                "ru": "потомок",
+                "en": "descendant"
+            }
+        ],
+        "category": "Семья"
+    },
+    {
+        "category_id": 2,
+        "words": [
+            {
+                "ru": "поездка",
+                "en": "trip"
+            },
+            {
+                "ru": "бинокль",
+                "en": "binoculars"
+            },
+            {
+                "ru": "катание на велосипеде",
+                "en": "cycling"
+            },
+            {
+                "ru": "турбаза",
+                "en": "tourist centre"
+            },
+            {
+                "ru": "отдых",
+                "en": "rest"
+            },
+            {
+                "ru": "пикник",
+                "en": "picnic"
+            },
+            {
+                "ru": "аптечка",
+                "en": "first aid kit"
+            },
+            {
+                "ru": "сумка на поясе",
+                "en": "money belt"
+            },
+            {
+                "ru": "шляпа от солнца",
+                "en": "sun hat"
+            },
+            {
+                "ru": "туризм",
+                "en": "tourism"
+            },
+            {
+                "ru": "номер",
+                "en": "room"
+            },
+            {
+                "ru": "туристическое агентство",
+                "en": "tourist agency"
+            },
+            {
+                "ru": "словарь",
+                "en": "dictionary"
+            },
+            {
+                "ru": "гостиница",
+                "en": "hotel"
+            },
+            {
+                "ru": "курорт",
+                "en": "resort"
+            },
+            {
+                "ru": "экскурсия",
+                "en": "excursion"
+            },
+            {
+                "ru": "палатка",
+                "en": "tent"
+            },
+            {
+                "ru": "поход",
+                "en": "walking tour"
+            },
+            {
+                "ru": "рюкзак",
+                "en": "rucksack"
+            },
+            {
+                "ru": "прибытие",
+                "en": "arrival"
+            },
+            {
+                "ru": "пансионат",
+                "en": "boarding house"
+            },
+            {
+                "ru": "выходные",
+                "en": "weekend"
+            },
+            {
+                "ru": "чемодан",
+                "en": "suitcase"
+            },
+            {
+                "ru": "зонт",
+                "en": "umbrella"
+            },
+            {
+                "ru": "путевка",
+                "en": "holiday voucher"
+            },
+            {
+                "ru": "путеводитель",
+                "en": "travel guide"
+            },
+            {
+                "ru": "курорт с минеральными водами",
+                "en": "spa"
+            },
+            {
+                "ru": "принимать солнечные ванны",
+                "en": "sunbathe"
+            },
+            {
+                "ru": "лодка",
+                "en": "boat"
+            },
+            {
+                "ru": "дача",
+                "en": "dacha"
+            },
+            {
+                "ru": "походные ботинки",
+                "en": "walking boots"
+            },
+            {
+                "ru": "отъезд",
+                "en": "departure"
+            },
+            {
+                "ru": "досуг",
+                "en": "leisure"
+            },
+            {
+                "ru": "отгул",
+                "en": "day off"
+            },
+            {
+                "ru": "сейф",
+                "en": "safe"
+            },
+            {
+                "ru": "сувениры",
+                "en": "souvenirs"
+            },
+            {
+                "ru": "будильник",
+                "en": "alarm clock"
+            },
+            {
+                "ru": "прогулка пешком",
+                "en": "hiking"
+            },
+            {
+                "ru": "записная книжка",
+                "en": "notebook"
+            },
+            {
+                "ru": "экскурсовод",
+                "en": "guide"
+            },
+            {
+                "ru": "мыло",
+                "en": "soap"
+            },
+            {
+                "ru": "посетить",
+                "en": "visit"
+            },
+            {
+                "ru": "отдыхать",
+                "en": "rest"
+            },
+            {
+                "ru": "водонепроницаемая одежда",
+                "en": "waterproof clothes"
+            },
+            {
+                "ru": "гулять",
+                "en": "walk"
+            },
+            {
+                "ru": "пляж",
+                "en": "beach"
+            },
+            {
+                "ru": "загорать",
+                "en": "tan"
+            },
+            {
+                "ru": "сумка",
+                "en": "bag"
+            },
+            {
+                "ru": "отпуск",
+                "en": "vacation"
+            },
+            {
+                "ru": "туристическая поездка",
+                "en": "tour"
+            },
+            {
+                "ru": "путешествовать",
+                "en": "travel"
+            },
+            {
+                "ru": "кэмпинг",
+                "en": "camping site"
+            },
+            {
+                "ru": "багаж",
+                "en": "luggage"
+            },
+            {
+                "ru": "каникулы",
+                "en": "holiday"
+            },
+            {
+                "ru": "таблетки",
+                "en": "tablets"
+            },
+            {
+                "ru": "фотокамера",
+                "en": "camera"
+            },
+            {
+                "ru": "санаторий",
+                "en": "sanatorium"
+            },
+            {
+                "ru": "турагентство",
+                "en": "travel agency"
+            },
+            {
+                "ru": "карта",
+                "en": "map"
+            }
+        ],
+        "category": "Досуг"
+    },
+    {
+        "category_id": 3,
+        "words": [
+            {
+                "ru": "ладонь",
+                "en": "palm"
+            },
+            {
+                "ru": "кожа",
+                "en": "skin"
+            },
+            {
+                "ru": "бровь",
+                "en": "brow"
+            },
+            {
+                "ru": "рука",
+                "en": "hand"
+            },
+            {
+                "ru": "ребро",
+                "en": "rib"
+            },
+            {
+                "ru": "кость",
+                "en": "bone"
+            },
+            {
+                "ru": "кишка",
+                "en": "gut"
+            },
+            {
+                "ru": "ухо",
+                "en": "ear"
+            },
+            {
+                "ru": "вздох",
+                "en": "sigh"
+            },
+            {
+                "ru": "кишечник",
+                "en": "bowels"
+            },
+            {
+                "ru": "большой палец ноги",
+                "en": "big toe"
+            },
+            {
+                "ru": "язык",
+                "en": "tongue"
+            },
+            {
+                "ru": "кулак",
+                "en": "fist"
+            },
+            {
+                "ru": "рот",
+                "en": "mouth"
+            },
+            {
+                "ru": "указательный палец",
+                "en": "forefinger"
+            },
+            {
+                "ru": "глаз",
+                "en": "eye"
+            },
+            {
+                "ru": "поясница",
+                "en": "small of the back"
+            },
+            {
+                "ru": "мускулы",
+                "en": "muscles"
+            },
+            {
+                "ru": "череп",
+                "en": "skull"
+            },
+            {
+                "ru": "кровь",
+                "en": "blood"
+            },
+            {
+                "ru": "спина",
+                "en": "back"
+            },
+            {
+                "ru": "нервная система",
+                "en": "nervous system"
+            },
+            {
+                "ru": "кровеносные сосуды",
+                "en": "blood vessels"
+            },
+            {
+                "ru": "артерия",
+                "en": "artery"
+            },
+            {
+                "ru": "колено",
+                "en": "knee"
+            },
+            {
+                "ru": "бронхи",
+                "en": "bronchial tube"
+            },
+            {
+                "ru": "сухожилие",
+                "en": "tendon"
+            },
+            {
+                "ru": "грудная клетка",
+                "en": "chest"
+            },
+            {
+                "ru": "плечо",
+                "en": "shoulder"
+            },
+            {
+                "ru": "палец на руке",
+                "en": "finger"
+            },
+            {
+                "ru": "сердце",
+                "en": "heart"
+            },
+            {
+                "ru": "задыхаться",
+                "en": "choke"
+            },
+            {
+                "ru": "мозг",
+                "en": "brain"
+            },
+            {
+                "ru": "локоть",
+                "en": "elbow"
+            },
+            {
+                "ru": "живот",
+                "en": "stomach"
+            },
+            {
+                "ru": "затылок",
+                "en": "back of the head"
+            },
+            {
+                "ru": "тело",
+                "en": "body"
+            },
+            {
+                "ru": "лицо",
+                "en": "face"
+            },
+            {
+                "ru": "почка",
+                "en": "kidney"
+            },
+            {
+                "ru": "мочевой пузырь",
+                "en": "bladder"
+            },
+            {
+                "ru": "ноготь",
+                "en": "nail"
+            },
+            {
+                "ru": "висок",
+                "en": "temple"
+            },
+            {
+                "ru": "коса",
+                "en": "plait"
+            },
+            {
+                "ru": "ресницы",
+                "en": "lashes"
+            },
+            {
+                "ru": "нервы",
+                "en": "nerves"
+            },
+            {
+                "ru": "орган",
+                "en": "organ"
+            },
+            {
+                "ru": "скелет",
+                "en": "skeleton"
+            },
+            {
+                "ru": "ключица",
+                "en": "collar-bone"
+            },
+            {
+                "ru": "возбуждать",
+                "en": "excite"
+            },
+            {
+                "ru": "усы",
+                "en": "moustaches"
+            },
+            {
+                "ru": "бок",
+                "en": "side"
+            },
+            {
+                "ru": "лоб",
+                "en": "forehead"
+            },
+            {
+                "ru": "щека",
+                "en": "cheek"
+            },
+            {
+                "ru": "нога",
+                "en": "leg"
+            },
+            {
+                "ru": "след",
+                "en": "footprint"
+            },
+            {
+                "ru": "кисть",
+                "en": "arm"
+            },
+            {
+                "ru": "кровообращение",
+                "en": "blood circulation"
+            },
+            {
+                "ru": "искусственные зубы",
+                "en": "false teeth"
+            },
+            {
+                "ru": "позвоночник",
+                "en": "spine"
+            },
+            {
+                "ru": "стимулировать",
+                "en": "stimulate"
+            },
+            {
+                "ru": "кровяное давление",
+                "en": "blood pressure"
+            },
+            {
+                "ru": "нос",
+                "en": "nose"
+            },
+            {
+                "ru": "пятка",
+                "en": "heel"
+            },
+            {
+                "ru": "скулы",
+                "en": "cheekbones"
+            },
+            {
+                "ru": "носок ноги",
+                "en": "toe"
+            },
+            {
+                "ru": "зуб",
+                "en": "tooth"
+            },
+            {
+                "ru": "челюсть",
+                "en": "jaw"
+            },
+            {
+                "ru": "отпечаток пальца",
+                "en": "fingerprint"
+            },
+            {
+                "ru": "большой палец руки",
+                "en": "thumb"
+            },
+            {
+                "ru": "пульс",
+                "en": "pulse"
+            },
+            {
+                "ru": "сустав",
+                "en": "joint"
+            },
+            {
+                "ru": "мизинец на руке",
+                "en": "little finger"
+            },
+            {
+                "ru": "волосы",
+                "en": "hair"
+            },
+            {
+                "ru": "бакенбарды",
+                "en": "sidewhiskers"
+            },
+            {
+                "ru": "мизинец на ноге",
+                "en": "little toe"
+            },
+            {
+                "ru": "борода",
+                "en": "beard"
+            },
+            {
+                "ru": "подмышка",
+                "en": "armpit"
+            },
+            {
+                "ru": "голова",
+                "en": "head"
+            },
+            {
+                "ru": "ступня",
+                "en": "foot"
+            },
+            {
+                "ru": "палец на ноге",
+                "en": "toe"
+            },
+            {
+                "ru": "выдыхать",
+                "en": "inhale"
+            },
+            {
+                "ru": "дыхание",
+                "en": "breath"
+            },
+            {
+                "ru": "слюна",
+                "en": "saliva"
+            },
+            {
+                "ru": "легкое",
+                "en": "lung"
+            },
+            {
+                "ru": "вена",
+                "en": "vein"
+            },
+            {
+                "ru": "горло",
+                "en": "throat"
+            },
+            {
+                "ru": "женская грудь",
+                "en": "breast"
+            },
+            {
+                "ru": "подбородок",
+                "en": "chin"
+            },
+            {
+                "ru": "губа",
+                "en": "lip"
+            },
+            {
+                "ru": "половые органы",
+                "en": "genitals"
+            },
+            {
+                "ru": "лопатка",
+                "en": "shoulder blade"
+            },
+            {
+                "ru": "печень",
+                "en": "liver"
+            },
+            {
+                "ru": "связка",
+                "en": "ligament"
+            }
+        ],
+        "category": "Тело"
+    },
+    {
+        "category_id": 4,
+        "words": [
+            {
+                "ru": "сострадание",
+                "en": "compassion"
+            },
+            {
+                "ru": "очень взволнованный",
+                "en": "disturbed"
+            },
+            {
+                "ru": "ликовать",
+                "en": "exult"
+            },
+            {
+                "ru": "расстроенный",
+                "en": "upset"
+            },
+            {
+                "ru": "поразить",
+                "en": "astonish"
+            },
+            {
+                "ru": "невозмутимый",
+                "en": "placid"
+            },
+            {
+                "ru": "испуганный",
+                "en": "scared"
+            },
+            {
+                "ru": "апатия",
+                "en": "apathy"
+            },
+            {
+                "ru": "устраивать",
+                "en": "suit"
+            },
+            {
+                "ru": "восторг",
+                "en": "delight"
+            },
+            {
+                "ru": "тревожить",
+                "en": "trouble"
+            },
+            {
+                "ru": "угождать",
+                "en": "please"
+            },
+            {
+                "ru": "скучный",
+                "en": "boring"
+            },
+            {
+                "ru": "апатичный",
+                "en": "apathetic"
+            },
+            {
+                "ru": "напряженный",
+                "en": "tense"
+            },
+            {
+                "ru": "с радостью",
+                "en": "gladly"
+            },
+            {
+                "ru": "поразительный",
+                "en": "striking"
+            },
+            {
+                "ru": "довольный",
+                "en": "contented"
+            },
+            {
+                "ru": "удовлетворение",
+                "en": "satisfaction"
+            },
+            {
+                "ru": "несчастье",
+                "en": "misery"
+            },
+            {
+                "ru": "ревнивый",
+                "en": "jealous"
+            },
+            {
+                "ru": "невеселый",
+                "en": "depressed"
+            },
+            {
+                "ru": "раздосадованный",
+                "en": "annoyed"
+            },
+            {
+                "ru": "сочувствие",
+                "en": "sympathy"
+            },
+            {
+                "ru": "разочарование",
+                "en": "disappointment"
+            },
+            {
+                "ru": "неудовлетворенный",
+                "en": "dissatisfied"
+            },
+            {
+                "ru": "в отчаянии",
+                "en": "in despair"
+            },
+            {
+                "ru": "интерес",
+                "en": "interest"
+            },
+            {
+                "ru": "удивительный",
+                "en": "surprising"
+            },
+            {
+                "ru": "глубоко разочарованный",
+                "en": "frustrated"
+            },
+            {
+                "ru": "ревность",
+                "en": "jealousy"
+            },
+            {
+                "ru": "отчаяние",
+                "en": "despair"
+            },
+            {
+                "ru": "негодующий",
+                "en": "indignant"
+            },
+            {
+                "ru": "испуг",
+                "en": "fright"
+            },
+            {
+                "ru": "безразличие",
+                "en": "indifference"
+            },
+            {
+                "ru": "раздраженный",
+                "en": "irritated"
+            },
+            {
+                "ru": "озабоченный",
+                "en": "concerned"
+            },
+            {
+                "ru": "грусть",
+                "en": "sadness"
+            },
+            {
+                "ru": "жалеть",
+                "en": "pity"
+            },
+            {
+                "ru": "горе",
+                "en": "grief"
+            },
+            {
+                "ru": "наслаждение",
+                "en": "enjoyment"
+            },
+            {
+                "ru": "безмятежный",
+                "en": "tranquil"
+            },
+            {
+                "ru": "уныние",
+                "en": "gloom"
+            },
+            {
+                "ru": "бояться",
+                "en": "afraid"
+            },
+            {
+                "ru": "убитый горем",
+                "en": "heartbroken"
+            },
+            {
+                "ru": "удовлетворить",
+                "en": "satisfy"
+            },
+            {
+                "ru": "грустный",
+                "en": "sad"
+            },
+            {
+                "ru": "депрессия",
+                "en": "depression"
+            },
+            {
+                "ru": "страх",
+                "en": "fear"
+            },
+            {
+                "ru": "обиженный",
+                "en": "resentful"
+            },
+            {
+                "ru": "радость",
+                "en": "joy"
+            },
+            {
+                "ru": "веселый",
+                "en": "cheerful"
+            },
+            {
+                "ru": "волнение",
+                "en": "agitation"
+            },
+            {
+                "ru": "удивляться",
+                "en": "be surprised"
+            },
+            {
+                "ru": "спокойствие",
+                "en": "calmness"
+            },
+            {
+                "ru": "гнев",
+                "en": "anger"
+            },
+            {
+                "ru": "злить",
+                "en": "infuriate"
+            },
+            {
+                "ru": "ошеломляющий",
+                "en": "stunning"
+            },
+            {
+                "ru": "несчастливый",
+                "en": "unhappy"
+            },
+            {
+                "ru": "в гневе",
+                "en": "in anger"
+            },
+            {
+                "ru": "унылый",
+                "en": "gloomy"
+            },
+            {
+                "ru": "ярость",
+                "en": "fury"
+            },
+            {
+                "ru": "раздражать",
+                "en": "irritate"
+            },
+            {
+                "ru": "страшный",
+                "en": "fearful"
+            },
+            {
+                "ru": "захватывающий",
+                "en": "thrilling"
+            },
+            {
+                "ru": "изумительный",
+                "en": "amazing"
+            },
+            {
+                "ru": "успокоиться",
+                "en": "relax"
+            },
+            {
+                "ru": "несчастный",
+                "en": "miserable"
+            },
+            {
+                "ru": "негодование",
+                "en": "indignation"
+            },
+            {
+                "ru": "переживать",
+                "en": "grieve"
+            },
+            {
+                "ru": "обида",
+                "en": "insult"
+            },
+            {
+                "ru": "удивление",
+                "en": "surprise"
+            },
+            {
+                "ru": "ужасный",
+                "en": "terrible"
+            },
+            {
+                "ru": "вызывать интерес",
+                "en": "arouse interest"
+            },
+            {
+                "ru": "ужас",
+                "en": "horror"
+            },
+            {
+                "ru": "безразличный",
+                "en": "indifferent"
+            },
+            {
+                "ru": "сердитый",
+                "en": "angry"
+            },
+            {
+                "ru": "сочувствовать",
+                "en": "sympatize"
+            },
+            {
+                "ru": "возбуждение",
+                "en": "excitement"
+            },
+            {
+                "ru": "возбуждающий",
+                "en": "exciting"
+            },
+            {
+                "ru": "досада",
+                "en": "annoyance"
+            },
+            {
+                "ru": "радоваться",
+                "en": "rejoice"
+            },
+            {
+                "ru": "грустить",
+                "en": "feel sad"
+            },
+            {
+                "ru": "завистливый",
+                "en": "envious"
+            },
+            {
+                "ru": "тревога",
+                "en": "anxiety"
+            },
+            {
+                "ru": "завидовать",
+                "en": "be envious"
+            },
+            {
+                "ru": "ошеломлять",
+                "en": "stun"
+            },
+            {
+                "ru": "зависть",
+                "en": "envy"
+            },
+            {
+                "ru": "поразиться",
+                "en": "be astonished"
+            },
+            {
+                "ru": "интересный",
+                "en": "interesting"
+            },
+            {
+                "ru": "блаженство",
+                "en": "bliss"
+            },
+            {
+                "ru": "беззаботный",
+                "en": "carefree"
+            },
+            {
+                "ru": "яростный",
+                "en": "furious"
+            },
+            {
+                "ru": "скучать",
+                "en": "miss"
+            },
+            {
+                "ru": "потрясающий",
+                "en": "great"
+            },
+            {
+                "ru": "испугать",
+                "en": "scare"
+            },
+            {
+                "ru": "встревоженный",
+                "en": "troubled"
+            },
+            {
+                "ru": "недовольный",
+                "en": "discontented"
+            },
+            {
+                "ru": "удовольствие",
+                "en": "pleasure"
+            },
+            {
+                "ru": "беспокойство",
+                "en": "concern"
+            },
+            {
+                "ru": "жалкий",
+                "en": "pathetic"
+            },
+            {
+                "ru": "покой",
+                "en": "peace"
+            },
+            {
+                "ru": "заинтересованный",
+                "en": "interested"
+            },
+            {
+                "ru": "ликование",
+                "en": "exultation"
+            },
+            {
+                "ru": "беспокоить",
+                "en": "worry"
+            },
+            {
+                "ru": "тихий",
+                "en": "quiet"
+            },
+            {
+                "ru": "обидеть",
+                "en": "offend"
+            },
+            {
+                "ru": "скука",
+                "en": "boredom"
+            },
+            {
+                "ru": "ужасать",
+                "en": "terrify"
+            },
+            {
+                "ru": "изумлять",
+                "en": "amaze"
+            },
+            {
+                "ru": "счастливый",
+                "en": "happy"
+            },
+            {
+                "ru": "успокоить",
+                "en": "calm down"
+            },
+            {
+                "ru": "привлекательный",
+                "en": "attractive"
+            },
+            {
+                "ru": "нервный",
+                "en": "nervous"
+            },
+            {
+                "ru": "счастье",
+                "en": "happiness"
+            },
+            {
+                "ru": "чудесный",
+                "en": "wonderful"
+            },
+            {
+                "ru": "сочувствующий",
+                "en": "sympathetic"
+            },
+            {
+                "ru": "печаль",
+                "en": "sorrow"
+            }
+        ],
+        "category": "Эмоции"
+    },
+    {
+        "category_id": 5,
+        "words": [
+            {
+                "ru": "бассейн",
+                "en": "swimming pool"
+            },
+            {
+                "ru": "подача",
+                "en": "pass"
+            },
+            {
+                "ru": "финал",
+                "en": "final"
+            },
+            {
+                "ru": "лыжный трамплин",
+                "en": "ski jump"
+            },
+            {
+                "ru": "финиш",
+                "en": "finish"
+            },
+            {
+                "ru": "каток",
+                "en": "skating ring"
+            },
+            {
+                "ru": "спорт",
+                "en": "sport"
+            },
+            {
+                "ru": "штанга",
+                "en": "weight"
+            },
+            {
+                "ru": "теннисист",
+                "en": "tennis player"
+            },
+            {
+                "ru": "баскетболист",
+                "en": "basketball player"
+            },
+            {
+                "ru": "боксер",
+                "en": "boxer"
+            },
+            {
+                "ru": "борьба",
+                "en": "wrestling"
+            },
+            {
+                "ru": "гол",
+                "en": "goal"
+            },
+            {
+                "ru": "бегун",
+                "en": "runner"
+            },
+            {
+                "ru": "вратарь",
+                "en": "goalkeeper"
+            },
+            {
+                "ru": "тренироваться",
+                "en": "train"
+            },
+            {
+                "ru": "метатель диска",
+                "en": "discus thrower"
+            },
+            {
+                "ru": "команда",
+                "en": "team"
+            },
+            {
+                "ru": "проиграть",
+                "en": "get defeated"
+            },
+            {
+                "ru": "нападающий",
+                "en": "forward"
+            },
+            {
+                "ru": "баттерфляй",
+                "en": "butterfly-stroke"
+            },
+            {
+                "ru": "очко",
+                "en": "point"
+            },
+            {
+                "ru": "волейболист",
+                "en": "volleyball player"
+            },
+            {
+                "ru": "яхтсмен",
+                "en": "yachtsman"
+            },
+            {
+                "ru": "гимнастика",
+                "en": "exercises"
+            },
+            {
+                "ru": "ничья",
+                "en": "draw"
+            },
+            {
+                "ru": "пловец",
+                "en": "swimmer"
+            },
+            {
+                "ru": "шахматист",
+                "en": "chess player"
+            },
+            {
+                "ru": "четвертьфинал",
+                "en": "quarterfinal"
+            },
+            {
+                "ru": "матч",
+                "en": "match"
+            },
+            {
+                "ru": "соперник",
+                "en": "rival"
+            },
+            {
+                "ru": "забег",
+                "en": "race"
+            },
+            {
+                "ru": "кубок",
+                "en": "cup"
+            },
+            {
+                "ru": "игрок",
+                "en": "player"
+            },
+            {
+                "ru": "спортивный костюм",
+                "en": "tracksuit"
+            },
+            {
+                "ru": "чемпионат",
+                "en": "championship"
+            },
+            {
+                "ru": "лыжня",
+                "en": "ski track"
+            },
+            {
+                "ru": "победа",
+                "en": "victory"
+            },
+            {
+                "ru": "спортсмен",
+                "en": "sportsman"
+            },
+            {
+                "ru": "судить матч",
+                "en": "referee"
+            },
+            {
+                "ru": "яхтклуб",
+                "en": "yacht club"
+            },
+            {
+                "ru": "спортивный зал",
+                "en": "gymnasium"
+            },
+            {
+                "ru": "ринг",
+                "en": "boxing ring"
+            },
+            {
+                "ru": "тренер",
+                "en": "coach"
+            },
+            {
+                "ru": "полуфинал",
+                "en": "semifinal"
+            },
+            {
+                "ru": "победитель",
+                "en": "winner"
+            },
+            {
+                "ru": "плавать",
+                "en": "swim"
+            },
+            {
+                "ru": "шайба",
+                "en": "puck"
+            },
+            {
+                "ru": "гребец",
+                "en": "rower"
+            },
+            {
+                "ru": "старт",
+                "en": "start"
+            },
+            {
+                "ru": "место",
+                "en": "place"
+            },
+            {
+                "ru": "яхта",
+                "en": "yacht"
+            },
+            {
+                "ru": "поле",
+                "en": "field"
+            },
+            {
+                "ru": "сетка",
+                "en": "net"
+            },
+            {
+                "ru": "турнир",
+                "en": "tournament"
+            },
+            {
+                "ru": "одержать победу",
+                "en": "win"
+            },
+            {
+                "ru": "гимнастический",
+                "en": "gymnastic"
+            },
+            {
+                "ru": "гимнаст",
+                "en": "gymnast"
+            },
+            {
+                "ru": "болельщик",
+                "en": "fan"
+            },
+            {
+                "ru": "стрелять",
+                "en": "shoot"
+            },
+            {
+                "ru": "стадион",
+                "en": "stadium"
+            },
+            {
+                "ru": "победитель соревнования",
+                "en": "winner"
+            },
+            {
+                "ru": "корзина",
+                "en": "basket"
+            },
+            {
+                "ru": "трамплин",
+                "en": "springboard"
+            },
+            {
+                "ru": "судить соревнование",
+                "en": "judge"
+            },
+            {
+                "ru": "тренировка",
+                "en": "training (session)"
+            },
+            {
+                "ru": "судья",
+                "en": "referee"
+            },
+            {
+                "ru": "кроль",
+                "en": "crawl"
+            },
+            {
+                "ru": "удар по воротам",
+                "en": "shot a goal"
+            },
+            {
+                "ru": "борец",
+                "en": "wrestler"
+            },
+            {
+                "ru": "счет",
+                "en": "score"
+            },
+            {
+                "ru": "забивать гол",
+                "en": "score a goal"
+            },
+            {
+                "ru": "легкоатлет",
+                "en": "athlete"
+            },
+            {
+                "ru": "гонщик",
+                "en": "racing draver"
+            },
+            {
+                "ru": "защитник",
+                "en": "back"
+            },
+            {
+                "ru": "фигурист",
+                "en": "figure skater"
+            },
+            {
+                "ru": "корт",
+                "en": "tennis court"
+            },
+            {
+                "ru": "конькобежец",
+                "en": "speed skater"
+            },
+            {
+                "ru": "ракетка",
+                "en": "tennis racket"
+            },
+            {
+                "ru": "лыжный спорт",
+                "en": "skiing"
+            },
+            {
+                "ru": "площадка",
+                "en": "groung"
+            },
+            {
+                "ru": "чемпион",
+                "en": "champion"
+            },
+            {
+                "ru": "клюшка в гольфе",
+                "en": "club"
+            },
+            {
+                "ru": "бегать",
+                "en": "run"
+            },
+            {
+                "ru": "поражение",
+                "en": "defeat"
+            },
+            {
+                "ru": "брасс",
+                "en": "breast-stroke"
+            },
+            {
+                "ru": "клюшка",
+                "en": "hockey stick"
+            },
+            {
+                "ru": "игра",
+                "en": "game"
+            },
+            {
+                "ru": "участник соревнования",
+                "en": "competitor"
+            },
+            {
+                "ru": "футболист",
+                "en": "footballer"
+            },
+            {
+                "ru": "тир",
+                "en": "shooting gallery"
+            },
+            {
+                "ru": "упражнение",
+                "en": "exercise"
+            },
+            {
+                "ru": "тяжелоатлет",
+                "en": "weightlifter"
+            },
+            {
+                "ru": "метатель",
+                "en": "thrower"
+            },
+            {
+                "ru": "рапира",
+                "en": "foil"
+            },
+            {
+                "ru": "стрелок",
+                "en": "shooter"
+            },
+            {
+                "ru": "хоккеист",
+                "en": "hockey player"
+            },
+            {
+                "ru": "спортзал",
+                "en": "gym"
+            },
+            {
+                "ru": "беговая дорожка",
+                "en": "track"
+            },
+            {
+                "ru": "лыжник",
+                "en": "skier"
+            },
+            {
+                "ru": "раунд",
+                "en": "round"
+            },
+            {
+                "ru": "водный спорт",
+                "en": "aquatics"
+            },
+            {
+                "ru": "соревнование",
+                "en": "competition"
+            },
+            {
+                "ru": "метать",
+                "en": "throw"
+            },
+            {
+                "ru": "лучший игрок",
+                "en": "top player"
+            },
+            {
+                "ru": "физкультура",
+                "en": "physical education"
+            }
+        ],
+        "category": "Спорт"
+    },
+    {
+        "category_id": 6,
+        "words": [
+            {
+                "ru": "джинсы",
+                "en": "jeans"
+            },
+            {
+                "ru": "шорты",
+                "en": "shorts"
+            },
+            {
+                "ru": "расстегнуть пуговицу",
+                "en": "unbutton"
+            },
+            {
+                "ru": "сушить",
+                "en": "dry"
+            },
+            {
+                "ru": "мода",
+                "en": "fashion"
+            },
+            {
+                "ru": "ремень",
+                "en": "belt"
+            },
+            {
+                "ru": "галстук",
+                "en": "tie"
+            },
+            {
+                "ru": "фрак",
+                "en": "tail coat"
+            },
+            {
+                "ru": "лента",
+                "en": "ribbon"
+            },
+            {
+                "ru": "плащ",
+                "en": "raincoat"
+            },
+            {
+                "ru": "носовой платок",
+                "en": "handkerchief"
+            },
+            {
+                "ru": "гольфы",
+                "en": "knee socks"
+            },
+            {
+                "ru": "кольцо",
+                "en": "ring"
+            },
+            {
+                "ru": "раздеться",
+                "en": "get undressed"
+            },
+            {
+                "ru": "серьги",
+                "en": "earrings"
+            },
+            {
+                "ru": "кепка",
+                "en": "cap"
+            },
+            {
+                "ru": "майка",
+                "en": "vest"
+            },
+            {
+                "ru": "галстук-бабочка",
+                "en": "bow-tie"
+            },
+            {
+                "ru": "чулки",
+                "en": "stockings"
+            },
+            {
+                "ru": "юбка",
+                "en": "skirt"
+            },
+            {
+                "ru": "джемпер",
+                "en": "jumper"
+            },
+            {
+                "ru": "модный",
+                "en": "fashionable"
+            },
+            {
+                "ru": "свитер",
+                "en": "sweater"
+            },
+            {
+                "ru": "ремень сумки",
+                "en": "strap"
+            },
+            {
+                "ru": "одеться",
+                "en": "get dressed"
+            },
+            {
+                "ru": "застежка",
+                "en": "fastener"
+            },
+            {
+                "ru": "бусы",
+                "en": "beads"
+            },
+            {
+                "ru": "халат банный",
+                "en": "bathrobe"
+            },
+            {
+                "ru": "перчатки",
+                "en": "gloves"
+            },
+            {
+                "ru": "платок головной",
+                "en": "headscarf"
+            },
+            {
+                "ru": "цепочка",
+                "en": "chain"
+            },
+            {
+                "ru": "стирать",
+                "en": "wash"
+            },
+            {
+                "ru": "блузка",
+                "en": "blouse"
+            },
+            {
+                "ru": "трусы женские",
+                "en": "panties"
+            },
+            {
+                "ru": "колье",
+                "en": "necklace"
+            },
+            {
+                "ru": "платье",
+                "en": "dress"
+            },
+            {
+                "ru": "кожаная куртка",
+                "en": "leather jacket"
+            },
+            {
+                "ru": "браслет",
+                "en": "bracelet"
+            },
+            {
+                "ru": "иголка",
+                "en": "needle"
+            },
+            {
+                "ru": "купальник",
+                "en": "swimming suit"
+            },
+            {
+                "ru": "зонт",
+                "en": "umbrella"
+            },
+            {
+                "ru": "бюстгалтер",
+                "en": "bra"
+            },
+            {
+                "ru": "сарафан",
+                "en": "summer dress"
+            },
+            {
+                "ru": "клубный пиджак",
+                "en": "blazer"
+            },
+            {
+                "ru": "трусы мужские",
+                "en": "underpants"
+            },
+            {
+                "ru": "чистить",
+                "en": "clean"
+            },
+            {
+                "ru": "смокинг",
+                "en": "smoking jacket"
+            },
+            {
+                "ru": "колготки",
+                "en": "tights"
+            },
+            {
+                "ru": "рукав",
+                "en": "sleeve"
+            },
+            {
+                "ru": "запонки",
+                "en": "cuff links"
+            },
+            {
+                "ru": "велик",
+                "en": "too big"
+            },
+            {
+                "ru": "берет",
+                "en": "beret"
+            },
+            {
+                "ru": "нарядный",
+                "en": "smart"
+            },
+            {
+                "ru": "нитка",
+                "en": "thread"
+            },
+            {
+                "ru": "носки",
+                "en": "socks"
+            },
+            {
+                "ru": "руговица",
+                "en": "button"
+            },
+            {
+                "ru": "белье",
+                "en": "linen"
+            },
+            {
+                "ru": "гладить белье",
+                "en": "iron"
+            },
+            {
+                "ru": "пряжка",
+                "en": "clasp"
+            },
+            {
+                "ru": "голый",
+                "en": "naled"
+            },
+            {
+                "ru": "размер",
+                "en": "size"
+            },
+            {
+                "ru": "пижама",
+                "en": "pyjamas"
+            },
+            {
+                "ru": "нарядно одетый",
+                "en": "well-dressed"
+            },
+            {
+                "ru": "мал",
+                "en": "too small"
+            },
+            {
+                "ru": "шуба",
+                "en": "fur coat"
+            },
+            {
+                "ru": "шаль",
+                "en": "shawl"
+            },
+            {
+                "ru": "шляпа",
+                "en": "hat"
+            },
+            {
+                "ru": "пальто",
+                "en": "coat"
+            },
+            {
+                "ru": "кулон",
+                "en": "pendant"
+            },
+            {
+                "ru": "дубленка",
+                "en": "sheepskin coat"
+            },
+            {
+                "ru": "босой",
+                "en": "barefoot"
+            },
+            {
+                "ru": "сумка",
+                "en": "bag"
+            },
+            {
+                "ru": "футболка",
+                "en": "t-shirt"
+            },
+            {
+                "ru": "карман",
+                "en": "pocket"
+            },
+            {
+                "ru": "плавки",
+                "en": "swimming trunks"
+            },
+            {
+                "ru": "рубашка",
+                "en": "shirt"
+            },
+            {
+                "ru": "куртка",
+                "en": "jacket"
+            },
+            {
+                "ru": "ювелирное украшение",
+                "en": "jewellery"
+            },
+            {
+                "ru": "надеть",
+                "en": "put on"
+            },
+            {
+                "ru": "ночная рубашка",
+                "en": "nightshirt"
+            },
+            {
+                "ru": "варежки",
+                "en": "mittens"
+            },
+            {
+                "ru": "шарф",
+                "en": "scarf"
+            },
+            {
+                "ru": "петля",
+                "en": "buttonhole"
+            },
+            {
+                "ru": "одежда",
+                "en": "clothes"
+            },
+            {
+                "ru": "манжеты",
+                "en": "cuffs"
+            },
+            {
+                "ru": "костюм",
+                "en": "suit"
+            },
+            {
+                "ru": "брюки",
+                "en": "trousers"
+            },
+            {
+                "ru": "молния",
+                "en": "zip"
+            },
+            {
+                "ru": "нижнее белье",
+                "en": "underwear"
+            },
+            {
+                "ru": "раздеть",
+                "en": "undress"
+            },
+            {
+                "ru": "воротник",
+                "en": "collar"
+            },
+            {
+                "ru": "носить одежду",
+                "en": "wear"
+            }
+        ],
+        "category": "Одежда"
+    },
+    {
+        "category_id": 7,
+        "words": [
+            {
+                "ru": "ящик письменного стола",
+                "en": "drawer"
+            },
+            {
+                "ru": "будильник",
+                "en": "alarm clock"
+            },
+            {
+                "ru": "веник",
+                "en": "besom"
+            },
+            {
+                "ru": "стул",
+                "en": "chair"
+            },
+            {
+                "ru": "тесная комната",
+                "en": "cramped room"
+            },
+            {
+                "ru": "жалюзи",
+                "en": "venetian blinds"
+            },
+            {
+                "ru": "удобный",
+                "en": "comfortable"
+            },
+            {
+                "ru": "диван",
+                "en": "sofa"
+            },
+            {
+                "ru": "швабра",
+                "en": "mop"
+            },
+            {
+                "ru": "мусорное ведро",
+                "en": "rubbish bin"
+            },
+            {
+                "ru": "ковер",
+                "en": "carpet"
+            },
+            {
+                "ru": "уютный",
+                "en": "cosy"
+            },
+            {
+                "ru": "диван-кровать",
+                "en": "sofa bed"
+            },
+            {
+                "ru": "скамейка",
+                "en": "bench"
+            },
+            {
+                "ru": "гардероб",
+                "en": "wardrobe"
+            },
+            {
+                "ru": "шторы",
+                "en": "curtains"
+            },
+            {
+                "ru": "метла",
+                "en": "broom"
+            },
+            {
+                "ru": "сервант",
+                "en": "cabinet"
+            },
+            {
+                "ru": "журнальный столик",
+                "en": "coffee table"
+            },
+            {
+                "ru": "занавеска",
+                "en": "curtain"
+            },
+            {
+                "ru": "стол",
+                "en": "table"
+            },
+            {
+                "ru": "полка",
+                "en": "shelf"
+            },
+            {
+                "ru": "письменный стол",
+                "en": "desk"
+            },
+            {
+                "ru": "вешалка",
+                "en": "hall-stand"
+            },
+            {
+                "ru": "комод",
+                "en": "chest of drawers"
+            },
+            {
+                "ru": "пыль",
+                "en": "dust"
+            },
+            {
+                "ru": "табурет",
+                "en": "stool"
+            },
+            {
+                "ru": "книжная полка",
+                "en": "bookshelf"
+            },
+            {
+                "ru": "кресло",
+                "en": "armchair"
+            },
+            {
+                "ru": "зеркало",
+                "en": "mirror"
+            },
+            {
+                "ru": "вешалка-плечики",
+                "en": "coat hanger"
+            },
+            {
+                "ru": "узкий",
+                "en": "narrow"
+            },
+            {
+                "ru": "кровать",
+                "en": "bed"
+            },
+            {
+                "ru": "щетка",
+                "en": "brush"
+            },
+            {
+                "ru": "часы",
+                "en": "clock"
+            },
+            {
+                "ru": "тахта",
+                "en": "couch"
+            },
+            {
+                "ru": "шкаф для посуды",
+                "en": "cupboard"
+            },
+            {
+                "ru": "тумбочка",
+                "en": "bedside table"
+            },
+            {
+                "ru": "мусор",
+                "en": "rubbish"
+            },
+            {
+                "ru": "книжный шкаф",
+                "en": "bookcase"
+            }
+        ],
+        "category": "Мебель"
+    },
+    {
+        "category_id": 8,
+        "words": [
+            {
+                "ru": "ругаться",
+                "en": "scold"
+            },
+            {
+                "ru": "неодобрение",
+                "en": "disapproval"
+            },
+            {
+                "ru": "относиться",
+                "en": "treat"
+            },
+            {
+                "ru": "внимательный",
+                "en": "attentive"
+            },
+            {
+                "ru": "дружить",
+                "en": "be friends"
+            },
+            {
+                "ru": "приглашение",
+                "en": "invitation"
+            },
+            {
+                "ru": "приговорить",
+                "en": "convict"
+            },
+            {
+                "ru": "отношения",
+                "en": "relations"
+            },
+            {
+                "ru": "защита",
+                "en": "protection"
+            },
+            {
+                "ru": "любить",
+                "en": "love"
+            },
+            {
+                "ru": "общение",
+                "en": "communication"
+            },
+            {
+                "ru": "уверенность",
+                "en": "confidence"
+            },
+            {
+                "ru": "требовать",
+                "en": "demand"
+            },
+            {
+                "ru": "угощать",
+                "en": "treat"
+            },
+            {
+                "ru": "согласие",
+                "en": "consent"
+            },
+            {
+                "ru": "спор",
+                "en": "argument"
+            },
+            {
+                "ru": "нравиться",
+                "en": "like"
+            },
+            {
+                "ru": "мириться",
+                "en": "make up"
+            },
+            {
+                "ru": "друг",
+                "en": "friend"
+            },
+            {
+                "ru": "уважать",
+                "en": "respect"
+            },
+            {
+                "ru": "советовать",
+                "en": "advise"
+            },
+            {
+                "ru": "приглашать",
+                "en": "invite"
+            },
+            {
+                "ru": "доверие",
+                "en": "trust"
+            },
+            {
+                "ru": "знакомство",
+                "en": "acquaintance"
+            },
+            {
+                "ru": "враг",
+                "en": "enemy"
+            },
+            {
+                "ru": "встречаться",
+                "en": "meet"
+            },
+            {
+                "ru": "осудить",
+                "en": "condemn"
+            },
+            {
+                "ru": "помощь",
+                "en": "help"
+            },
+            {
+                "ru": "пойти в гости",
+                "en": "go to see"
+            },
+            {
+                "ru": "одобрять",
+                "en": "approve"
+            },
+            {
+                "ru": "спорить",
+                "en": "argue"
+            },
+            {
+                "ru": "защищать",
+                "en": "protect"
+            },
+            {
+                "ru": "разлучаться",
+                "en": "part"
+            },
+            {
+                "ru": "отказаться",
+                "en": "refuse"
+            },
+            {
+                "ru": "возражение",
+                "en": "objection"
+            },
+            {
+                "ru": "разделение",
+                "en": "separation"
+            },
+            {
+                "ru": "отказ",
+                "en": "refusal"
+            },
+            {
+                "ru": "заступаться",
+                "en": "stand up"
+            },
+            {
+                "ru": "взаимодействие",
+                "en": "cooperation"
+            },
+            {
+                "ru": "дружба",
+                "en": "friendship"
+            },
+            {
+                "ru": "спасти",
+                "en": "save"
+            },
+            {
+                "ru": "вражда",
+                "en": "hostility"
+            },
+            {
+                "ru": "общаться",
+                "en": "communicate"
+            },
+            {
+                "ru": "забота",
+                "en": "worry"
+            },
+            {
+                "ru": "поддержка",
+                "en": "support"
+            },
+            {
+                "ru": "презрение",
+                "en": "contempt"
+            },
+            {
+                "ru": "навестить",
+                "en": "visit"
+            },
+            {
+                "ru": "разлука",
+                "en": "parting"
+            },
+            {
+                "ru": "совет",
+                "en": "advice"
+            },
+            {
+                "ru": "расстаться",
+                "en": "part with"
+            },
+            {
+                "ru": "бросить",
+                "en": "abandon"
+            },
+            {
+                "ru": "одобрение",
+                "en": "approval"
+            },
+            {
+                "ru": "возражать",
+                "en": "object"
+            },
+            {
+                "ru": "взаимный",
+                "en": "mutual"
+            },
+            {
+                "ru": "покинуть",
+                "en": "leave"
+            },
+            {
+                "ru": "презирать",
+                "en": "despise"
+            },
+            {
+                "ru": "выручать",
+                "en": "rescue"
+            },
+            {
+                "ru": "осуждение",
+                "en": "condemnation"
+            },
+            {
+                "ru": "помогать",
+                "en": "assist"
+            },
+            {
+                "ru": "видеться",
+                "en": "see each other"
+            },
+            {
+                "ru": "согласиться",
+                "en": "agree"
+            },
+            {
+                "ru": "взаимоотношения",
+                "en": "relationship"
+            },
+            {
+                "ru": "не нравиться",
+                "en": "dislike"
+            },
+            {
+                "ru": "консультироваться",
+                "en": "consult"
+            },
+            {
+                "ru": "земляк",
+                "en": "compatriot"
+            },
+            {
+                "ru": "просить",
+                "en": "ask"
+            },
+            {
+                "ru": "недоверие",
+                "en": "distrust"
+            },
+            {
+                "ru": "авторитет",
+                "en": "authority"
+            },
+            {
+                "ru": "ненависть",
+                "en": "hatred"
+            },
+            {
+                "ru": "враждебный",
+                "en": "hostile"
+            },
+            {
+                "ru": "просьба",
+                "en": "request"
+            },
+            {
+                "ru": "дебаты",
+                "en": "debate"
+            },
+            {
+                "ru": "требование",
+                "en": "demand"
+            },
+            {
+                "ru": "не любить",
+                "en": "loathe"
+            },
+            {
+                "ru": "заботиться",
+                "en": "take care"
+            },
+            {
+                "ru": "ненавидеть",
+                "en": "hate"
+            },
+            {
+                "ru": "отношение",
+                "en": "attitude"
+            },
+            {
+                "ru": "контактировать",
+                "en": "contact"
+            },
+            {
+                "ru": "ссора",
+                "en": "quarrel"
+            }
+        ],
+        "category": "Взаимоотношения"
+    },
+    {
+        "category_id": 9,
+        "words": [
+            {
+                "ru": "украсть",
+                "en": "steal"
+            },
+            {
+                "ru": "арендодатель",
+                "en": "landlord"
+            },
+            {
+                "ru": "арендатор",
+                "en": "lessee"
+            },
+            {
+                "ru": "кассир",
+                "en": "cashier"
+            },
+            {
+                "ru": "банк",
+                "en": "bank"
+            },
+            {
+                "ru": "терять",
+                "en": "lose"
+            },
+            {
+                "ru": "денежный оборот",
+                "en": "turnover"
+            },
+            {
+                "ru": "доплата",
+                "en": "extra pay"
+            },
+            {
+                "ru": "присвоить",
+                "en": "appropriate"
+            },
+            {
+                "ru": "грабеж",
+                "en": "robbery"
+            },
+            {
+                "ru": "выплачивать",
+                "en": "pay off"
+            },
+            {
+                "ru": "экспорт",
+                "en": "export"
+            },
+            {
+                "ru": "быть должным",
+                "en": "owe"
+            },
+            {
+                "ru": "скидка",
+                "en": "discount"
+            },
+            {
+                "ru": "дилер",
+                "en": "dealer"
+            },
+            {
+                "ru": "кредит",
+                "en": "credit"
+            },
+            {
+                "ru": "приобретение",
+                "en": "acquisition"
+            },
+            {
+                "ru": "доллар",
+                "en": "dollar"
+            },
+            {
+                "ru": "продавать",
+                "en": "sell"
+            },
+            {
+                "ru": "аренда",
+                "en": "rent"
+            },
+            {
+                "ru": "остаток на счету",
+                "en": "balance"
+            },
+            {
+                "ru": "рынок",
+                "en": "market"
+            },
+            {
+                "ru": "торговый центр",
+                "en": "trade centre"
+            },
+            {
+                "ru": "вклад",
+                "en": "fixed deposit"
+            },
+            {
+                "ru": "деньги",
+                "en": "money"
+            },
+            {
+                "ru": "банкротство",
+                "en": "bankruptcy"
+            },
+            {
+                "ru": "дарение",
+                "en": "donation"
+            },
+            {
+                "ru": "наценка",
+                "en": "extra change"
+            },
+            {
+                "ru": "облигация",
+                "en": "bond"
+            },
+            {
+                "ru": "переводить (деньги)",
+                "en": "transfer"
+            },
+            {
+                "ru": "оптовая торговля",
+                "en": "wholesale"
+            },
+            {
+                "ru": "распродажа",
+                "en": "sale"
+            },
+            {
+                "ru": "зарабатывать",
+                "en": "earn"
+            },
+            {
+                "ru": "гарантия",
+                "en": "guarantee"
+            },
+            {
+                "ru": "грабитель",
+                "en": "robber"
+            },
+            {
+                "ru": "выплачивать компенсацию",
+                "en": "pay damages"
+            },
+            {
+                "ru": "одолжить",
+                "en": "lend"
+            },
+            {
+                "ru": "воровство",
+                "en": "theft"
+            },
+            {
+                "ru": "спонсор",
+                "en": "sponsor"
+            },
+            {
+                "ru": "кредитная карта",
+                "en": "credit card"
+            },
+            {
+                "ru": "торговая палата",
+                "en": "chamber of commerce"
+            },
+            {
+                "ru": "киоск",
+                "en": "newsstand"
+            },
+            {
+                "ru": "брать в долг",
+                "en": "borrow"
+            },
+            {
+                "ru": "инвестиции",
+                "en": "investment"
+            },
+            {
+                "ru": "магазин",
+                "en": "shop"
+            },
+            {
+                "ru": "обанкротиться",
+                "en": "go bankrupt"
+            },
+            {
+                "ru": "поставляемый товар",
+                "en": "supplied goods"
+            },
+            {
+                "ru": "супермаркет",
+                "en": "supermarket"
+            },
+            {
+                "ru": "ярмарка",
+                "en": "fair"
+            },
+            {
+                "ru": "вор",
+                "en": "thief"
+            },
+            {
+                "ru": "инвестировать",
+                "en": "invest"
+            },
+            {
+                "ru": "возвращать",
+                "en": "pay back"
+            },
+            {
+                "ru": "отнять",
+                "en": "take away"
+            },
+            {
+                "ru": "сделка",
+                "en": "transaction"
+            },
+            {
+                "ru": "акция",
+                "en": "share"
+            },
+            {
+                "ru": "покупатель",
+                "en": "buyer"
+            },
+            {
+                "ru": "розничная торговля",
+                "en": "retail sale"
+            },
+            {
+                "ru": "платеж",
+                "en": "payment"
+            },
+            {
+                "ru": "платить",
+                "en": "pay"
+            },
+            {
+                "ru": "платежеспособность",
+                "en": "solvency"
+            },
+            {
+                "ru": "страхование",
+                "en": "insurance"
+            },
+            {
+                "ru": "маркетинг",
+                "en": "marketing"
+            },
+            {
+                "ru": "цена",
+                "en": "price"
+            },
+            {
+                "ru": "подпись",
+                "en": "signature"
+            },
+            {
+                "ru": "снизиться",
+                "en": "reduce"
+            },
+            {
+                "ru": "благотворительность",
+                "en": "charity"
+            },
+            {
+                "ru": "страховой полис",
+                "en": "insurance policy"
+            },
+            {
+                "ru": "фонд",
+                "en": "fund"
+            },
+            {
+                "ru": "бумажник",
+                "en": "wallet"
+            },
+            {
+                "ru": "цент",
+                "en": "cent"
+            },
+            {
+                "ru": "квитанция",
+                "en": "receipt"
+            },
+            {
+                "ru": "долг",
+                "en": "debt"
+            },
+            {
+                "ru": "рубль",
+                "en": "rouble"
+            },
+            {
+                "ru": "менять деньги",
+                "en": "change money"
+            },
+            {
+                "ru": "молл",
+                "en": "mall"
+            },
+            {
+                "ru": "банкомат",
+                "en": "cash machine"
+            },
+            {
+                "ru": "евро",
+                "en": "euro"
+            },
+            {
+                "ru": "поставщик",
+                "en": "supplier"
+            },
+            {
+                "ru": "инфляция",
+                "en": "inflation"
+            },
+            {
+                "ru": "задаток",
+                "en": "deposit"
+            },
+            {
+                "ru": "валюта",
+                "en": "currency"
+            },
+            {
+                "ru": "счет",
+                "en": "account"
+            },
+            {
+                "ru": "закупка",
+                "en": "purchase"
+            },
+            {
+                "ru": "подняться",
+                "en": "rise"
+            },
+            {
+                "ru": "поставлять",
+                "en": "supply"
+            },
+            {
+                "ru": "заем",
+                "en": "loan"
+            },
+            {
+                "ru": "импорт",
+                "en": "import"
+            },
+            {
+                "ru": "дешевый",
+                "en": "cheap"
+            },
+            {
+                "ru": "копейка",
+                "en": "kopeck"
+            },
+            {
+                "ru": "заказчик",
+                "en": "customer"
+            },
+            {
+                "ru": "приобрести",
+                "en": "acquire"
+            },
+            {
+                "ru": "грабить",
+                "en": "rob"
+            },
+            {
+                "ru": "девальвация",
+                "en": "devaluation"
+            },
+            {
+                "ru": "бартер",
+                "en": "barter"
+            },
+            {
+                "ru": "ущерб",
+                "en": "damage"
+            },
+            {
+                "ru": "обменивать",
+                "en": "exchange"
+            },
+            {
+                "ru": "спрос",
+                "en": "demand"
+            },
+            {
+                "ru": "клиент",
+                "en": "client"
+            },
+            {
+                "ru": "продажа",
+                "en": "sales"
+            },
+            {
+                "ru": "кошелек",
+                "en": "purse"
+            },
+            {
+                "ru": "пакет акций",
+                "en": "block of shares"
+            },
+            {
+                "ru": "снабжать",
+                "en": "provide"
+            },
+            {
+                "ru": "торговая сеть",
+                "en": "trading network"
+            },
+            {
+                "ru": "торговля",
+                "en": "trade"
+            },
+            {
+                "ru": "обменный курс",
+                "en": "exchange rate"
+            },
+            {
+                "ru": "стоимость",
+                "en": "cost"
+            },
+            {
+                "ru": "дорогой",
+                "en": "expensive"
+            },
+            {
+                "ru": "фунт стерлингов",
+                "en": "pound"
+            },
+            {
+                "ru": "убытки",
+                "en": "losses"
+            },
+            {
+                "ru": "служащий банка",
+                "en": "bakn officer"
+            },
+            {
+                "ru": "залог",
+                "en": "pledge"
+            },
+            {
+                "ru": "продавец",
+                "en": "seller"
+            },
+            {
+                "ru": "дефляция",
+                "en": "deflation"
+            },
+            {
+                "ru": "брокер",
+                "en": "broker"
+            },
+            {
+                "ru": "себестоимость",
+                "en": "prime cost"
+            },
+            {
+                "ru": "банкир",
+                "en": "banker"
+            }
+        ],
+        "category": "Деньги"
+    },
+    {
+        "category_id": 10,
+        "words": [
+            {
+                "ru": "коллекционер",
+                "en": "collector"
+            },
+            {
+                "ru": "книголюб",
+                "en": "book-lover"
+            },
+            {
+                "ru": "удобрение",
+                "en": "fertilizer"
+            },
+            {
+                "ru": "фотография",
+                "en": "photography"
+            },
+            {
+                "ru": "цветочный горшок",
+                "en": "flowerpot"
+            },
+            {
+                "ru": "коллекционировать",
+                "en": "collect"
+            },
+            {
+                "ru": "филателист",
+                "en": "philatelist"
+            },
+            {
+                "ru": "спиннинг",
+                "en": "spinner"
+            },
+            {
+                "ru": "охота",
+                "en": "hunting"
+            },
+            {
+                "ru": "дичь",
+                "en": "game"
+            },
+            {
+                "ru": "плеер",
+                "en": "player"
+            },
+            {
+                "ru": "значок",
+                "en": "badge"
+            },
+            {
+                "ru": "охотиться",
+                "en": "hunt"
+            },
+            {
+                "ru": "пряжа",
+                "en": "wool"
+            },
+            {
+                "ru": "открытка",
+                "en": "postcard"
+            },
+            {
+                "ru": "марка",
+                "en": "stamp"
+            },
+            {
+                "ru": "раритет",
+                "en": "rarity"
+            },
+            {
+                "ru": "сеть",
+                "en": "net"
+            },
+            {
+                "ru": "аквариум",
+                "en": "aquarium"
+            },
+            {
+                "ru": "цветы",
+                "en": "flowers"
+            },
+            {
+                "ru": "винтовка",
+                "en": "rifle"
+            },
+            {
+                "ru": "вязать",
+                "en": "knit"
+            },
+            {
+                "ru": "вышивать",
+                "en": "embroider"
+            },
+            {
+                "ru": "вязание",
+                "en": "knitting"
+            },
+            {
+                "ru": "шить",
+                "en": "sew"
+            },
+            {
+                "ru": "йога",
+                "en": "yoga"
+            },
+            {
+                "ru": "коллекция",
+                "en": "collection"
+            },
+            {
+                "ru": "крючок",
+                "en": "hook"
+            },
+            {
+                "ru": "кружево",
+                "en": "lace"
+            },
+            {
+                "ru": "видеокамера",
+                "en": "camcorder"
+            },
+            {
+                "ru": "увлечение",
+                "en": "passion"
+            },
+            {
+                "ru": "ловушка",
+                "en": "trap"
+            },
+            {
+                "ru": "видеомагнитофон",
+                "en": "video recorder"
+            },
+            {
+                "ru": "кулинария",
+                "en": "cookery"
+            },
+            {
+                "ru": "монета",
+                "en": "coin"
+            },
+            {
+                "ru": "фотоаппарат",
+                "en": "camera"
+            },
+            {
+                "ru": "охотник",
+                "en": "hunter"
+            },
+            {
+                "ru": "рисование красками",
+                "en": "painting"
+            },
+            {
+                "ru": "поливать",
+                "en": "water"
+            },
+            {
+                "ru": "посадка",
+                "en": "planting"
+            },
+            {
+                "ru": "видеоигра",
+                "en": "video game"
+            },
+            {
+                "ru": "нумизматика",
+                "en": "numismatics"
+            },
+            {
+                "ru": "ружье",
+                "en": "gun"
+            },
+            {
+                "ru": "рамка",
+                "en": "frame"
+            },
+            {
+                "ru": "рыбная ловля",
+                "en": "fishing"
+            },
+            {
+                "ru": "снимок",
+                "en": "snapshot"
+            },
+            {
+                "ru": "рыболов",
+                "en": "angler"
+            },
+            {
+                "ru": "удочка",
+                "en": "fishing-rod"
+            },
+            {
+                "ru": "нумизмат",
+                "en": "numismatist"
+            },
+            {
+                "ru": "коллекционирование",
+                "en": "collecting"
+            },
+            {
+                "ru": "видеокассета",
+                "en": "video tape"
+            },
+            {
+                "ru": "шитье",
+                "en": "sewing"
+            },
+            {
+                "ru": "цветоводство",
+                "en": "floriculture"
+            },
+            {
+                "ru": "рисование",
+                "en": "drawing"
+            },
+            {
+                "ru": "земля для цветов",
+                "en": "soil"
+            },
+            {
+                "ru": "филателия",
+                "en": "philately"
+            },
+            {
+                "ru": "хобби",
+                "en": "hobby"
+            },
+            {
+                "ru": "швейная машинка",
+                "en": "sewing machine"
+            },
+            {
+                "ru": "лоскутное шитье",
+                "en": "patchwork"
+            },
+            {
+                "ru": "керамика",
+                "en": "ceramics"
+            }
+        ],
+        "category": "Хобби"
+    },
+    {
+        "category_id": 11,
+        "words": [
+            {
+                "ru": "жираф",
+                "en": "giraffe"
+            },
+            {
+                "ru": "олень",
+                "en": "deer"
+            },
+            {
+                "ru": "хорек",
+                "en": "ferret"
+            },
+            {
+                "ru": "морж",
+                "en": "walrus"
+            },
+            {
+                "ru": "белка",
+                "en": "squirrel"
+            },
+            {
+                "ru": "лев",
+                "en": "lion"
+            },
+            {
+                "ru": "рысь",
+                "en": "lynx"
+            },
+            {
+                "ru": "заяц",
+                "en": "hare"
+            },
+            {
+                "ru": "енот",
+                "en": "raccoon"
+            },
+            {
+                "ru": "зоопарк",
+                "en": "zoo"
+            },
+            {
+                "ru": "крыса",
+                "en": "rat"
+            },
+            {
+                "ru": "зверь",
+                "en": "beast"
+            },
+            {
+                "ru": "обезьяна",
+                "en": "monkey"
+            },
+            {
+                "ru": "зебра",
+                "en": "zebra"
+            },
+            {
+                "ru": "медведь",
+                "en": "bear"
+            },
+            {
+                "ru": "еж",
+                "en": "hedgehog"
+            },
+            {
+                "ru": "корова",
+                "en": "cow"
+            },
+            {
+                "ru": "овца",
+                "en": "sheep"
+            },
+            {
+                "ru": "слон",
+                "en": "elephant"
+            },
+            {
+                "ru": "мышь",
+                "en": "mouse"
+            },
+            {
+                "ru": "животный мир",
+                "en": "the animal world"
+            },
+            {
+                "ru": "лось",
+                "en": "elk"
+            },
+            {
+                "ru": "кошка",
+                "en": "cat"
+            },
+            {
+                "ru": "козленок",
+                "en": "kid"
+            },
+            {
+                "ru": "животное",
+                "en": "animal"
+            },
+            {
+                "ru": "лошадь",
+                "en": "horse"
+            },
+            {
+                "ru": "млекопитающие",
+                "en": "mammals"
+            },
+            {
+                "ru": "фауна",
+                "en": "fauna"
+            },
+            {
+                "ru": "свинья",
+                "en": "pig"
+            },
+            {
+                "ru": "верблюд",
+                "en": "camel"
+            },
+            {
+                "ru": "собака",
+                "en": "dog"
+            },
+            {
+                "ru": "леопард",
+                "en": "leopard"
+            },
+            {
+                "ru": "баран",
+                "en": "ram"
+            },
+            {
+                "ru": "ягненок",
+                "en": "lamb"
+            },
+            {
+                "ru": "поросенок",
+                "en": "piglet"
+            },
+            {
+                "ru": "лиса",
+                "en": "fox"
+            },
+            {
+                "ru": "бык",
+                "en": "bull"
+            },
+            {
+                "ru": "антилопа",
+                "en": "antelope"
+            },
+            {
+                "ru": "волк",
+                "en": "wolf"
+            },
+            {
+                "ru": "козел",
+                "en": "goat"
+            },
+            {
+                "ru": "тигр",
+                "en": "tiger"
+            },
+            {
+                "ru": "котенок",
+                "en": "kitten"
+            },
+            {
+                "ru": "носорог",
+                "en": "rhinoceros"
+            },
+            {
+                "ru": "заповедник",
+                "en": "nature reserve"
+            },
+            {
+                "ru": "хомяк",
+                "en": "hamster"
+            },
+            {
+                "ru": "щенок",
+                "en": "puppy"
+            },
+            {
+                "ru": "порода",
+                "en": "breed"
+            },
+            {
+                "ru": "жеребенок",
+                "en": "foal"
+            },
+            {
+                "ru": "кролик",
+                "en": "rabbit"
+            },
+            {
+                "ru": "разведение",
+                "en": "breeding"
+            },
+            {
+                "ru": "тюлень",
+                "en": "seal"
+            },
+            {
+                "ru": "теленок",
+                "en": "calf"
+            }
+        ],
+        "category": "Животные"
+    },
+    {
+        "category_id": 12,
+        "words": [
+            {
+                "ru": "балкон",
+                "en": "balcony"
+            },
+            {
+                "ru": "крыльцо",
+                "en": "porch"
+            },
+            {
+                "ru": "водосточная труба",
+                "en": "drain pipe"
+            },
+            {
+                "ru": "лампа",
+                "en": "lamp"
+            },
+            {
+                "ru": "провод",
+                "en": "wire"
+            },
+            {
+                "ru": "духовка",
+                "en": "oven"
+            },
+            {
+                "ru": "приставная лестница",
+                "en": "ladder"
+            },
+            {
+                "ru": "розетка",
+                "en": "socket"
+            },
+            {
+                "ru": "лампочка",
+                "en": "electric bulb"
+            },
+            {
+                "ru": "гостиница",
+                "en": "hotel"
+            },
+            {
+                "ru": "чердак",
+                "en": "attic"
+            },
+            {
+                "ru": "коридор",
+                "en": "corridor"
+            },
+            {
+                "ru": "квартира",
+                "en": "flat"
+            },
+            {
+                "ru": "микроволновка",
+                "en": "microwave oven"
+            },
+            {
+                "ru": "торшер",
+                "en": "floor lamp"
+            },
+            {
+                "ru": "туалетная бумага",
+                "en": "toilet paper"
+            },
+            {
+                "ru": "стирать",
+                "en": "wash"
+            },
+            {
+                "ru": "лоджия",
+                "en": "loggia"
+            },
+            {
+                "ru": "запирать",
+                "en": "lock"
+            },
+            {
+                "ru": "стекло",
+                "en": "glass"
+            },
+            {
+                "ru": "кран",
+                "en": "tap"
+            },
+            {
+                "ru": "многоквартирный дом",
+                "en": "block of flats"
+            },
+            {
+                "ru": "висячий замок",
+                "en": "padlock"
+            },
+            {
+                "ru": "штекер",
+                "en": "pin"
+            },
+            {
+                "ru": "пылесос",
+                "en": "vacuum cleaner"
+            },
+            {
+                "ru": "коврик у двери",
+                "en": "doormat"
+            },
+            {
+                "ru": "прихожая",
+                "en": "hallway"
+            },
+            {
+                "ru": "стена",
+                "en": "wall"
+            },
+            {
+                "ru": "гостиная",
+                "en": "living room"
+            },
+            {
+                "ru": "двор",
+                "en": "courtyard"
+            },
+            {
+                "ru": "дверной замок",
+                "en": "doorbell"
+            },
+            {
+                "ru": "потолок",
+                "en": "ceiling"
+            },
+            {
+                "ru": "кухня",
+                "en": "kitchen"
+            },
+            {
+                "ru": "ключ",
+                "en": "key"
+            },
+            {
+                "ru": "здание",
+                "en": "building"
+            },
+            {
+                "ru": "ванная",
+                "en": "bathroom"
+            },
+            {
+                "ru": "обои",
+                "en": "wallpaper"
+            },
+            {
+                "ru": "холодильник",
+                "en": "refrigerator"
+            },
+            {
+                "ru": "штепсель",
+                "en": "plug"
+            },
+            {
+                "ru": "щеколда",
+                "en": "latch"
+            },
+            {
+                "ru": "морозильник",
+                "en": "freezer"
+            },
+            {
+                "ru": "электрическая проводка",
+                "en": "wiring"
+            },
+            {
+                "ru": "труба",
+                "en": "pipe"
+            },
+            {
+                "ru": "житель",
+                "en": "inhabitant"
+            },
+            {
+                "ru": "этаж",
+                "en": "floor"
+            },
+            {
+                "ru": "засов",
+                "en": "bolt"
+            },
+            {
+                "ru": "кладовая",
+                "en": "storeroom"
+            },
+            {
+                "ru": "обогревать",
+                "en": "heat"
+            },
+            {
+                "ru": "счетчик",
+                "en": "meter"
+            },
+            {
+                "ru": "лифт",
+                "en": "elevator"
+            },
+            {
+                "ru": "покрытие",
+                "en": "covering"
+            },
+            {
+                "ru": "газ",
+                "en": "gas"
+            },
+            {
+                "ru": "чулан",
+                "en": "pantry"
+            },
+            {
+                "ru": "кондиционер",
+                "en": "air conditioner"
+            },
+            {
+                "ru": "водопровод",
+                "en": "water supply system"
+            },
+            {
+                "ru": "удобства",
+                "en": "convenience"
+            },
+            {
+                "ru": "форточка",
+                "en": "upper pane for ventilation"
+            },
+            {
+                "ru": "жить",
+                "en": "live"
+            },
+            {
+                "ru": "газовая плита",
+                "en": "gas stove"
+            },
+            {
+                "ru": "лестница",
+                "en": "stairs"
+            },
+            {
+                "ru": "цепочка на двери",
+                "en": "door chain"
+            },
+            {
+                "ru": "люстра",
+                "en": "chandelier"
+            },
+            {
+                "ru": "домофон",
+                "en": "intercom"
+            },
+            {
+                "ru": "свет",
+                "en": "light"
+            },
+            {
+                "ru": "ворота",
+                "en": "gate"
+            },
+            {
+                "ru": "столовая",
+                "en": "canteen"
+            },
+            {
+                "ru": "ванна",
+                "en": "bath"
+            },
+            {
+                "ru": "дома",
+                "en": "at home"
+            },
+            {
+                "ru": "унитаз",
+                "en": "bowl"
+            },
+            {
+                "ru": "душ",
+                "en": "shower"
+            },
+            {
+                "ru": "сигнализация",
+                "en": "burglar alarm"
+            },
+            {
+                "ru": "сосед",
+                "en": "neighbour"
+            },
+            {
+                "ru": "электрокамин",
+                "en": "heather"
+            },
+            {
+                "ru": "адрес",
+                "en": "address"
+            },
+            {
+                "ru": "паркет",
+                "en": "parquet"
+            },
+            {
+                "ru": "сточная канава",
+                "en": "gutter"
+            },
+            {
+                "ru": "окно",
+                "en": "window"
+            },
+            {
+                "ru": "подоконник",
+                "en": "windowsill"
+            },
+            {
+                "ru": "освещение",
+                "en": "lighting"
+            },
+            {
+                "ru": "карниз",
+                "en": "eaves"
+            },
+            {
+                "ru": "жилье",
+                "en": "accommodation"
+            },
+            {
+                "ru": "туалет",
+                "en": "toilet"
+            },
+            {
+                "ru": "веранда",
+                "en": "verandah"
+            },
+            {
+                "ru": "холл",
+                "en": "hall"
+            },
+            {
+                "ru": "вентилятор",
+                "en": "fan"
+            },
+            {
+                "ru": "домовладелец",
+                "en": "home owner"
+            },
+            {
+                "ru": "ставень",
+                "en": "shutter"
+            },
+            {
+                "ru": "раковина",
+                "en": "sink"
+            },
+            {
+                "ru": "батарея отопления",
+                "en": "radiator"
+            },
+            {
+                "ru": "отопление",
+                "en": "heating"
+            },
+            {
+                "ru": "печь",
+                "en": "stove"
+            },
+            {
+                "ru": "дрова",
+                "en": "firewood"
+            },
+            {
+                "ru": "общежитие",
+                "en": "hostel"
+            },
+            {
+                "ru": "подвал",
+                "en": "basement"
+            },
+            {
+                "ru": "апартаменты",
+                "en": "apartment"
+            },
+            {
+                "ru": "камин",
+                "en": "fireplace"
+            },
+            {
+                "ru": "линолеум",
+                "en": "linoleum"
+            },
+            {
+                "ru": "закрывать",
+                "en": "shut"
+            },
+            {
+                "ru": "уголь",
+                "en": "coal"
+            },
+            {
+                "ru": "детская",
+                "en": "nursery"
+            },
+            {
+                "ru": "лестничная площадка",
+                "en": "landing"
+            },
+            {
+                "ru": "дом",
+                "en": "house"
+            },
+            {
+                "ru": "крыша",
+                "en": "roof"
+            },
+            {
+                "ru": "гараж",
+                "en": "garage"
+            },
+            {
+                "ru": "дверь",
+                "en": "door"
+            },
+            {
+                "ru": "спальня",
+                "en": "bedroom"
+            },
+            {
+                "ru": "электричество",
+                "en": "electricity"
+            },
+            {
+                "ru": "бра",
+                "en": "wall light"
+            },
+            {
+                "ru": "стиральная машина",
+                "en": "washing machine"
+            },
+            {
+                "ru": "подъезд",
+                "en": "entrance"
+            }
+        ],
+        "category": "Дом"
+    },
+    {
+        "category_id": 13,
+        "words": [
+            {
+                "ru": "спешить",
+                "en": "hurry"
+            },
+            {
+                "ru": "кивать",
+                "en": "nod"
+            },
+            {
+                "ru": "поворачиваться",
+                "en": "turn"
+            },
+            {
+                "ru": "вращаться",
+                "en": "rotate"
+            },
+            {
+                "ru": "восходить",
+                "en": "ascend"
+            },
+            {
+                "ru": "следовать",
+                "en": "follow"
+            },
+            {
+                "ru": "грести",
+                "en": "row"
+            },
+            {
+                "ru": "гнуть",
+                "en": "bend"
+            },
+            {
+                "ru": "идти вдоль",
+                "en": "go along"
+            },
+            {
+                "ru": "тянуть",
+                "en": "pull"
+            },
+            {
+                "ru": "скакать",
+                "en": "ride"
+            },
+            {
+                "ru": "мчаться",
+                "en": "speed along"
+            },
+            {
+                "ru": "останавливаться",
+                "en": "stop"
+            },
+            {
+                "ru": "вводить",
+                "en": "enter"
+            },
+            {
+                "ru": "кататься на коньках",
+                "en": "skate"
+            },
+            {
+                "ru": "проходить мимо",
+                "en": "pass"
+            },
+            {
+                "ru": "натолкнуться",
+                "en": "come across"
+            },
+            {
+                "ru": "ускорять",
+                "en": "speed up"
+            },
+            {
+                "ru": "погружаться",
+                "en": "sink"
+            },
+            {
+                "ru": "приходить",
+                "en": "come"
+            },
+            {
+                "ru": "ронять",
+                "en": "drop"
+            },
+            {
+                "ru": "поднимать",
+                "en": "lift"
+            },
+            {
+                "ru": "опускать",
+                "en": "lower"
+            },
+            {
+                "ru": "трясти",
+                "en": "shake"
+            },
+            {
+                "ru": "кататься на лыжах",
+                "en": "ski"
+            },
+            {
+                "ru": "взбираться",
+                "en": "climb"
+            },
+            {
+                "ru": "встречаться",
+                "en": "meet"
+            },
+            {
+                "ru": "прибывать",
+                "en": "arrive"
+            },
+            {
+                "ru": "плыть",
+                "en": "swim"
+            },
+            {
+                "ru": "продвигаться",
+                "en": "advance"
+            },
+            {
+                "ru": "раскачиваться",
+                "en": "swing"
+            },
+            {
+                "ru": "махать рукой",
+                "en": "wave"
+            },
+            {
+                "ru": "отправляться",
+                "en": "leave"
+            },
+            {
+                "ru": "дрожать",
+                "en": "tremble"
+            },
+            {
+                "ru": "догонять",
+                "en": "catch up"
+            },
+            {
+                "ru": "возвращаться",
+                "en": "return"
+            },
+            {
+                "ru": "нырять",
+                "en": "dive"
+            },
+            {
+                "ru": "повернуть налево",
+                "en": "turn left"
+            },
+            {
+                "ru": "идти под парусом",
+                "en": "sail"
+            },
+            {
+                "ru": "падать",
+                "en": "fall"
+            },
+            {
+                "ru": "двигаться",
+                "en": "move"
+            },
+            {
+                "ru": "идти",
+                "en": "go"
+            },
+            {
+                "ru": "подниматься",
+                "en": "rise"
+            },
+            {
+                "ru": "лететь",
+                "en": "fly"
+            },
+            {
+                "ru": "избегать",
+                "en": "avoid"
+            },
+            {
+                "ru": "тормозить",
+                "en": "brake"
+            },
+            {
+                "ru": "преследовать",
+                "en": "pursue"
+            },
+            {
+                "ru": "повернуть направо",
+                "en": "turn right"
+            },
+            {
+                "ru": "качать",
+                "en": "rock"
+            },
+            {
+                "ru": "прыгать",
+                "en": "jump"
+            },
+            {
+                "ru": "ползти",
+                "en": "crawl"
+            },
+            {
+                "ru": "гулять",
+                "en": "walk"
+            },
+            {
+                "ru": "убежать",
+                "en": "escape"
+            },
+            {
+                "ru": "колебаться",
+                "en": "hesitate"
+            },
+            {
+                "ru": "всплывать",
+                "en": "emerge"
+            },
+            {
+                "ru": "входить",
+                "en": "go in"
+            },
+            {
+                "ru": "оставлять позади",
+                "en": "leave behind"
+            },
+            {
+                "ru": "замедлять",
+                "en": "slow down"
+            },
+            {
+                "ru": "танцевать",
+                "en": "dance"
+            },
+            {
+                "ru": "бежать",
+                "en": "run"
+            },
+            {
+                "ru": "катить",
+                "en": "roll"
+            },
+            {
+                "ru": "тонуть",
+                "en": "drown"
+            },
+            {
+                "ru": "выходить",
+                "en": "go out"
+            },
+            {
+                "ru": "перегонять",
+                "en": "surpass"
+            },
+            {
+                "ru": "врезаться в",
+                "en": "run into"
+            },
+            {
+                "ru": "схватить",
+                "en": "catch"
+            },
+            {
+                "ru": "спускаться",
+                "en": "descend"
+            },
+            {
+                "ru": "тащиться",
+                "en": "drag along"
+            },
+            {
+                "ru": "спасаться бегством",
+                "en": "flee"
+            },
+            {
+                "ru": "пересекать",
+                "en": "cross"
+            },
+            {
+                "ru": "скользить",
+                "en": "slide"
+            },
+            {
+                "ru": "гнать",
+                "en": "drive"
+            },
+            {
+                "ru": "достигать",
+                "en": "reach"
+            },
+            {
+                "ru": "плавать",
+                "en": "swim"
+            }
+        ],
+        "category": "Движение"
+    },
+    {
+        "category_id": 14,
+        "words": [
+            {
+                "ru": "орехи",
+                "en": "nuts"
+            },
+            {
+                "ru": "банан",
+                "en": "banana"
+            },
+            {
+                "ru": "ягода",
+                "en": "berry"
+            },
+            {
+                "ru": "смородина",
+                "en": "blackberries"
+            },
+            {
+                "ru": "гранат",
+                "en": "pomegranate"
+            },
+            {
+                "ru": "фрукты",
+                "en": "fruit"
+            },
+            {
+                "ru": "грецкий орех",
+                "en": "walnut"
+            },
+            {
+                "ru": "абрикос",
+                "en": "apricot"
+            },
+            {
+                "ru": "красная смородина",
+                "en": "red currants"
+            },
+            {
+                "ru": "клюква",
+                "en": "cranberry"
+            },
+            {
+                "ru": "ананас",
+                "en": "pineapple"
+            },
+            {
+                "ru": "яблоко",
+                "en": "apple"
+            },
+            {
+                "ru": "манго",
+                "en": "mango"
+            },
+            {
+                "ru": "грейпфрут",
+                "en": "grapefruit"
+            },
+            {
+                "ru": "апельсин",
+                "en": "orange"
+            },
+            {
+                "ru": "клубника",
+                "en": "strawberry"
+            },
+            {
+                "ru": "фундук",
+                "en": "hazelnut"
+            },
+            {
+                "ru": "финик",
+                "en": "date"
+            },
+            {
+                "ru": "мандарин",
+                "en": "tangerine"
+            },
+            {
+                "ru": "черная смородина",
+                "en": "black currants"
+            },
+            {
+                "ru": "малина",
+                "en": "raspberries"
+            },
+            {
+                "ru": "инжир",
+                "en": "fig"
+            },
+            {
+                "ru": "виноград",
+                "en": "grapes"
+            },
+            {
+                "ru": "вишня",
+                "en": "cherry"
+            },
+            {
+                "ru": "черешня",
+                "en": "sweet cherry"
+            },
+            {
+                "ru": "дыня",
+                "en": "melon"
+            },
+            {
+                "ru": "слива",
+                "en": "plum"
+            },
+            {
+                "ru": "персик",
+                "en": "peach"
+            },
+            {
+                "ru": "арбуз",
+                "en": "watermelon"
+            },
+            {
+                "ru": "груша",
+                "en": "pear"
+            },
+            {
+                "ru": "лемон",
+                "en": "lemon"
+            },
+            {
+                "ru": "киви",
+                "en": "kiwi fruit"
+            },
+            {
+                "ru": "хурма",
+                "en": "persimmon"
+            },
+            {
+                "ru": "крыжовник",
+                "en": "gooseberries"
+            },
+            {
+                "ru": "черника",
+                "en": "blueberries"
+            }
+        ],
+        "category": "Фрукты"
+    },
+    {
+        "category_id": 15,
+        "words": [
+            {
+                "ru": "автомобиль",
+                "en": "car"
+            },
+            {
+                "ru": "метро",
+                "en": "underground"
+            },
+            {
+                "ru": "бензин",
+                "en": "penrol"
+            },
+            {
+                "ru": "аккумулятор",
+                "en": "accumulator"
+            },
+            {
+                "ru": "стоимость проезда",
+                "en": "fare"
+            },
+            {
+                "ru": "грузить",
+                "en": "load"
+            },
+            {
+                "ru": "шоссе",
+                "en": "highway"
+            },
+            {
+                "ru": "коробка передач",
+                "en": "gear box"
+            },
+            {
+                "ru": "светофор",
+                "en": "traffic lights"
+            },
+            {
+                "ru": "запасное колесо",
+                "en": "spare wheel"
+            },
+            {
+                "ru": "троллейбус",
+                "en": "trolleybus"
+            },
+            {
+                "ru": "сесть в транспорт",
+                "en": "get on"
+            },
+            {
+                "ru": "дворник",
+                "en": "windscreen wiper"
+            },
+            {
+                "ru": "такси",
+                "en": "taxi"
+            },
+            {
+                "ru": "железнодорожный вокзал",
+                "en": "railway station"
+            },
+            {
+                "ru": "транспорт",
+                "en": "transport"
+            },
+            {
+                "ru": "ряд",
+                "en": "lane"
+            },
+            {
+                "ru": "тягач",
+                "en": "hauler"
+            },
+            {
+                "ru": "передний мост",
+                "en": "front axle"
+            },
+            {
+                "ru": "автобус",
+                "en": "coach"
+            },
+            {
+                "ru": "водительские права",
+                "en": "driving license"
+            },
+            {
+                "ru": "автовокзал",
+                "en": "bus terminal"
+            },
+            {
+                "ru": "отплывать",
+                "en": "sail off"
+            },
+            {
+                "ru": "заправочная станция",
+                "en": "petrol station"
+            },
+            {
+                "ru": "эстакада",
+                "en": "flyover"
+            },
+            {
+                "ru": "колесо",
+                "en": "wheel"
+            },
+            {
+                "ru": "перевозка",
+                "en": "shipping"
+            },
+            {
+                "ru": "карта дорог",
+                "en": "road map"
+            },
+            {
+                "ru": "транспортировка",
+                "en": "transportation"
+            },
+            {
+                "ru": "вокзал",
+                "en": "station"
+            },
+            {
+                "ru": "железная дорога",
+                "en": "railroad"
+            },
+            {
+                "ru": "ветровое стекло",
+                "en": "windscreen"
+            },
+            {
+                "ru": "пешеходный переход",
+                "en": "crosswalk"
+            },
+            {
+                "ru": "пешеход",
+                "en": "pedestrian"
+            },
+            {
+                "ru": "водить машину",
+                "en": "drive"
+            },
+            {
+                "ru": "речной вокзал",
+                "en": "river-boat station"
+            },
+            {
+                "ru": "тормоз",
+                "en": "brake"
+            },
+            {
+                "ru": "автоцистерна",
+                "en": "rank track"
+            },
+            {
+                "ru": "топливный бак",
+                "en": "fuel tank"
+            },
+            {
+                "ru": "паром",
+                "en": "ferry"
+            },
+            {
+                "ru": "мотоцикл",
+                "en": "motorbike"
+            },
+            {
+                "ru": "сцепление",
+                "en": "clutch"
+            },
+            {
+                "ru": "уезжать",
+                "en": "leave"
+            },
+            {
+                "ru": "авария",
+                "en": "crash"
+            },
+            {
+                "ru": "пробка",
+                "en": "traffic jam"
+            },
+            {
+                "ru": "трамвай",
+                "en": "tram"
+            },
+            {
+                "ru": "по расписанию",
+                "en": "as scheduled"
+            },
+            {
+                "ru": "педаль газа",
+                "en": "accelerator"
+            },
+            {
+                "ru": "несчастный случай",
+                "en": "accident"
+            },
+            {
+                "ru": "подушка безопасности",
+                "en": "air bag"
+            },
+            {
+                "ru": "карданный вал",
+                "en": "driveshaft"
+            },
+            {
+                "ru": "трамвайная линия",
+                "en": "tramline"
+            },
+            {
+                "ru": "прицеп",
+                "en": "trailer"
+            },
+            {
+                "ru": "водитель",
+                "en": "driver"
+            },
+            {
+                "ru": "багажное отделение",
+                "en": "luggage compartment"
+            },
+            {
+                "ru": "прибыть",
+                "en": "arrive"
+            },
+            {
+                "ru": "кабина",
+                "en": "cab"
+            },
+            {
+                "ru": "остановка",
+                "en": "stop"
+            },
+            {
+                "ru": "выходить",
+                "en": "get off"
+            },
+            {
+                "ru": "высшая передача",
+                "en": "top gear"
+            },
+            {
+                "ru": "фары",
+                "en": "headlights"
+            },
+            {
+                "ru": "груз",
+                "en": "cargo"
+            },
+            {
+                "ru": "свеча зажигания",
+                "en": "spark plug"
+            },
+            {
+                "ru": "камера хранения",
+                "en": "left-luggage office"
+            },
+            {
+                "ru": "грунтовая дорога",
+                "en": "dirt road"
+            },
+            {
+                "ru": "дорога",
+                "en": "road"
+            },
+            {
+                "ru": "шина",
+                "en": "tyre"
+            },
+            {
+                "ru": "дорожные знаки",
+                "en": "road sights"
+            },
+            {
+                "ru": "ехать",
+                "en": "go"
+            },
+            {
+                "ru": "велосипедист",
+                "en": "cyclist"
+            },
+            {
+                "ru": "контроллер",
+                "en": "ticket inspector"
+            },
+            {
+                "ru": "составление маршрута",
+                "en": "routing"
+            },
+            {
+                "ru": "пересадка",
+                "en": "change"
+            },
+            {
+                "ru": "корабль",
+                "en": "ship"
+            },
+            {
+                "ru": "багажник",
+                "en": "trunk"
+            },
+            {
+                "ru": "ручной багаж",
+                "en": "hand luggage"
+            },
+            {
+                "ru": "грузовик",
+                "en": "truck"
+            },
+            {
+                "ru": "оель",
+                "en": "steering wheel"
+            },
+            {
+                "ru": "быстроходный катер",
+                "en": "speedboat"
+            },
+            {
+                "ru": "касса",
+                "en": "ticket office"
+            },
+            {
+                "ru": "передача",
+                "en": "gear"
+            },
+            {
+                "ru": "железнодорожный транспорт",
+                "en": "railway transport"
+            },
+            {
+                "ru": "автофургон",
+                "en": "van"
+            },
+            {
+                "ru": "задний мост",
+                "en": "rear axle"
+            },
+            {
+                "ru": "самосвал",
+                "en": "dump track"
+            },
+            {
+                "ru": "билет",
+                "en": "ticket"
+            },
+            {
+                "ru": "воздушный шар",
+                "en": "hot air ballon"
+            },
+            {
+                "ru": "пассажирский транспорт",
+                "en": "passenger traffic"
+            },
+            {
+                "ru": "бронировать",
+                "en": "book"
+            },
+            {
+                "ru": "парковка",
+                "en": "parking"
+            },
+            {
+                "ru": "прибытие",
+                "en": "arrival"
+            },
+            {
+                "ru": "страховка",
+                "en": "insurance"
+            },
+            {
+                "ru": "обгонять",
+                "en": "overtake"
+            },
+            {
+                "ru": "маршрут",
+                "en": "route"
+            },
+            {
+                "ru": "сообщение",
+                "en": "communication"
+            },
+            {
+                "ru": "безбилетный пассажир",
+                "en": "stowaway"
+            },
+            {
+                "ru": "ремень безопасности",
+                "en": "seat belt"
+            },
+            {
+                "ru": "лодка",
+                "en": "boat"
+            },
+            {
+                "ru": "первая передача",
+                "en": "low gear"
+            },
+            {
+                "ru": "двигатель",
+                "en": "engine"
+            },
+            {
+                "ru": "часы пик",
+                "en": "rush hours"
+            },
+            {
+                "ru": "воздушный транспорт",
+                "en": "air transport"
+            },
+            {
+                "ru": "отбытие",
+                "en": "departure"
+            },
+            {
+                "ru": "дизельное топливо",
+                "en": "diesel fuel"
+            },
+            {
+                "ru": "капот",
+                "en": "bonnet"
+            },
+            {
+                "ru": "подсос",
+                "en": "choke"
+            },
+            {
+                "ru": "билет в оба конца",
+                "en": "return ticket"
+            },
+            {
+                "ru": "морской транспорт",
+                "en": "sea transport"
+            },
+            {
+                "ru": "подземный переход",
+                "en": "underground passage"
+            },
+            {
+                "ru": "ущерб",
+                "en": "damage"
+            },
+            {
+                "ru": "автопарк",
+                "en": "autopark"
+            },
+            {
+                "ru": "пассажир",
+                "en": "passenger"
+            },
+            {
+                "ru": "подъездная дорога",
+                "en": "access road"
+            },
+            {
+                "ru": "самолет",
+                "en": "aeroplane"
+            },
+            {
+                "ru": "разгружать",
+                "en": "unload"
+            },
+            {
+                "ru": "расписание",
+                "en": "schedule"
+            },
+            {
+                "ru": "мотоциклист",
+                "en": "motorcyclist"
+            },
+            {
+                "ru": "автомобильный транспорт",
+                "en": "motor transport"
+            },
+            {
+                "ru": "заяц(о безбилетном пассажире)",
+                "en": "fare dodger"
+            },
+            {
+                "ru": "зажигание",
+                "en": "ignition"
+            },
+            {
+                "ru": "гараж",
+                "en": "garage"
+            },
+            {
+                "ru": "багаж",
+                "en": "luggage"
+            },
+            {
+                "ru": "распределительный вал",
+                "en": "distribution shaft"
+            },
+            {
+                "ru": "бампер",
+                "en": "bumper"
+            },
+            {
+                "ru": "вертолет",
+                "en": "helicopter"
+            },
+            {
+                "ru": "ступица",
+                "en": "hub"
+            },
+            {
+                "ru": "мопед",
+                "en": "moped"
+            },
+            {
+                "ru": "бензобак",
+                "en": "petrol tank"
+            },
+            {
+                "ru": "конечная станция",
+                "en": "terminal"
+            },
+            {
+                "ru": "отбывать",
+                "en": "depart"
+            }
+        ],
+        "category": "Транспорт"
+    },
+    {
+        "category_id": 16,
+        "words": [
+            {
+                "ru": "графин",
+                "en": "carafe"
+            },
+            {
+                "ru": "подавать к столу",
+                "en": "serve up"
+            },
+            {
+                "ru": "салфетка",
+                "en": "napkin"
+            },
+            {
+                "ru": "кухонная посуда",
+                "en": "kitchenware"
+            },
+            {
+                "ru": "кастрюля",
+                "en": "saucepan"
+            },
+            {
+                "ru": "чайный сервиз",
+                "en": "tea set"
+            },
+            {
+                "ru": "кувшин",
+                "en": "jug"
+            },
+            {
+                "ru": "чайник для кипячения",
+                "en": "kettle"
+            },
+            {
+                "ru": "графин для вина",
+                "en": "decanter"
+            },
+            {
+                "ru": "кофейник",
+                "en": "coffeepot"
+            },
+            {
+                "ru": "рюмка",
+                "en": "wine glass"
+            },
+            {
+                "ru": "поднос",
+                "en": "tray"
+            },
+            {
+                "ru": "сервиз",
+                "en": "service"
+            },
+            {
+                "ru": "хрусталь",
+                "en": "cut-glass ware"
+            },
+            {
+                "ru": "чайная посуда",
+                "en": "tea things"
+            },
+            {
+                "ru": "посуда",
+                "en": "crockery"
+            },
+            {
+                "ru": "стеклянная посуда",
+                "en": "glassware"
+            },
+            {
+                "ru": "крышка",
+                "en": "cover"
+            },
+            {
+                "ru": "кипятильник",
+                "en": "immersion heater"
+            },
+            {
+                "ru": "скатерть",
+                "en": "table cloth"
+            },
+            {
+                "ru": "блюдце",
+                "en": "sauser"
+            },
+            {
+                "ru": "чайная ложка",
+                "en": "teaspoon"
+            },
+            {
+                "ru": "тарелка",
+                "en": "plate"
+            },
+            {
+                "ru": "солонка",
+                "en": "saltcellar"
+            },
+            {
+                "ru": "консервная банка",
+                "en": "can"
+            },
+            {
+                "ru": "нож",
+                "en": "knife"
+            },
+            {
+                "ru": "чайник",
+                "en": "teapot"
+            },
+            {
+                "ru": "чашка",
+                "en": "cup"
+            },
+            {
+                "ru": "накрывать на стол",
+                "en": "lay the table"
+            },
+            {
+                "ru": "салатница",
+                "en": "salad bowl"
+            },
+            {
+                "ru": "кружка",
+                "en": "mug"
+            },
+            {
+                "ru": "ложка",
+                "en": "spoon"
+            },
+            {
+                "ru": "вилка",
+                "en": "fork"
+            },
+            {
+                "ru": "сковорода",
+                "en": "frying pan"
+            },
+            {
+                "ru": "бокал",
+                "en": "goblet"
+            },
+            {
+                "ru": "термос",
+                "en": "thermos"
+            },
+            {
+                "ru": "банка",
+                "en": "jar"
+            },
+            {
+                "ru": "стакан",
+                "en": "glass"
+            },
+            {
+                "ru": "мясорубка",
+                "en": "meat mincer"
+            }
+        ],
+        "category": "Кухонные приборы"
+    },
+    {
+        "category_id": 17,
+        "words": [
+            {
+                "ru": "непогода",
+                "en": "bad weather"
+            },
+            {
+                "ru": "наводнение",
+                "en": "flood"
+            },
+            {
+                "ru": "лед",
+                "en": "ice"
+            },
+            {
+                "ru": "метеорология",
+                "en": "meteorology"
+            },
+            {
+                "ru": "субтропический",
+                "en": "subtropical"
+            },
+            {
+                "ru": "ясный",
+                "en": "clear"
+            },
+            {
+                "ru": "гром",
+                "en": "thunder"
+            },
+            {
+                "ru": "иней",
+                "en": "hoarfrost"
+            },
+            {
+                "ru": "теплый",
+                "en": "warm"
+            },
+            {
+                "ru": "снегопад",
+                "en": "snowfall"
+            },
+            {
+                "ru": "осадки",
+                "en": "precipitation"
+            },
+            {
+                "ru": "мороз",
+                "en": "frost"
+            },
+            {
+                "ru": "гроза",
+                "en": "thunderstorm"
+            },
+            {
+                "ru": "погода",
+                "en": "weather"
+            },
+            {
+                "ru": "климат",
+                "en": "climate"
+            },
+            {
+                "ru": "прохладный",
+                "en": "cool"
+            },
+            {
+                "ru": "похолодание",
+                "en": "cold spell"
+            },
+            {
+                "ru": "потепление",
+                "en": "warmer spell"
+            },
+            {
+                "ru": "метеоролог",
+                "en": "meteorologist"
+            },
+            {
+                "ru": "влажный",
+                "en": "humid"
+            },
+            {
+                "ru": "тропики",
+                "en": "tropics"
+            },
+            {
+                "ru": "морозный",
+                "en": "frosty"
+            },
+            {
+                "ru": "облако",
+                "en": "cloud"
+            },
+            {
+                "ru": "климатические пояса",
+                "en": "zones"
+            },
+            {
+                "ru": "холодный",
+                "en": "cold"
+            },
+            {
+                "ru": "буря",
+                "en": "gale"
+            },
+            {
+                "ru": "засуха",
+                "en": "drought"
+            },
+            {
+                "ru": "жаркий",
+                "en": "hot"
+            },
+            {
+                "ru": "дождь",
+                "en": "rain"
+            },
+            {
+                "ru": "ураган",
+                "en": "hurricane"
+            },
+            {
+                "ru": "снег",
+                "en": "snow"
+            },
+            {
+                "ru": "град",
+                "en": "hail"
+            },
+            {
+                "ru": "умеренный",
+                "en": "moderate"
+            },
+            {
+                "ru": "туча",
+                "en": "rain cloud"
+            },
+            {
+                "ru": "сугробы",
+                "en": "snowdrift"
+            },
+            {
+                "ru": "метель",
+                "en": "snowstorm"
+            },
+            {
+                "ru": "ветер",
+                "en": "wind"
+            },
+            {
+                "ru": "шторм",
+                "en": "storm"
+            },
+            {
+                "ru": "извержение вулкана",
+                "en": "eruption"
+            },
+            {
+                "ru": "землетрясение",
+                "en": "earthquake"
+            },
+            {
+                "ru": "зной",
+                "en": "heat"
+            },
+            {
+                "ru": "лужа",
+                "en": "pool"
+            },
+            {
+                "ru": "сырой",
+                "en": "wet"
+            },
+            {
+                "ru": "туман",
+                "en": "fog"
+            },
+            {
+                "ru": "ясная погода",
+                "en": "sunshine"
+            },
+            {
+                "ru": "тропический",
+                "en": "tropical"
+            },
+            {
+                "ru": "цунами",
+                "en": "tidal wave"
+            },
+            {
+                "ru": "смерч",
+                "en": "tornado"
+            },
+            {
+                "ru": "молния",
+                "en": "lightning"
+            }
+        ],
+        "category": "Погода"
+    },
+    {
+        "category_id": 18,
+        "words": [
+            {
+                "ru": "улица",
+                "en": "street"
+            },
+            {
+                "ru": "ворота",
+                "en": "gate"
+            },
+            {
+                "ru": "приморский бульвар",
+                "en": "sea front"
+            },
+            {
+                "ru": "городские власти",
+                "en": "municipal authorities"
+            },
+            {
+                "ru": "местный житель",
+                "en": "inhabitant"
+            },
+            {
+                "ru": "сельское население",
+                "en": "rural people"
+            },
+            {
+                "ru": "городское население",
+                "en": "townspeople"
+            },
+            {
+                "ru": "небоскреб",
+                "en": "skyscraper"
+            },
+            {
+                "ru": "картинная галерея",
+                "en": "art gallery"
+            },
+            {
+                "ru": "амбар",
+                "en": "barn"
+            },
+            {
+                "ru": "библиотека",
+                "en": "library"
+            },
+            {
+                "ru": "деревня",
+                "en": "village"
+            },
+            {
+                "ru": "перекресток",
+                "en": "crossroads"
+            },
+            {
+                "ru": "районный совет",
+                "en": "district council"
+            },
+            {
+                "ru": "булыжная мостовая",
+                "en": "cobbed road"
+            },
+            {
+                "ru": "район",
+                "en": "district"
+            },
+            {
+                "ru": "памятник",
+                "en": "monument"
+            },
+            {
+                "ru": "небольшой город",
+                "en": "town"
+            },
+            {
+                "ru": "собор",
+                "en": "cathedral"
+            },
+            {
+                "ru": "население",
+                "en": "population"
+            },
+            {
+                "ru": "зоопарк",
+                "en": "zoo"
+            },
+            {
+                "ru": "церковь",
+                "en": "church"
+            },
+            {
+                "ru": "музей",
+                "en": "museum"
+            },
+            {
+                "ru": "пригород",
+                "en": "suburb"
+            },
+            {
+                "ru": "столб",
+                "en": "pole"
+            },
+            {
+                "ru": "изба",
+                "en": "hut"
+            },
+            {
+                "ru": "склад",
+                "en": "store"
+            },
+            {
+                "ru": "торговый центр",
+                "en": "shopping centre"
+            },
+            {
+                "ru": "столица",
+                "en": "capital"
+            },
+            {
+                "ru": "загородный",
+                "en": "country"
+            },
+            {
+                "ru": "загородный дом",
+                "en": "country house"
+            },
+            {
+                "ru": "жилье",
+                "en": "accommodation"
+            },
+            {
+                "ru": "центр города",
+                "en": "city centre"
+            },
+            {
+                "ru": "площадь",
+                "en": "square"
+            },
+            {
+                "ru": "сарай",
+                "en": "shed"
+            },
+            {
+                "ru": "помещение",
+                "en": "room"
+            },
+            {
+                "ru": "коттедж",
+                "en": "living cottage"
+            },
+            {
+                "ru": "центральный",
+                "en": "central"
+            },
+            {
+                "ru": "пригородный",
+                "en": "suburban"
+            },
+            {
+                "ru": "большой город",
+                "en": "city"
+            },
+            {
+                "ru": "двор",
+                "en": "yard"
+            },
+            {
+                "ru": "проспект",
+                "en": "avenue"
+            },
+            {
+                "ru": "дача",
+                "en": "dacha"
+            },
+            {
+                "ru": "городской житель",
+                "en": "town dweller"
+            },
+            {
+                "ru": "городской",
+                "en": "urban"
+            },
+            {
+                "ru": "набережная",
+                "en": "quay"
+            },
+            {
+                "ru": "деревенский житель",
+                "en": "countryman"
+            },
+            {
+                "ru": "здание",
+                "en": "building"
+            },
+            {
+                "ru": "квартал",
+                "en": "quartel"
+            },
+            {
+                "ru": "переулок",
+                "en": "lane"
+            },
+            {
+                "ru": "дворец",
+                "en": "palace"
+            },
+            {
+                "ru": "сельский",
+                "en": "rural"
+            },
+            {
+                "ru": "провинциальный",
+                "en": "provincial"
+            },
+            {
+                "ru": "пригородный поезд",
+                "en": "local train"
+            },
+            {
+                "ru": "вилла",
+                "en": "villa"
+            },
+            {
+                "ru": "автостоянка",
+                "en": "car park"
+            },
+            {
+                "ru": "окраины",
+                "en": "outskirts"
+            },
+            {
+                "ru": "житель",
+                "en": "resident"
+            },
+            {
+                "ru": "достопримечательности",
+                "en": "sights"
+            },
+            {
+                "ru": "фонтан",
+                "en": "fountain"
+            },
+            {
+                "ru": "мост",
+                "en": "bridge"
+            },
+            {
+                "ru": "микрорайон",
+                "en": "micro-district"
+            },
+            {
+                "ru": "дом",
+                "en": "house"
+            },
+            {
+                "ru": "бульвар",
+                "en": "sadewalk"
+            },
+            {
+                "ru": "фонарь",
+                "en": "light"
+            },
+            {
+                "ru": "монастырь",
+                "en": "monastery"
+            },
+            {
+                "ru": "глухой переулок",
+                "en": "dark alley"
+            },
+            {
+                "ru": "жилой дом",
+                "en": "apartment block"
+            },
+            {
+                "ru": "особняк",
+                "en": "mansion"
+            },
+            {
+                "ru": "парк",
+                "en": "park"
+            }
+        ],
+        "category": "Город"
+    },
+    {
+        "category_id": 19,
+        "words": [
+            {
+                "ru": "укроп",
+                "en": "dill"
+            },
+            {
+                "ru": "лук",
+                "en": "onion"
+            },
+            {
+                "ru": "соя",
+                "en": "soya"
+            },
+            {
+                "ru": "зеленый лук",
+                "en": "spring onion"
+            },
+            {
+                "ru": "огурцы",
+                "en": "cucumbers"
+            },
+            {
+                "ru": "тыква",
+                "en": "pumpkin"
+            },
+            {
+                "ru": "репчатый лук",
+                "en": "large onion"
+            },
+            {
+                "ru": "помидоры",
+                "en": "tomatoes"
+            },
+            {
+                "ru": "салат-латук",
+                "en": "lettuce"
+            },
+            {
+                "ru": "брокколи",
+                "en": "broccoli"
+            },
+            {
+                "ru": "болгарский перец",
+                "en": "capsicum"
+            },
+            {
+                "ru": "перец",
+                "en": "paprica"
+            },
+            {
+                "ru": "горох",
+                "en": "peas"
+            },
+            {
+                "ru": "овощи",
+                "en": "vegetables"
+            },
+            {
+                "ru": "картошка",
+                "en": "potatoes"
+            },
+            {
+                "ru": "шпинат",
+                "en": "spinach"
+            },
+            {
+                "ru": "перец (в зернах)",
+                "en": "pepper"
+            },
+            {
+                "ru": "бобы",
+                "en": "beans"
+            },
+            {
+                "ru": "капуста",
+                "en": "cabbage"
+            },
+            {
+                "ru": "кабачок",
+                "en": "marrow"
+            },
+            {
+                "ru": "свекла",
+                "en": "beetroot"
+            },
+            {
+                "ru": "морковь",
+                "en": "carrots"
+            },
+            {
+                "ru": "лук-порей",
+                "en": "leek"
+            },
+            {
+                "ru": "чеснок",
+                "en": "garlic"
+            },
+            {
+                "ru": "петрушка",
+                "en": "parsley"
+            },
+            {
+                "ru": "редис",
+                "en": "radish"
+            },
+            {
+                "ru": "салат",
+                "en": "salad"
+            },
+            {
+                "ru": "кабачки",
+                "en": "courgettes"
+            }
+        ],
+        "category": "Овощи"
+    },
+    {
+        "category_id": 20,
+        "words": [
+            {
+                "ru": "вести себя",
+                "en": "behave"
+            },
+            {
+                "ru": "невежда",
+                "en": "ignoramus"
+            },
+            {
+                "ru": "поздравить",
+                "en": "congratulate"
+            },
+            {
+                "ru": "грубый",
+                "en": "rude"
+            },
+            {
+                "ru": "прощаться",
+                "en": "say goodbye"
+            },
+            {
+                "ru": "интеллигентный",
+                "en": "cultured and educated"
+            },
+            {
+                "ru": "поведение",
+                "en": "behaviour"
+            },
+            {
+                "ru": "преступление",
+                "en": "crime"
+            },
+            {
+                "ru": "обнять",
+                "en": "embrace"
+            },
+            {
+                "ru": "выходка",
+                "en": "prank"
+            },
+            {
+                "ru": "нетактичный",
+                "en": "tactless"
+            },
+            {
+                "ru": "нецивилизованный",
+                "en": "uncivilized"
+            },
+            {
+                "ru": "поздравление",
+                "en": "congratulation"
+            },
+            {
+                "ru": "виноватый",
+                "en": "guilty"
+            },
+            {
+                "ru": "плохо себя вести",
+                "en": "misbehave"
+            },
+            {
+                "ru": "грубость",
+                "en": "rudeness"
+            },
+            {
+                "ru": "невежественный",
+                "en": "ignorant"
+            },
+            {
+                "ru": "простить",
+                "en": "forgive"
+            },
+            {
+                "ru": "хулиганство",
+                "en": "hooliganism"
+            },
+            {
+                "ru": "вина",
+                "en": "blame"
+            },
+            {
+                "ru": "воспитанный",
+                "en": "well-bread"
+            },
+            {
+                "ru": "драка",
+                "en": "fight"
+            },
+            {
+                "ru": "здороваться",
+                "en": "greet"
+            },
+            {
+                "ru": "пожелать",
+                "en": "wish"
+            },
+            {
+                "ru": "улыбаться",
+                "en": "smile"
+            },
+            {
+                "ru": "невоспитанный",
+                "en": "ill-bred"
+            },
+            {
+                "ru": "извинение",
+                "en": "apology"
+            },
+            {
+                "ru": "нарушение",
+                "en": "offense"
+            },
+            {
+                "ru": "хулиган",
+                "en": "hooligan"
+            },
+            {
+                "ru": "извиниться",
+                "en": "apologize"
+            },
+            {
+                "ru": "воспитание",
+                "en": "upbringing"
+            },
+            {
+                "ru": "прощение",
+                "en": "forgiveness"
+            },
+            {
+                "ru": "вежливый",
+                "en": "polite"
+            },
+            {
+                "ru": "целовать",
+                "en": "kiss"
+            },
+            {
+                "ru": "хвастаться",
+                "en": "boast"
+            },
+            {
+                "ru": "чувство вины",
+                "en": "guilt"
+            },
+            {
+                "ru": "невежливый",
+                "en": "impolite"
+            },
+            {
+                "ru": "проступок",
+                "en": "misconduct"
+            },
+            {
+                "ru": "культурный",
+                "en": "cultured"
+            },
+            {
+                "ru": "тактичный",
+                "en": "tactful"
+            },
+            {
+                "ru": "пожать руку",
+                "en": "shake hand"
+            }
+        ],
+        "category": "Характер"
+    },
+    {
+        "category_id": 21,
+        "words": [
+            {
+                "ru": "худеть",
+                "en": "grow thin"
+            },
+            {
+                "ru": "загорелый",
+                "en": "tanned"
+            },
+            {
+                "ru": "особые приметы",
+                "en": "distinguishing features"
+            },
+            {
+                "ru": "глаза",
+                "en": "eyes"
+            },
+            {
+                "ru": "русый",
+                "en": "light-brown"
+            },
+            {
+                "ru": "внешний вид",
+                "en": "appearance"
+            },
+            {
+                "ru": "кудрявые волосы",
+                "en": "curly hair"
+            },
+            {
+                "ru": "смуглый",
+                "en": "swarthy"
+            },
+            {
+                "ru": "рот",
+                "en": "mouth"
+            },
+            {
+                "ru": "сутулый",
+                "en": "stooped"
+            },
+            {
+                "ru": "черты лица",
+                "en": "features"
+            },
+            {
+                "ru": "брюнет",
+                "en": "dark-haired"
+            },
+            {
+                "ru": "горбатый",
+                "en": "hunchback"
+            },
+            {
+                "ru": "наружность",
+                "en": "exterior"
+            },
+            {
+                "ru": "лицо",
+                "en": "face"
+            },
+            {
+                "ru": "щуриться",
+                "en": "squint"
+            },
+            {
+                "ru": "рыжий",
+                "en": "red-haired"
+            },
+            {
+                "ru": "высокий (ростом)",
+                "en": "tall"
+            },
+            {
+                "ru": "телосложение",
+                "en": "build"
+            },
+            {
+                "ru": "коса",
+                "en": "plait"
+            },
+            {
+                "ru": "седой",
+                "en": "grey-haired"
+            },
+            {
+                "ru": "косичка",
+                "en": "pigtail"
+            },
+            {
+                "ru": "ресницы",
+                "en": "eyelashes"
+            },
+            {
+                "ru": "бледный",
+                "en": "pale"
+            },
+            {
+                "ru": "толстый",
+                "en": "stout"
+            },
+            {
+                "ru": "худой",
+                "en": "lean"
+            },
+            {
+                "ru": "низкий (ростом)",
+                "en": "short"
+            },
+            {
+                "ru": "лоб",
+                "en": "forehead"
+            },
+            {
+                "ru": "полнеть",
+                "en": "put on weight"
+            },
+            {
+                "ru": "карие глаза",
+                "en": "hazel eyes"
+            },
+            {
+                "ru": "плотный",
+                "en": "thickset"
+            },
+            {
+                "ru": "полный (мужчина)",
+                "en": "full-bodied"
+            },
+            {
+                "ru": "мускулистый",
+                "en": "muscular"
+            },
+            {
+                "ru": "слабый",
+                "en": "weak"
+            },
+            {
+                "ru": "шатен",
+                "en": "brown-haired"
+            },
+            {
+                "ru": "веснушки",
+                "en": "freckles"
+            },
+            {
+                "ru": "стройный",
+                "en": "well-built"
+            },
+            {
+                "ru": "полная (женщина)",
+                "en": "buxom"
+            },
+            {
+                "ru": "рост",
+                "en": "height"
+            },
+            {
+                "ru": "взгляд",
+                "en": "look"
+            },
+            {
+                "ru": "пристальный взгляд",
+                "en": "stare"
+            },
+            {
+                "ru": "курносый",
+                "en": "snub-nosed"
+            },
+            {
+                "ru": "блондин",
+                "en": "blond"
+            },
+            {
+                "ru": "средний (ростом)",
+                "en": "medium"
+            },
+            {
+                "ru": "широкоплечий",
+                "en": "broad-shouldered"
+            },
+            {
+                "ru": "коренастый",
+                "en": "stocky"
+            },
+            {
+                "ru": "гигант",
+                "en": "giant"
+            },
+            {
+                "ru": "хилый",
+                "en": "puny"
+            },
+            {
+                "ru": "силач",
+                "en": "strong man"
+            },
+            {
+                "ru": "тучный",
+                "en": "corpulent"
+            },
+            {
+                "ru": "сутулиться",
+                "en": "stoop"
+            },
+            {
+                "ru": "брови",
+                "en": "eyebrows"
+            },
+            {
+                "ru": "лысый",
+                "en": "bald"
+            }
+        ],
+        "category": "Внешний вид"
+    },
+    {
+        "category_id": 22,
+        "words": [
+            {
+                "ru": "дерматолог",
+                "en": "dermatologist"
+            },
+            {
+                "ru": "наркоман",
+                "en": "drug addict"
+            },
+            {
+                "ru": "поликлиника",
+                "en": "clinic"
+            },
+            {
+                "ru": "горчичник",
+                "en": "custard plaster"
+            },
+            {
+                "ru": "насморк",
+                "en": "runny nose"
+            },
+            {
+                "ru": "таблетка",
+                "en": "pill"
+            },
+            {
+                "ru": "катаракта",
+                "en": "cataract"
+            },
+            {
+                "ru": "лечиться",
+                "en": "undergo treatment"
+            },
+            {
+                "ru": "простудиться",
+                "en": "catch a cold"
+            },
+            {
+                "ru": "наркомания",
+                "en": "drug addiction"
+            },
+            {
+                "ru": "болеть",
+                "en": "be ill"
+            },
+            {
+                "ru": "аптека",
+                "en": "pharmacy"
+            },
+            {
+                "ru": "заболеть",
+                "en": "get ill"
+            },
+            {
+                "ru": "отоларинголог",
+                "en": "ear nose and throat specialist"
+            },
+            {
+                "ru": "инсульт",
+                "en": "stroke"
+            },
+            {
+                "ru": "компресс",
+                "en": "compress"
+            },
+            {
+                "ru": "ушиб",
+                "en": "bruise"
+            },
+            {
+                "ru": "термометр",
+                "en": "thermometer"
+            },
+            {
+                "ru": "дифтерия",
+                "en": "diphtheria"
+            },
+            {
+                "ru": "микстура",
+                "en": "mixture"
+            },
+            {
+                "ru": "здоровье",
+                "en": "health"
+            },
+            {
+                "ru": "родильный дом",
+                "en": "maternity hospital"
+            },
+            {
+                "ru": "анализ",
+                "en": "test"
+            },
+            {
+                "ru": "поправляться",
+                "en": "recover"
+            },
+            {
+                "ru": "аллергия",
+                "en": "allergy"
+            },
+            {
+                "ru": "контактный линзы",
+                "en": "eye-lenses"
+            },
+            {
+                "ru": "заболевание",
+                "en": "disease"
+            },
+            {
+                "ru": "здоровый",
+                "en": "healthy"
+            },
+            {
+                "ru": "кашель",
+                "en": "cough"
+            },
+            {
+                "ru": "заразить",
+                "en": "infect"
+            },
+            {
+                "ru": "невропатолог",
+                "en": "neurologist"
+            },
+            {
+                "ru": "выздоравливать",
+                "en": "get well"
+            },
+            {
+                "ru": "нагноение",
+                "en": "festering"
+            },
+            {
+                "ru": "зубной врач",
+                "en": "dentist"
+            },
+            {
+                "ru": "обморок",
+                "en": "faint"
+            },
+            {
+                "ru": "лечение",
+                "en": "cure"
+            },
+            {
+                "ru": "лекарство",
+                "en": "medicine"
+            },
+            {
+                "ru": "перелом",
+                "en": "fracture"
+            },
+            {
+                "ru": "капельница",
+                "en": "drip"
+            },
+            {
+                "ru": "инфекционный",
+                "en": "infectious"
+            },
+            {
+                "ru": "диагноз",
+                "en": "diagnosis"
+            },
+            {
+                "ru": "близорукость",
+                "en": "short-sightedness"
+            },
+            {
+                "ru": "операция",
+                "en": "operation"
+            },
+            {
+                "ru": "рак",
+                "en": "cancer"
+            },
+            {
+                "ru": "простуда",
+                "en": "cold"
+            },
+            {
+                "ru": "массаж",
+                "en": "massage"
+            },
+            {
+                "ru": "радикулит",
+                "en": "lower back pain"
+            },
+            {
+                "ru": "гастроэнтеролог",
+                "en": "gastroenterologist"
+            },
+            {
+                "ru": "пациент",
+                "en": "patient"
+            },
+            {
+                "ru": "спид",
+                "en": "aids"
+            },
+            {
+                "ru": "рвота",
+                "en": "vomiting"
+            },
+            {
+                "ru": "скарлатина",
+                "en": "scarlet fever"
+            },
+            {
+                "ru": "сыпь",
+                "en": "rash"
+            },
+            {
+                "ru": "инфаркт",
+                "en": "heart attack"
+            },
+            {
+                "ru": "порез",
+                "en": "cut"
+            },
+            {
+                "ru": "сестра",
+                "en": "nurse"
+            },
+            {
+                "ru": "доктор",
+                "en": "doctor"
+            },
+            {
+                "ru": "терапевт",
+                "en": "general practitioner"
+            },
+            {
+                "ru": "гайморит",
+                "en": "sinusitis"
+            },
+            {
+                "ru": "диабет",
+                "en": "diabetes"
+            },
+            {
+                "ru": "госпиталь",
+                "en": "military hospital"
+            },
+            {
+                "ru": "бронхит",
+                "en": "bronchitis"
+            },
+            {
+                "ru": "рана",
+                "en": "wound"
+            },
+            {
+                "ru": "астма",
+                "en": "asthma"
+            },
+            {
+                "ru": "рентген",
+                "en": "x-ray"
+            },
+            {
+                "ru": "воспаление легких",
+                "en": "pneumonia"
+            },
+            {
+                "ru": "головная боль",
+                "en": "headache"
+            },
+            {
+                "ru": "слепота",
+                "en": "blindness"
+            },
+            {
+                "ru": "ожог",
+                "en": "burn"
+            },
+            {
+                "ru": "психотерапевт",
+                "en": "psychotherapist"
+            },
+            {
+                "ru": "приступ",
+                "en": "attack"
+            },
+            {
+                "ru": "мазь",
+                "en": "ointment"
+            },
+            {
+                "ru": "аппендицит",
+                "en": "appendicitis"
+            },
+            {
+                "ru": "уролог",
+                "en": "urologist"
+            },
+            {
+                "ru": "чихать",
+                "en": "sneeze"
+            },
+            {
+                "ru": "алкоголик",
+                "en": "alcoholic"
+            },
+            {
+                "ru": "алкоголизм",
+                "en": "alcoholism"
+            },
+            {
+                "ru": "осмотр",
+                "en": "examination"
+            },
+            {
+                "ru": "перевязка",
+                "en": "bandaging"
+            },
+            {
+                "ru": "головокружение",
+                "en": "giddiness"
+            },
+            {
+                "ru": "здравоохранение",
+                "en": "health care"
+            },
+            {
+                "ru": "грипп",
+                "en": "flu"
+            },
+            {
+                "ru": "невралгия",
+                "en": "neuralgia"
+            },
+            {
+                "ru": "рецепт",
+                "en": "prescription"
+            },
+            {
+                "ru": "орз",
+                "en": "acute respiratory disease"
+            },
+            {
+                "ru": "нарыв",
+                "en": "abscess"
+            },
+            {
+                "ru": "чувствовать себя",
+                "en": "feel"
+            },
+            {
+                "ru": "боль",
+                "en": "pain"
+            },
+            {
+                "ru": "корь",
+                "en": "measles"
+            },
+            {
+                "ru": "дальнозоркость",
+                "en": "long-sightedness"
+            },
+            {
+                "ru": "гинеколог",
+                "en": "gynecologist"
+            },
+            {
+                "ru": "банки",
+                "en": "cupping glassed"
+            },
+            {
+                "ru": "потеть",
+                "en": "perspire"
+            },
+            {
+                "ru": "ангина",
+                "en": "sore throat"
+            },
+            {
+                "ru": "справка",
+                "en": "sick-leave certificate"
+            },
+            {
+                "ru": "болезнь",
+                "en": "illness"
+            },
+            {
+                "ru": "онколог",
+                "en": "oncologist"
+            },
+            {
+                "ru": "туберкулез",
+                "en": "tuberculosis"
+            },
+            {
+                "ru": "эндокринолог",
+                "en": "endocrinologist"
+            },
+            {
+                "ru": "йод",
+                "en": "iodine"
+            },
+            {
+                "ru": "заразиться",
+                "en": "catch"
+            },
+            {
+                "ru": "клаукома",
+                "en": "glaucoma"
+            },
+            {
+                "ru": "педиатр",
+                "en": "pediatrician"
+            },
+            {
+                "ru": "скорая помощь (автомобиль)",
+                "en": "ambulance"
+            },
+            {
+                "ru": "офтальмолог",
+                "en": "ophthalmologist"
+            },
+            {
+                "ru": "паралич",
+                "en": "paralysis"
+            },
+            {
+                "ru": "пластырь",
+                "en": "plaster"
+            },
+            {
+                "ru": "воспаление",
+                "en": "inflammation"
+            },
+            {
+                "ru": "хирург",
+                "en": "surgeon"
+            },
+            {
+                "ru": "зажить",
+                "en": "heal"
+            },
+            {
+                "ru": "травма психическая",
+                "en": "trauma"
+            },
+            {
+                "ru": "медпункт",
+                "en": "first-aid post"
+            },
+            {
+                "ru": "осмотреть",
+                "en": "examine"
+            },
+            {
+                "ru": "вывих",
+                "en": "dislocation"
+            },
+            {
+                "ru": "травма",
+                "en": "injury"
+            },
+            {
+                "ru": "шов",
+                "en": "suture"
+            },
+            {
+                "ru": "больница",
+                "en": "hospital"
+            },
+            {
+                "ru": "бинт",
+                "en": "bandage"
+            },
+            {
+                "ru": "инфекция",
+                "en": "infection"
+            },
+            {
+                "ru": "лихорадка",
+                "en": "fever"
+            },
+            {
+                "ru": "ревматизм",
+                "en": "rheumatism"
+            },
+            {
+                "ru": "назначить лечение",
+                "en": "prescribe"
+            },
+            {
+                "ru": "иглоукалывание",
+                "en": "acupuncture"
+            },
+            {
+                "ru": "инъекция",
+                "en": "injection"
+            }
+        ],
+        "category": "Здоровье"
+    },
+    {
+        "category_id": 23,
+        "words": [
+            {
+                "ru": "грудинка",
+                "en": "bacon"
+            },
+            {
+                "ru": "курица",
+                "en": "chicken"
+            },
+            {
+                "ru": "яйцо",
+                "en": "egg"
+            },
+            {
+                "ru": "икра",
+                "en": "caviar"
+            },
+            {
+                "ru": "яичница",
+                "en": "fried eggs"
+            },
+            {
+                "ru": "конфеты",
+                "en": "sweets"
+            },
+            {
+                "ru": "мясо",
+                "en": "raw"
+            },
+            {
+                "ru": "борщ",
+                "en": "beetroot soup"
+            },
+            {
+                "ru": "щи",
+                "en": "cabbage soup"
+            },
+            {
+                "ru": "дичь",
+                "en": "game"
+            },
+            {
+                "ru": "заливное",
+                "en": "jelly"
+            },
+            {
+                "ru": "крем",
+                "en": "cream"
+            },
+            {
+                "ru": "пирожок",
+                "en": "pasty"
+            },
+            {
+                "ru": "рыба",
+                "en": "fish"
+            },
+            {
+                "ru": "буженина",
+                "en": "cold boiled pork"
+            },
+            {
+                "ru": "масло сливочное",
+                "en": "butter"
+            },
+            {
+                "ru": "красная икра",
+                "en": "red caviar"
+            },
+            {
+                "ru": "креветка",
+                "en": "shrimp"
+            },
+            {
+                "ru": "желе",
+                "en": "jelly"
+            },
+            {
+                "ru": "вкрутую",
+                "en": "hard-boiled egg"
+            },
+            {
+                "ru": "пицца",
+                "en": "pizza"
+            },
+            {
+                "ru": "бульон",
+                "en": "broth"
+            },
+            {
+                "ru": "баранья нога",
+                "en": "leg of lamb"
+            },
+            {
+                "ru": "первое блюдо",
+                "en": "first course"
+            },
+            {
+                "ru": "закуска",
+                "en": "snack"
+            },
+            {
+                "ru": "пирог",
+                "en": "pie"
+            },
+            {
+                "ru": "жир",
+                "en": "fat"
+            },
+            {
+                "ru": "телятина",
+                "en": "veal"
+            },
+            {
+                "ru": "булка",
+                "en": "bun"
+            },
+            {
+                "ru": "омар",
+                "en": "lobster"
+            },
+            {
+                "ru": "свинина",
+                "en": "pork"
+            },
+            {
+                "ru": "хлеб",
+                "en": "bread"
+            },
+            {
+                "ru": "маргарин",
+                "en": "margarine"
+            },
+            {
+                "ru": "вафли",
+                "en": "waffles"
+            },
+            {
+                "ru": "варить",
+                "en": "boil"
+            },
+            {
+                "ru": "творог",
+                "en": "cottage cheese"
+            },
+            {
+                "ru": "ветчина",
+                "en": "ham"
+            },
+            {
+                "ru": "макароны",
+                "en": "pasta"
+            },
+            {
+                "ru": "говядина",
+                "en": "beef"
+            },
+            {
+                "ru": "сосиска",
+                "en": "sausage"
+            },
+            {
+                "ru": "жареный картофель",
+                "en": "fried potatoes"
+            },
+            {
+                "ru": "баранина",
+                "en": "mutton"
+            },
+            {
+                "ru": "торт",
+                "en": "cake"
+            },
+            {
+                "ru": "котлета",
+                "en": "rissole"
+            },
+            {
+                "ru": "сыр",
+                "en": "cheese"
+            },
+            {
+                "ru": "картофель",
+                "en": "potato"
+            },
+            {
+                "ru": "гарнир",
+                "en": "side dish"
+            },
+            {
+                "ru": "всмятку",
+                "en": "soft-boiled egg"
+            },
+            {
+                "ru": "мед",
+                "en": "honey"
+            },
+            {
+                "ru": "суп",
+                "en": "soup"
+            },
+            {
+                "ru": "бутерброд",
+                "en": "sandwich"
+            },
+            {
+                "ru": "индейка",
+                "en": "turkey"
+            },
+            {
+                "ru": "почки",
+                "en": "kidney"
+            },
+            {
+                "ru": "квашеная капуста",
+                "en": "sour cabbage"
+            },
+            {
+                "ru": "ржаной хлеб",
+                "en": "rye bread"
+            },
+            {
+                "ru": "сметана",
+                "en": "sour cream"
+            },
+            {
+                "ru": "утка",
+                "en": "duck"
+            },
+            {
+                "ru": "блин",
+                "en": "pancake"
+            },
+            {
+                "ru": "кебаб",
+                "en": "kebab"
+            },
+            {
+                "ru": "варенье",
+                "en": "jam"
+            },
+            {
+                "ru": "молоко",
+                "en": "milk"
+            },
+            {
+                "ru": "консервы",
+                "en": "canned food"
+            },
+            {
+                "ru": "жаркое",
+                "en": "fried meat"
+            },
+            {
+                "ru": "гусь",
+                "en": "goose"
+            },
+            {
+                "ru": "отбивная",
+                "en": "chop"
+            },
+            {
+                "ru": "лапша",
+                "en": "noodles"
+            },
+            {
+                "ru": "мидия",
+                "en": "mussel"
+            },
+            {
+                "ru": "печенье",
+                "en": "biscuit"
+            },
+            {
+                "ru": "мороженое",
+                "en": "ice cream"
+            },
+            {
+                "ru": "холодец",
+                "en": "jelled meat"
+            },
+            {
+                "ru": "закусочная",
+                "en": "shack bar"
+            },
+            {
+                "ru": "омлет",
+                "en": "omelette"
+            },
+            {
+                "ru": "селедка",
+                "en": "herring"
+            },
+            {
+                "ru": "йогурт",
+                "en": "yoghurt"
+            },
+            {
+                "ru": "десерт",
+                "en": "dessert"
+            },
+            {
+                "ru": "бифштекс",
+                "en": "steak"
+            },
+            {
+                "ru": "кекс с изюмом",
+                "en": "fruitcake"
+            },
+            {
+                "ru": "гамбургер",
+                "en": "hamburger"
+            },
+            {
+                "ru": "пряник",
+                "en": "spice-cake"
+            },
+            {
+                "ru": "печень",
+                "en": "liver"
+            }
+        ],
+        "category": "Еда"
+    },
+    {
+        "category_id": 24,
+        "words": [
+            {
+                "ru": "чай",
+                "en": "tea"
+            },
+            {
+                "ru": "водка",
+                "en": "vodka"
+            },
+            {
+                "ru": "бренди",
+                "en": "brandy"
+            },
+            {
+                "ru": "кофе",
+                "en": "coffee"
+            },
+            {
+                "ru": "апельсиновый сок",
+                "en": "orange juice"
+            },
+            {
+                "ru": "аперитив",
+                "en": "aperitif"
+            },
+            {
+                "ru": "минеральная вода",
+                "en": "mineral water"
+            },
+            {
+                "ru": "какао",
+                "en": "cocoa"
+            },
+            {
+                "ru": "портвейн",
+                "en": "port"
+            },
+            {
+                "ru": "шампанское",
+                "en": "champagne"
+            },
+            {
+                "ru": "пиво",
+                "en": "beer"
+            },
+            {
+                "ru": "коктейль",
+                "en": "cocktail"
+            },
+            {
+                "ru": "безалкогольные напитки",
+                "en": "soft drinks"
+            },
+            {
+                "ru": "вино",
+                "en": "wine"
+            },
+            {
+                "ru": "сухое вино",
+                "en": "dry wine"
+            },
+            {
+                "ru": "коньяк",
+                "en": "cognac"
+            },
+            {
+                "ru": "виски",
+                "en": "whisky"
+            },
+            {
+                "ru": "компот",
+                "en": "fruit compote"
+            },
+            {
+                "ru": "газировка",
+                "en": "fizzy drink"
+            },
+            {
+                "ru": "сок",
+                "en": "juice"
+            },
+            {
+                "ru": "ром",
+                "en": "rum"
+            },
+            {
+                "ru": "алкогольные напитки",
+                "en": "alcoholic drinks"
+            },
+            {
+                "ru": "ликер",
+                "en": "liqueur"
+            },
+            {
+                "ru": "квас",
+                "en": "kvass"
+            },
+            {
+                "ru": "напиток",
+                "en": "beverage"
+            },
+            {
+                "ru": "вода без газа",
+                "en": "still water"
+            },
+            {
+                "ru": "вода с газом",
+                "en": "sparkle water"
+            }
+        ],
+        "category": "Напитки"
+    },
+    {
+        "category_id": 25,
+        "words": [
+            {
+                "ru": "коричневый",
+                "en": "brown"
+            },
+            {
+                "ru": "бирюзовый",
+                "en": "turquoise"
+            },
+            {
+                "ru": "оранжевый",
+                "en": "orange"
+            },
+            {
+                "ru": "красный",
+                "en": "red"
+            },
+            {
+                "ru": "фиолетовый",
+                "en": "purple"
+            },
+            {
+                "ru": "сиреневый",
+                "en": "lilac"
+            },
+            {
+                "ru": "синий",
+                "en": "blue"
+            },
+            {
+                "ru": "черный",
+                "en": "black"
+            },
+            {
+                "ru": "белый",
+                "en": "white"
+            },
+            {
+                "ru": "серый",
+                "en": "grey"
+            },
+            {
+                "ru": "розовый",
+                "en": "pink"
+            },
+            {
+                "ru": "желтый",
+                "en": "yellow"
+            },
+            {
+                "ru": "зеленый",
+                "en": "green"
+            }
+        ],
+        "category": "Цвета"
+    },
+    {
+        "category_id": 26,
+        "words": [
+            {
+                "ru": "личный помощник",
+                "en": "personal assistant"
+            },
+            {
+                "ru": "полицейский",
+                "en": "police officer"
+            },
+            {
+                "ru": "сантехник",
+                "en": "plumber"
+            },
+            {
+                "ru": "судья",
+                "en": "judge"
+            },
+            {
+                "ru": "официант",
+                "en": "waiter"
+            },
+            {
+                "ru": "телеведущий",
+                "en": "tv presenter"
+            },
+            {
+                "ru": "ученый",
+                "en": "scientist"
+            },
+            {
+                "ru": "адвокат",
+                "en": "lawyer"
+            },
+            {
+                "ru": "повар",
+                "en": "cook"
+            },
+            {
+                "ru": "программист",
+                "en": "programmer"
+            },
+            {
+                "ru": "учитель",
+                "en": "teacher"
+            },
+            {
+                "ru": "домохозяйка",
+                "en": "housewife"
+            },
+            {
+                "ru": "начальник",
+                "en": "chef"
+            },
+            {
+                "ru": "официантка",
+                "en": "waitress"
+            },
+            {
+                "ru": "бухгалтер",
+                "en": "accountant"
+            },
+            {
+                "ru": "ассистент менеджера по продажам",
+                "en": "sales assistant"
+            },
+            {
+                "ru": "солдат",
+                "en": "soldier"
+            },
+            {
+                "ru": "ветеринар",
+                "en": "vet"
+            },
+            {
+                "ru": "бизнесмен",
+                "en": "businessman"
+            },
+            {
+                "ru": "агент по продаже недвижимости",
+                "en": "estate agent"
+            },
+            {
+                "ru": "регистратор",
+                "en": "receptionist"
+            },
+            {
+                "ru": "электрик",
+                "en": "electrician"
+            }
+        ],
+        "category": "Профессии"
+    },
+    {
+        "category_id": 27,
+        "words": [
+            {
+                "ru": "треска",
+                "en": "cod"
+            },
+            {
+                "ru": "кальмар",
+                "en": "squid"
+            },
+            {
+                "ru": "карп",
+                "en": "carp"
+            },
+            {
+                "ru": "карась",
+                "en": "crucian"
+            },
+            {
+                "ru": "сельдь",
+                "en": "herring"
+            },
+            {
+                "ru": "креветки",
+                "en": "shrimps"
+            },
+            {
+                "ru": "форель",
+                "en": "trout"
+            },
+            {
+                "ru": "щука",
+                "en": "pike"
+            },
+            {
+                "ru": "кит",
+                "en": "whale"
+            },
+            {
+                "ru": "рыба",
+                "en": "fish"
+            },
+            {
+                "ru": "осетр",
+                "en": "sturgeon"
+            },
+            {
+                "ru": "рак",
+                "en": "crayfish"
+            },
+            {
+                "ru": "лангуст",
+                "en": "rock lobster"
+            },
+            {
+                "ru": "медуза",
+                "en": "jellyfish"
+            },
+            {
+                "ru": "скумбрия",
+                "en": "mackerel"
+            },
+            {
+                "ru": "мидия",
+                "en": "mussel"
+            },
+            {
+                "ru": "сом",
+                "en": "catfish"
+            },
+            {
+                "ru": "акула",
+                "en": "shark"
+            },
+            {
+                "ru": "омар",
+                "en": "lobster"
+            },
+            {
+                "ru": "дельфин",
+                "en": "dolphin"
+            },
+            {
+                "ru": "окунь",
+                "en": "perch"
+            },
+            {
+                "ru": "краб",
+                "en": "crab"
+            },
+            {
+                "ru": "лосось",
+                "en": "salmon"
+            },
+            {
+                "ru": "устрица",
+                "en": "oyster"
+            },
+            {
+                "ru": "лещ",
+                "en": "bream"
+            }
+        ],
+        "category": "Рыбы"
+    },
+    {
+        "category_id": 28,
+        "words": [
+            {
+                "ru": "туфли",
+                "en": "shoes"
+            },
+            {
+                "ru": "ботинки",
+                "en": "ankle boots"
+            },
+            {
+                "ru": "подошва",
+                "en": "sole"
+            },
+            {
+                "ru": "каблук",
+                "en": "heel"
+            },
+            {
+                "ru": "стелька",
+                "en": "insole"
+            },
+            {
+                "ru": "кроссовки",
+                "en": "trainers"
+            },
+            {
+                "ru": "босоножки",
+                "en": "sandals"
+            },
+            {
+                "ru": "обувь",
+                "en": "footwear"
+            },
+            {
+                "ru": "шнурки",
+                "en": "laces"
+            },
+            {
+                "ru": "шлепанцы",
+                "en": "slippers"
+            },
+            {
+                "ru": "сапоги",
+                "en": "boots"
+            }
+        ],
+        "category": "Обувь"
+    }
+]

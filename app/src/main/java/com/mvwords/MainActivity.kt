@@ -2,32 +2,23 @@ package com.mvwords
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.mvwords.utils.Navigator
+import com.mvwords.utils.Preference
+import core.Words
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        if (Preference.isFirstLaunch(this)) {
-            openChooseLanguageFragment()
-        } else {
-            openCardFragment()
-        }
+        Words.init(this)
+        openHomeFragment()
     }
 
-    private fun openChooseLanguageFragment() {
-        val fragment = ChooseLanguageFragment.Builder(isNativeLanguage = true)
+    private fun openHomeFragment() {
+        val fragment = HomeFragment.Builder(Preference.isFirstLaunch(this))
             .build()
-        val tag = ChooseLanguageFragment.TAG_NATIVE_LANG_SCREEN
-        Navigator.go(this, fragment, tag)
-    }
-
-    private fun openCardFragment() {
-        val fragment = CardWordsFragment.Builder(isNew = false)
-            .build()
-        val tag = CardWordsFragment.TAG
-        Navigator.go(this, fragment, tag)
+        Navigator.go(supportFragmentManager, fragment, HomeFragment.TAG)
     }
 
 }

@@ -1,6 +1,7 @@
 package com.mvwords
 
 import android.os.Bundle
+import com.mvwords.mvp.BaseMvpFragment
 
 class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(), CardWordsContract.View {
 

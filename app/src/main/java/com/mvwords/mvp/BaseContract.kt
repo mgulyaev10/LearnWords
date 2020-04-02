@@ -1,4 +1,4 @@
-package com.mvwords
+package com.mvwords.mvp
 
 import android.content.Context
 
