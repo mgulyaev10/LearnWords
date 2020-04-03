@@ -17,17 +17,18 @@ class MainActivity : AppCompatActivity() {
 
     override fun onBackPressed() {
         supportFragmentManager.fragments.forEach {
-            if (it.isVisible) {
-                if (it.childFragmentManager.backStackEntryCount > 0) {
-                    it.childFragmentManager.popBackStack()
-                    return
-                }
+            if (it is NavigationDelegate) {
+                it.onBackPressed()
+                return
             }
         }
         super.onBackPressed()
     }
 
     private fun openHomeFragment() {
+        if (supportFragmentManager.findFragmentByTag(HomeFragment.TAG) != null) {
+            return
+        }
         val fragment = HomeFragment.Builder(Preference.isFirstLaunch(this))
             .build()
         Navigator.go(supportFragmentManager, fragment, HomeFragment.TAG, addToBackStack = false)

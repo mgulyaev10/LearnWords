@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#f7f7f7</color>
+    <color name="bottom_nav_bar_background">#fdfdfd</color>
+    <color name="bottom_nav_bar_item_active">#9a9a9a</color>
+    <color name="card_word_background">#f0f0f0</color>
+    <color name="separator">#e8e8e8</color>
+</resources>

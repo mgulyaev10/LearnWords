@@ -43,7 +43,7 @@ class CategoriesFragment: Fragment() {
     private fun openDetailedCategoryFragment(category: Category) {
         val fragment = DetailedCategoryFragment.Builder(category.id)
             .build()
-        Navigator.go(fragmentManager, fragment, DetailedCategoryFragment.TAG)
+        Navigator.go(fragmentManager, fragment, DetailedCategoryFragment.TAG, addToBackStack = true)
     }
 
     class Builder(isFirstLaunch: Boolean = false) {

@@ -12,4 +12,11 @@ object Preference {
         }
     }
 
+    fun setFirstLaunch(context: Context?) {
+        context?.getSharedPreferences(PREF_WORDS_APP_NAME, Context.MODE_PRIVATE)
+            ?.edit()
+            ?.putBoolean(KEY_IS_FIRST_LAUNCH, false)
+            ?.apply()
+    }
+
 }
