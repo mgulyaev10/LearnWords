@@ -5,15 +5,30 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.helpfulproduction.mywords.R
 import com.helpfulproduction.mywords.ViewHolderClickListener
+import com.helpfulproduction.mywords.core.Category
 import com.helpfulproduction.mywords.core.Words
+import io.reactivex.rxjava3.schedulers.Schedulers
 
 class CategoriesAdapter(
     private val categoryClickListener: CategoryClickListener
 ): RecyclerView.Adapter<CategoryViewHolder>() {
 
+    private var categories = emptyList<Category>()
+
+    init {
+        Words.getCategories()
+            .subscribeOn(Schedulers.io())
+            .subscribe ({
+                categories = it
+                notifyDataSetChanged()
+            }, {
+                it.printStackTrace()
+            })
+    }
+
     private val clickListener = object: ViewHolderClickListener {
         override fun onClick(position: Int) {
-            categoryClickListener.onClick(Words.dictionary.categories[position])
+            categoryClickListener.onClick(categories[position])
         }
     }
 
@@ -23,10 +38,11 @@ class CategoriesAdapter(
     }
 
     override fun onBindViewHolder(holder: CategoryViewHolder, position: Int) {
-        holder.bind(Words.dictionary.categories[position])
+        holder.bind(categories[position])
     }
 
     override fun getItemCount(): Int {
-        return Words.dictionary.categories.size
+        return categories.size
     }
+
 }

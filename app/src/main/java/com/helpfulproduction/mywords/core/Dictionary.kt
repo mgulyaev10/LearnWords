@@ -1,5 +1,5 @@
 package com.helpfulproduction.mywords.core
 
-data class Dictionary(
-    val categories: List<Category>
+data class Dictionary<T: Category>(
+    val categories: List<T>
 )

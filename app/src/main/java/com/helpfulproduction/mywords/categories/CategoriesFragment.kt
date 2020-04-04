@@ -44,7 +44,8 @@ class CategoriesFragment: Fragment() {
 
     private fun openDetailedCategoryFragment(category: Category) {
         val fragment = DetailedCategoryFragment.Builder(
-            category.id
+            category.id,
+            category.title
         )
             .build()
         Navigator.go(fragmentManager, fragment,

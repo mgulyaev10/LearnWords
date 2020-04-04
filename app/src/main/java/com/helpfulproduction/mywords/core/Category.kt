@@ -4,10 +4,9 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.IntDef
 import com.helpfulproduction.mywords.R
 
-data class Category(
+open class Category(
     @CategoryIds val id: Int,
-    val title: String,
-    val words: List<Word>
+    val title: String
 ) {
 
     @DrawableRes
