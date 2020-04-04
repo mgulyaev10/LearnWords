@@ -1,9 +1,9 @@
-package com.mvwords.utils
+package com.helpfulproduction.mywords.utils
 
 import android.content.Context
 
 object Preference {
-    private const val PREF_WORDS_APP_NAME = "pref_mvWords_app"
+    private const val PREF_WORDS_APP_NAME = "pref_myWords_app"
     private const val KEY_IS_FIRST_LAUNCH = "is_first_launch"
 
     fun isFirstLaunch(context: Context): Boolean {

@@ -1,4 +1,4 @@
-package com.mvwords.categories
+package com.helpfulproduction.mywords.categories
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,16 +8,17 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.mvwords.R
-import com.mvwords.utils.Navigator
-import core.Category
+import com.helpfulproduction.mywords.R
+import com.helpfulproduction.mywords.utils.Navigator
+import com.helpfulproduction.mywords.core.Category
 
 class CategoriesFragment: Fragment() {
 
     private lateinit var recycler: RecyclerView
     private lateinit var title: TextView
 
-    private val categoryClickListener = object : CategoryClickListener {
+    private val categoryClickListener = object :
+        CategoryClickListener {
         override fun onClick(category: Category) {
             openDetailedCategoryFragment(category)
         }
@@ -32,7 +33,8 @@ class CategoriesFragment: Fragment() {
     private fun initViews(view: View) {
         recycler = view.findViewById<RecyclerView>(R.id.recycler).apply {
             layoutManager = LinearLayoutManager(view.context, LinearLayoutManager.VERTICAL, false)
-            adapter = CategoriesAdapter(categoryClickListener)
+            adapter =
+                CategoriesAdapter(categoryClickListener)
         }
         title = view.findViewById<TextView>(R.id.title).apply {
             text = view.context.getString(R.string.categories)
@@ -41,9 +43,12 @@ class CategoriesFragment: Fragment() {
     }
 
     private fun openDetailedCategoryFragment(category: Category) {
-        val fragment = DetailedCategoryFragment.Builder(category.id)
+        val fragment = DetailedCategoryFragment.Builder(
+            category.id
+        )
             .build()
-        Navigator.go(fragmentManager, fragment, DetailedCategoryFragment.TAG, addToBackStack = true)
+        Navigator.go(fragmentManager, fragment,
+            DetailedCategoryFragment.TAG, addToBackStack = true)
     }
 
     class Builder(isFirstLaunch: Boolean = false) {

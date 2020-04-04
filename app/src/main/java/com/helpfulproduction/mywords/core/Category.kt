@@ -1,8 +1,8 @@
-package core
+package com.helpfulproduction.mywords.core
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.IntDef
-import com.mvwords.R
+import com.helpfulproduction.mywords.R
 
 data class Category(
     @CategoryIds val id: Int,
@@ -46,9 +46,37 @@ data class Category(
         }
     }
 
-    @IntDef(EDUCATION, FAMILY, LEISURE, BODY, EMOTIONS, SPORT, CLOTHES, FURNITURE, RELATIONSHIP, MONEY,
-        HOBBY, ANIMALS, HOUSE, MOVEMENT, FRUITS, TRANSPORT, KITCHENWARE, WEATHER, CITY, VEGETABLES,
-        CHARACTER, APPEARANCE, HEALTH, FOOD, DRINKS, COLORS, PROFESSIONS, FISH, SHOES)
+    @IntDef(
+        EDUCATION,
+        FAMILY,
+        LEISURE,
+        BODY,
+        EMOTIONS,
+        SPORT,
+        CLOTHES,
+        FURNITURE,
+        RELATIONSHIP,
+        MONEY,
+        HOBBY,
+        ANIMALS,
+        HOUSE,
+        MOVEMENT,
+        FRUITS,
+        TRANSPORT,
+        KITCHENWARE,
+        WEATHER,
+        CITY,
+        VEGETABLES,
+        CHARACTER,
+        APPEARANCE,
+        HEALTH,
+        FOOD,
+        DRINKS,
+        COLORS,
+        PROFESSIONS,
+        FISH,
+        SHOES
+    )
     annotation class CategoryIds
 
     companion object {

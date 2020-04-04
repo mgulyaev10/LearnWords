@@ -1,10 +1,10 @@
-package com.mvwords.categories
+package com.helpfulproduction.mywords.categories
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.mvwords.R
-import core.Words
+import com.helpfulproduction.mywords.R
+import com.helpfulproduction.mywords.core.Words
 
 class WordsCategoryAdapter(
     categoryId: Int

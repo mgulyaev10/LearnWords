@@ -1,12 +1,12 @@
-package com.mvwords.categories
+package com.helpfulproduction.mywords.categories
 
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.mvwords.R
-import com.mvwords.utils.SpeechHelper
-import core.Word
+import com.helpfulproduction.mywords.R
+import com.helpfulproduction.mywords.utils.SpeechHelper
+import com.helpfulproduction.mywords.core.Word
 
 class WordCategoryHolder(view: View): RecyclerView.ViewHolder(view) {
 

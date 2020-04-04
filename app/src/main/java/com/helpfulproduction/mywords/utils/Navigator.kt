@@ -1,8 +1,8 @@
-package com.mvwords.utils
+package com.helpfulproduction.mywords.utils
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
-import com.mvwords.R
+import com.helpfulproduction.mywords.R
 
 object Navigator {
 
@@ -32,11 +32,11 @@ object Navigator {
     }
 
     fun setListener(listener: NavigationListener) {
-        this.listener = listener
+        Navigator.listener = listener
     }
 
     fun removeListener() {
-        this.listener = null
+        listener = null
     }
 
     interface NavigationListener {

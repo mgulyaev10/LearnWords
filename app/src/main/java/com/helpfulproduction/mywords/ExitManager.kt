@@ -1,4 +1,4 @@
-package com.mvwords
+package com.helpfulproduction.mywords
 
 import android.os.Handler
 import android.view.Gravity

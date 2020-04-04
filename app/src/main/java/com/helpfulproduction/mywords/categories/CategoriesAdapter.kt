@@ -1,11 +1,11 @@
-package com.mvwords.categories
+package com.helpfulproduction.mywords.categories
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.mvwords.R
-import com.mvwords.ViewHolderClickListener
-import core.Words
+import com.helpfulproduction.mywords.R
+import com.helpfulproduction.mywords.ViewHolderClickListener
+import com.helpfulproduction.mywords.core.Words
 
 class CategoriesAdapter(
     private val categoryClickListener: CategoryClickListener

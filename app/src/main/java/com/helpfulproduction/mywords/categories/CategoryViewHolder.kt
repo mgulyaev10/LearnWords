@@ -1,4 +1,4 @@
-package com.mvwords.categories
+package com.helpfulproduction.mywords.categories
 
 import android.view.View
 import android.widget.ImageView
@@ -6,9 +6,9 @@ import android.widget.TextView
 import androidx.appcompat.widget.AppCompatCheckBox
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.mvwords.R
-import com.mvwords.ViewHolderClickListener
-import core.Category
+import com.helpfulproduction.mywords.R
+import com.helpfulproduction.mywords.ViewHolderClickListener
+import com.helpfulproduction.mywords.core.Category
 
 class CategoryViewHolder(
     view: View,

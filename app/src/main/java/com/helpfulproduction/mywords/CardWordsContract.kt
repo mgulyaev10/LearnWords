@@ -1,6 +1,6 @@
-package com.mvwords
+package com.helpfulproduction.mywords
 
-import com.mvwords.mvp.BaseContract
+import com.helpfulproduction.mywords.mvp.BaseContract
 
 interface CardWordsContract {
 

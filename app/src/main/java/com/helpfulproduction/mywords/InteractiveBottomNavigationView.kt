@@ -1,10 +1,10 @@
-package com.mvwords
+package com.helpfulproduction.mywords
 
 import android.content.Context
 import android.util.AttributeSet
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.mvwords.categories.CategoriesFragment
-import com.mvwords.utils.Navigator
+import com.helpfulproduction.mywords.categories.CategoriesFragment
+import com.helpfulproduction.mywords.utils.Navigator
 
 class InteractiveBottomNavigationView: BottomNavigationView, Navigator.NavigationListener {
     constructor(context: Context) : super(context)

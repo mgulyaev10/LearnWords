@@ -1,12 +1,13 @@
-package com.mvwords
+package com.helpfulproduction.mywords
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.mvwords.mvp.BaseMvpFragment
+import com.helpfulproduction.mywords.mvp.BaseMvpFragment
 
-class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(), CardWordsContract.View {
+class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(),
+    CardWordsContract.View {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_card_words, container, false)

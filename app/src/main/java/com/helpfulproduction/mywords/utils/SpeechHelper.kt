@@ -1,4 +1,4 @@
-package com.mvwords.utils
+package com.helpfulproduction.mywords.utils
 
 import android.content.Context
 import android.speech.tts.TextToSpeech
@@ -18,7 +18,9 @@ object SpeechHelper {
     }
 
     fun speak(context: Context, word: CharSequence) {
-        textToSpeech = TextToSpeech(context, listener)
+        textToSpeech = TextToSpeech(context,
+            listener
+        )
         words.add(word.toString())
     }
 

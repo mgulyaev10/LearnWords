@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">mvWords</string>
+    <string name="app_name">myWords</string>
 
     <string name="menu_learn">Учить</string>
     <string name="menu_categories">Категории</string>

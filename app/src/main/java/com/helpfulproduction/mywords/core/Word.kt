@@ -1,4 +1,4 @@
-package core
+package com.helpfulproduction.mywords.core
 
 data class Word(
     val russian: String,

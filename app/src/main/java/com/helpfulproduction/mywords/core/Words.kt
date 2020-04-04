@@ -1,7 +1,7 @@
-package core
+package com.helpfulproduction.mywords.core
 
 import android.content.Context
-import com.mvwords.utils.forEachJsonObject
+import com.helpfulproduction.mywords.utils.forEachJsonObject
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.json.JSONArray
@@ -13,8 +13,10 @@ object Words {
 
     fun init(context: Context) {
         Observable.fromCallable {
-            val stringDictionary = readDictionaryAsset(context)
-            dictionary = parseDictionary(stringDictionary)
+            val stringDictionary =
+                readDictionaryAsset(context)
+            dictionary =
+                parseDictionary(stringDictionary)
         }.subscribeOn(Schedulers.io())
             .subscribe {}
     }
@@ -34,7 +36,8 @@ object Words {
         jsonCategories.forEachJsonObject {
             val id = it.optInt("category_id")
             val name = it.optString("category")
-            val words = parseWords(it.getJSONArray("words"))
+            val words =
+                parseWords(it.getJSONArray("words"))
             categories.add(Category(id, name, words))
         }
         return Dictionary(categories)

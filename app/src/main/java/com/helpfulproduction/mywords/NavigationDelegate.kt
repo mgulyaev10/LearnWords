@@ -1,4 +1,4 @@
-package com.mvwords
+package com.helpfulproduction.mywords
 
 interface NavigationDelegate {
     fun onBackPressed()

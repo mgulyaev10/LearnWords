@@ -1,4 +1,4 @@
-package com.mvwords
+package com.helpfulproduction.mywords
 
 import androidx.fragment.app.Fragment
 

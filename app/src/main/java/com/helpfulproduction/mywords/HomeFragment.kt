@@ -1,4 +1,4 @@
-package com.mvwords
+package com.helpfulproduction.mywords
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,9 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.mvwords.categories.CategoriesFragment
-import com.mvwords.utils.Navigator
-import com.mvwords.utils.Preference
+import com.helpfulproduction.mywords.categories.CategoriesFragment
+import com.helpfulproduction.mywords.utils.Navigator
+import com.helpfulproduction.mywords.utils.Preference
 
 class HomeFragment: Fragment(), NavigationDelegate {
 
@@ -28,7 +28,9 @@ class HomeFragment: Fragment(), NavigationDelegate {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_home, container, false)
 
-        bottomNavigationView = view.findViewById<InteractiveBottomNavigationView>(R.id.bottom_nav_view).apply {
+        bottomNavigationView = view.findViewById<InteractiveBottomNavigationView>(
+            R.id.bottom_nav_view
+        ).apply {
             setOnNavigationItemSelectedListener(menuClickListener)
             setOnNavigationItemReselectedListener(menuClickListener)
         }

@@ -1,4 +1,4 @@
-package com.mvwords.utils
+package com.helpfulproduction.mywords.utils
 
 import org.json.JSONArray
 import org.json.JSONObject

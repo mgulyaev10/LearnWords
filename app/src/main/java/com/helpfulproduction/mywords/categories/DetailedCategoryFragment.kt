@@ -1,4 +1,4 @@
-package com.mvwords.categories
+package com.helpfulproduction.mywords.categories
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,8 +8,9 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.mvwords.R
-import core.Words
+import com.helpfulproduction.mywords.R
+
+import com.helpfulproduction.mywords.core.Words
 
 class DetailedCategoryFragment: Fragment() {
 

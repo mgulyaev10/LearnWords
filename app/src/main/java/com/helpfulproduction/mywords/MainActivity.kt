@@ -1,10 +1,10 @@
-package com.mvwords
+package com.helpfulproduction.mywords
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.mvwords.utils.Navigator
-import com.mvwords.utils.Preference
-import core.Words
+import com.helpfulproduction.mywords.utils.Navigator
+import com.helpfulproduction.mywords.utils.Preference
+import com.helpfulproduction.mywords.core.Words
 
 class MainActivity : AppCompatActivity() {
 
@@ -29,9 +29,14 @@ class MainActivity : AppCompatActivity() {
         if (supportFragmentManager.findFragmentByTag(HomeFragment.TAG) != null) {
             return
         }
-        val fragment = HomeFragment.Builder(Preference.isFirstLaunch(this))
+        val fragment = HomeFragment.Builder(
+            Preference.isFirstLaunch(
+                this
+            )
+        )
             .build()
-        Navigator.go(supportFragmentManager, fragment, HomeFragment.TAG, addToBackStack = false)
+        Navigator.go(supportFragmentManager, fragment,
+            HomeFragment.TAG, addToBackStack = false)
     }
 
 }
