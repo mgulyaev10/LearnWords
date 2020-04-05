@@ -49,7 +49,7 @@ class WordsDatabase(context: Context) {
         val cursor = database.query(
             WordsDatabaseContract.WordsEntry.TABLE_NAME,
             null,
-            "category_id=?",
+            getCategoryIdsSelection(ids.count()),
             ids.map { it.toString() }.toTypedArray(),
             null,
             null,
@@ -150,6 +150,17 @@ class WordsDatabase(context: Context) {
 
             database.insert(WordsDatabaseContract.EnglishExamplesEntry.TABLE_NAME, null, value)
         }
+    }
+
+    private fun getCategoryIdsSelection(count: Int): String {
+        val categoryIdTable = WordsDatabaseContract.WordsEntry.COLUMN_NAME_CATEGORY_ID
+        val result = StringBuilder("$categoryIdTable = ?")
+        var countArgs = 1
+        while (countArgs < count) {
+            result.append(" OR $categoryIdTable = ? ")
+            countArgs++
+        }
+        return result.toString()
     }
 
     @WorkerThread

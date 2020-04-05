@@ -13,8 +13,14 @@ object Words {
     private lateinit var database: WordsDatabase
     private var categories: List<Category>? = null
     private var categoriesMap: HashMap<Int, String> = HashMap()
+    private var wordsUpdateListener: WordsUpdateListener? = null
 
     private var words: List<Word>? = null
+        set(value) {
+            field = value?.apply {
+                wordsUpdateListener?.onWordsUpdated(this)
+            }
+        }
 
     fun initAsync(context: Context) {
         Observable.fromCallable {
@@ -102,6 +108,18 @@ object Words {
             .use {
                 return it.readText()
             }
+    }
+
+    fun registerWordsUpdateListener(wordsUpdateListener: WordsUpdateListener) {
+        this.wordsUpdateListener = wordsUpdateListener
+    }
+
+    fun unregisterWordsUpdateListener() {
+        this.wordsUpdateListener = null
+    }
+
+    interface WordsUpdateListener {
+        fun onWordsUpdated(words: List<Word>)
     }
 
 }

@@ -2,7 +2,6 @@ package com.helpfulproduction.mywords
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.helpfulproduction.mywords.utils.Navigator
 import com.helpfulproduction.mywords.utils.Preference
 import com.helpfulproduction.mywords.core.Words
 
@@ -29,14 +28,12 @@ class MainActivity : AppCompatActivity() {
         if (supportFragmentManager.findFragmentByTag(HomeFragment.TAG) != null) {
             return
         }
-        val fragment = HomeFragment.Builder(
-            Preference.isFirstLaunch(
-                this
-            )
-        )
-            .build()
-        Navigator.go(supportFragmentManager, fragment,
-            HomeFragment.TAG, addToBackStack = false)
+        val isFirstLaunch = Preference.isFirstLaunch(this)
+        val fragment = HomeFragment.Builder(isFirstLaunch).build()
+
+        supportFragmentManager.beginTransaction()
+            .add(R.id.container, fragment, HomeFragment.TAG)
+            .commit()
     }
 
 }

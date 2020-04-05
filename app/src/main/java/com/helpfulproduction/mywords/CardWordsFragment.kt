@@ -13,6 +13,7 @@ import com.helpfulproduction.mywords.core.Words
 import com.helpfulproduction.mywords.mvp.BaseMvpFragment
 import com.helpfulproduction.mywords.utils.Navigator
 import com.helpfulproduction.mywords.utils.SpeechHelper
+import kotlinx.android.synthetic.main.activity_main.view.*
 
 class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(),
     CardWordsContract.View {
@@ -29,16 +30,34 @@ class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(),
     private var words: List<Word> = Words.getWords().shuffled()
     private var index = -1
 
+    private var wordsUpdateListener = object: Words.WordsUpdateListener {
+        override fun onWordsUpdated(words: List<Word>) {
+            this@CardWordsFragment.words = words
+            index = -1
+            updateUi()
+        }
+    }
+
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_card_words, container, false)
         initViews(view)
 
+        Words.registerWordsUpdateListener(wordsUpdateListener)
+
+        return view
+    }
+
+    override fun onDestroyView() {
+        Words.unregisterWordsUpdateListener()
+        super.onDestroyView()
+    }
+
+    private fun updateUi() {
         if (words.isEmpty()) {
             showStub()
         } else {
             updateCard()
         }
-        return view
     }
 
     private fun showStub() {
@@ -81,15 +100,9 @@ class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(),
         stub = view.findViewById(R.id.stub)
         chooseCategories = view.findViewById<Button>(R.id.choose_categories).apply {
             setOnClickListener {
-                openCategoriesFragment()
+                Navigator.openCategoriesFragment()
             }
         }
-    }
-
-    private fun openCategoriesFragment() {
-        val fragment = CategoriesFragment.Builder(isFirstLaunch = false)
-            .build()
-        Navigator.go(fragmentManager, fragment, CategoriesFragment.TAG, addToBackStack = true)
     }
 
     class Builder(isNew: Boolean) {

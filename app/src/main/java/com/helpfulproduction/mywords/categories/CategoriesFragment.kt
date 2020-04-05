@@ -52,8 +52,7 @@ class CategoriesFragment: Fragment() {
             category.title
         )
             .build()
-        Navigator.go(fragmentManager, fragment,
-            DetailedCategoryFragment.TAG, addToBackStack = true)
+        Navigator.go(fragment)
     }
 
     class Builder(isFirstLaunch: Boolean = false) {
