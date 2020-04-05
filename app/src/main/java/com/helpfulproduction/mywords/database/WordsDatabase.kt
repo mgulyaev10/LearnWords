@@ -35,21 +35,22 @@ class WordsDatabase(context: Context) {
         while (cursor.moveToNext()) {
             val id = cursor.getInt(cursor.getColumnIndexOrThrow(WordsDatabaseContract.CategoriesEntry.COLUMN_NAME_CATEGORY_ID))
             val name = cursor.getString(cursor.getColumnIndexOrThrow(WordsDatabaseContract.CategoriesEntry.COLUMN_NAME_CATEGORY_NAME))
-            categories.add(Category(id, name))
+            val isSelected = cursor.getInt(cursor.getColumnIndexOrThrow(WordsDatabaseContract.CategoriesEntry.COLUMN_NAME_SELECTED)) == 1
+            categories.add(Category(id, name, isSelected))
         }
         cursor.close()
         return categories
     }
 
     @WorkerThread
-    fun getWordsByCategoryId(id: Int): List<Word> {
+    fun getWordsByCategoryIds(ids: List<Int>): List<Word> {
         ThreadUtils.assertNotMainThread()
 
         val cursor = database.query(
             WordsDatabaseContract.WordsEntry.TABLE_NAME,
             null,
             "category_id=?",
-            arrayOf(id.toString()),
+            ids.map { it.toString() }.toTypedArray(),
             null,
             null,
             null
@@ -57,14 +58,28 @@ class WordsDatabase(context: Context) {
 
         val words = arrayListOf<Word>()
         while (cursor.moveToNext()) {
+            val categoryId = cursor.getString(cursor.getColumnIndexOrThrow(WordsDatabaseContract.WordsEntry.COLUMN_NAME_CATEGORY_ID))
             val rus = cursor.getString(cursor.getColumnIndexOrThrow(WordsDatabaseContract.WordsEntry.COLUMN_NAME_RU))
             val eng = cursor.getString(cursor.getColumnIndexOrThrow(WordsDatabaseContract.WordsEntry.COLUMN_NAME_ENG))
             val transcription = cursor.getString(cursor.getColumnIndexOrThrow(WordsDatabaseContract.WordsEntry.COLUMN_NAME_TRANSCRIPTION))
             val status = cursor.getInt(cursor.getColumnIndexOrThrow(WordsDatabaseContract.WordsEntry.COLUMN_NAME_STATUS))
-            words.add(Word(rus, eng, transcription, status))
+            words.add(Word(categoryId.toInt(), rus, eng, transcription, status))
         }
         cursor.close()
         return words
+    }
+
+    @WorkerThread
+    fun onCategoryCheck(category: Category, isChecked: Boolean) {
+        val value = ContentValues().apply {
+            put(WordsDatabaseContract.CategoriesEntry.COLUMN_NAME_SELECTED, isChecked.toInt())
+        }
+        database.update(
+            WordsDatabaseContract.CategoriesEntry.TABLE_NAME,
+            value,
+            "${WordsDatabaseContract.CategoriesEntry.COLUMN_NAME_CATEGORY_ID} = ?",
+            arrayOf(category.id.toString())
+        )
     }
 
     @WorkerThread
@@ -99,16 +114,12 @@ class WordsDatabase(context: Context) {
         Preference.setDataUnpacked(AppContextHolder.context, isDataUnpacked = true)
     }
 
-    @WorkerThread
-    fun clear() {
-        databaseOpenHelper.clear(database)
-    }
-
     private fun fillCategories(categories: List<WordsDatabaseContract.DatabaseCategory>) {
         categories.forEach { category ->
             val value = ContentValues().apply {
                 put(WordsDatabaseContract.CategoriesEntry.COLUMN_NAME_CATEGORY_ID, category.id)
                 put(WordsDatabaseContract.CategoriesEntry.COLUMN_NAME_CATEGORY_NAME, category.name)
+                put(WordsDatabaseContract.CategoriesEntry.COLUMN_NAME_SELECTED, false)
             }
 
             database.insert(WordsDatabaseContract.CategoriesEntry.TABLE_NAME, null, value)
@@ -139,6 +150,15 @@ class WordsDatabase(context: Context) {
 
             database.insert(WordsDatabaseContract.EnglishExamplesEntry.TABLE_NAME, null, value)
         }
+    }
+
+    @WorkerThread
+    fun clear() {
+        databaseOpenHelper.clear(database)
+    }
+
+    private fun Boolean.toInt(): Int {
+        return if (this) 1 else 0
     }
 
 }

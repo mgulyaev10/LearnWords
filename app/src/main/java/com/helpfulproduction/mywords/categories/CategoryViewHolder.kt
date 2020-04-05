@@ -6,13 +6,13 @@ import android.widget.TextView
 import androidx.appcompat.widget.AppCompatCheckBox
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.helpfulproduction.mywords.CategoryViewHolderClickListener
 import com.helpfulproduction.mywords.R
-import com.helpfulproduction.mywords.ViewHolderClickListener
 import com.helpfulproduction.mywords.core.Category
 
 class CategoryViewHolder(
     view: View,
-    clickListener: ViewHolderClickListener
+    clickListener: CategoryViewHolderClickListener
 ): RecyclerView.ViewHolder(view) {
 
     private val image: ImageView = view.findViewById(R.id.image)
@@ -23,12 +23,15 @@ class CategoryViewHolder(
         view.setOnClickListener {
             clickListener.onClick(adapterPosition)
         }
+        checkbox.setOnCheckedChangeListener { buttonView, isChecked ->
+            clickListener.onChecked(adapterPosition, isChecked)
+        }
     }
 
     fun bind(category: Category) {
         image.setImageDrawable(ContextCompat.getDrawable(itemView.context, category.getIcon()))
         title.text = category.title
-        checkbox.isChecked = true
+        checkbox.isChecked = category.isSelected
     }
 
 }

@@ -11,16 +11,20 @@ import androidx.recyclerview.widget.RecyclerView
 import com.helpfulproduction.mywords.R
 import com.helpfulproduction.mywords.utils.Navigator
 import com.helpfulproduction.mywords.core.Category
+import com.helpfulproduction.mywords.core.Words
 
 class CategoriesFragment: Fragment() {
 
     private lateinit var recycler: RecyclerView
     private lateinit var title: TextView
 
-    private val categoryClickListener = object :
-        CategoryClickListener {
+    private val categoryClickListener = object : CategoryClickListener {
         override fun onClick(category: Category) {
             openDetailedCategoryFragment(category)
+        }
+
+        override fun onChecked(category: Category, isChecked: Boolean) {
+            Words.onCategoryCheck(category, isChecked)
         }
     }
 

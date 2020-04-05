@@ -1,6 +1,7 @@
 package com.helpfulproduction.mywords.core
 
 import android.content.Context
+import com.helpfulproduction.mywords.ThreadUtils
 import com.helpfulproduction.mywords.database.WordsDatabase
 import com.helpfulproduction.mywords.utils.Preference
 import io.reactivex.rxjava3.core.Observable
@@ -10,24 +11,69 @@ object Words {
     private const val DICTIONARY_ASSET_PATH = "dictionary.json"
 
     private lateinit var database: WordsDatabase
+    private var categories: List<Category>? = null
+    private var categoriesMap: HashMap<Int, String> = HashMap()
+
+    private var words: List<Word>? = null
 
     fun initAsync(context: Context) {
         Observable.fromCallable {
             initDatabase(context)
-        }
-            .subscribeOn(Schedulers.io())
-            .subscribe {}
+        }.subscribeOn(Schedulers.io())
+            .subscribe {
+                categories = database.getCategories().apply {
+                    downloadWordsToLearn(this)
+                    this.forEach {
+                        categoriesMap[it.id] = it.title
+                    }
+                }
+            }
     }
 
     fun getCategories(): Observable<List<Category>> {
-        return Observable.fromCallable{database.getCategories()}
-            .subscribeOn(Schedulers.io())
+        return when (categories) {
+            null -> Observable.fromCallable {
+                         database.getCategories()
+                    }.subscribeOn(Schedulers.io())
+            else -> Observable.just(categories)
+        }
     }
 
-    fun getWordsByCategoryId(id: Int): Observable<List<Word>> {
+    fun getWordsByCategoryIds(ids: List<Int>): Observable<List<Word>> {
         return Observable.fromCallable{
-            database.getWordsByCategoryId(id)
+            database.getWordsByCategoryIds(ids)
         }.subscribeOn(Schedulers.io())
+    }
+
+    fun onCategoryCheck(category: Category, isChecked: Boolean) {
+        category.isSelected = isChecked
+        database.onCategoryCheck(category, isChecked)
+        if (isChecked) {
+            getWordsByCategoryIds(listOf(category.id))
+                .subscribeOn(Schedulers.io())
+                .subscribe {
+                    words = words?.plus(it) ?: it
+                }
+        } else {
+            words = words?.filter { it.categoryId != category.id }
+        }
+    }
+
+    fun getWords(): List<Word> {
+        return words ?: emptyList()
+    }
+
+    fun categoryFromId(@Category.CategoryIds id: Int): String {
+        return categoriesMap[id] ?: ""
+    }
+
+    private fun downloadWordsToLearn(categories: List<Category>) {
+        ThreadUtils.assertNotMainThread()
+        val ids = categories.filter { it.isSelected }.map { it.id }
+        getWordsByCategoryIds(ids)
+            .subscribe {
+                words = it
+            }
     }
 
     @Deprecated("DEBUG")
@@ -46,7 +92,6 @@ object Words {
             return
         } else {
             database.fillDatabase(readDictionaryAsset(context))
-//            clear()
         }
     }
 

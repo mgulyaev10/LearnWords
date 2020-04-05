@@ -9,5 +9,7 @@
     <string name="categories">Категории</string>
     <string name="exit_explanation">Нажмите кнопку "Назад" ещё раз, чтобы закрыть приложение</string>
     <string name="category_title_default">Категория</string>
+    <string name="choose_categories_stub">Выберите одну или несколько категорий, чтобы изучать новые слова</string>
+    <string name="choose_categories">Выбрать категории</string>
 
 </resources>

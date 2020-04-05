@@ -10,8 +10,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.helpfulproduction.mywords.R
 
-import com.helpfulproduction.mywords.core.Words
-
 class DetailedCategoryFragment: Fragment() {
 
     private lateinit var recycler: RecyclerView

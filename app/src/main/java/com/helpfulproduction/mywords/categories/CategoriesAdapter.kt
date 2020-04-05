@@ -3,11 +3,11 @@ package com.helpfulproduction.mywords.categories
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.helpfulproduction.mywords.CategoryViewHolderClickListener
 import com.helpfulproduction.mywords.R
-import com.helpfulproduction.mywords.ViewHolderClickListener
 import com.helpfulproduction.mywords.core.Category
 import com.helpfulproduction.mywords.core.Words
-import io.reactivex.rxjava3.schedulers.Schedulers
+import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 
 class CategoriesAdapter(
     private val categoryClickListener: CategoryClickListener
@@ -17,7 +17,7 @@ class CategoriesAdapter(
 
     init {
         Words.getCategories()
-            .subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
             .subscribe ({
                 categories = it
                 notifyDataSetChanged()
@@ -26,9 +26,13 @@ class CategoriesAdapter(
             })
     }
 
-    private val clickListener = object: ViewHolderClickListener {
+    private val clickListener = object: CategoryViewHolderClickListener {
         override fun onClick(position: Int) {
             categoryClickListener.onClick(categories[position])
+        }
+
+        override fun onChecked(position: Int, isChecked: Boolean) {
+            categoryClickListener.onChecked(categories[position], isChecked)
         }
     }
 

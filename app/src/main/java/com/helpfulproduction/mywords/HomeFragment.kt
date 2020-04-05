@@ -53,7 +53,7 @@ class HomeFragment: Fragment(), NavigationDelegate {
     }
 
     override fun onBackPressed() {
-        if (childFragmentManager.backStackEntryCount > 1) {
+        if (childFragmentManager.backStackEntryCount >= 1) {
             Navigator.goBack(childFragmentManager)
         } else {
             ExitManager.tryExit(activity)
@@ -67,7 +67,7 @@ class HomeFragment: Fragment(), NavigationDelegate {
         if (isFirstLaunch) {
             Preference.setFirstLaunch(context)
         }
-        Navigator.go(childFragmentManager, fragment, CategoriesFragment.TAG, addToBackStack = !isFirstLaunch)
+        Navigator.go(childFragmentManager, fragment, CategoriesFragment.TAG)
     }
 
     private fun showCardFragment() {

@@ -3,6 +3,7 @@ package com.helpfulproduction.mywords.core
 import androidx.annotation.IntDef
 
 open class Word(
+    @Category.CategoryIds val categoryId: Int,
     val russian: String,
     val english: String,
     val transcription: String,

@@ -10,9 +10,11 @@
     android:clickable="true">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@null"
+        android:visibility="gone"
         app:cardElevation="8dp"
         app:cardCornerRadius="16dp"
         app:cardBackgroundColor="@color/card_word_background">
@@ -47,6 +49,8 @@
                 android:id="@+id/separator"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
                 android:background="@color/separator"
                 app:layout_constraintTop_toBottomOf="@id/russian"
                 app:layout_constraintStart_toStartOf="parent"
@@ -65,10 +69,24 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 tools:text="Dog"/>
 
+            <TextView
+                android:id="@+id/transcription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="4dp"
+                android:textSize="28sp"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                app:layout_constraintTop_toBottomOf="@id/english"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:text="[dok]"/>
+
             <ImageView
                 android:id="@+id/voice"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
+                android:layout_marginTop="4dp"
                 android:layout_marginEnd="8dp"
                 android:padding="4dp"
                 android:src="@drawable/ic_volume_28"
@@ -77,11 +95,43 @@
                 android:clickable="true"
                 android:focusable="true"
                 app:layout_constraintTop_toBottomOf="@id/separator"
-                app:layout_constraintStart_toEndOf="@id/english"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintBottom_toBottomOf="@id/english"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_stub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/choose_categories_stub"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.464" />
+
+        <Button
+            android:id="@+id/choose_categories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/choose_categories"
+            style="@style/Widget.AppCompat.ImageButton"
+            app:layout_constraintEnd_toEndOf="@id/stub"
+            app:layout_constraintStart_toStartOf="@id/stub"
+            app:layout_constraintTop_toBottomOf="@id/text_stub" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>

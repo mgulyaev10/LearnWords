@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.helpfulproduction.mywords.R
 import com.helpfulproduction.mywords.core.Word
 import com.helpfulproduction.mywords.core.Words
+import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.schedulers.Schedulers
 
 class WordsCategoryAdapter(
@@ -15,8 +16,8 @@ class WordsCategoryAdapter(
     private var words = emptyList<Word>()
 
     init {
-        Words.getWordsByCategoryId(categoryId)
-            .subscribeOn(Schedulers.io())
+        Words.getWordsByCategoryIds(listOf(categoryId))
+            .observeOn(AndroidSchedulers.mainThread())
             .subscribe ({
                 words = it
                 notifyDataSetChanged()

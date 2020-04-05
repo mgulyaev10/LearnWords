@@ -38,11 +38,12 @@ class DatabaseOpenHelper(context: Context) : SQLiteOpenHelper(context, NAME, nul
         const val SQL_CREATE_CATEGORIES_ENTRIES =
             "CREATE TABLE ${WordsDatabaseContract.CategoriesEntry.TABLE_NAME} (" +
                     "${WordsDatabaseContract.CategoriesEntry.COLUMN_NAME_CATEGORY_ID} INTEGER PRIMARY KEY," +
-                    "${WordsDatabaseContract.CategoriesEntry.COLUMN_NAME_CATEGORY_NAME} TEXT)"
+                    "${WordsDatabaseContract.CategoriesEntry.COLUMN_NAME_CATEGORY_NAME} TEXT," +
+                    "${WordsDatabaseContract.CategoriesEntry.COLUMN_NAME_SELECTED} INTEGER)"
 
         const val SQL_CREATE_WORDS_ENTRIES =
             "CREATE TABLE ${WordsDatabaseContract.WordsEntry.TABLE_NAME} (" +
-                    "${BaseColumns._ID} INTEGER PRIMARY KEY," +
+                    "${BaseColumns._ID} INTEGER PRIMARY KEY AUTOINCREMENT," +
                     "${WordsDatabaseContract.WordsEntry.COLUMN_NAME_CATEGORY_ID} INTEGER," +
                     "${WordsDatabaseContract.WordsEntry.COLUMN_NAME_RU} TEXT," +
                     "${WordsDatabaseContract.WordsEntry.COLUMN_NAME_ENG} TEXT," +
@@ -51,7 +52,7 @@ class DatabaseOpenHelper(context: Context) : SQLiteOpenHelper(context, NAME, nul
 
         const val SQL_CREATE_EXAMPLES_ENTRIES =
             "CREATE TABLE ${WordsDatabaseContract.EnglishExamplesEntry.TABLE_NAME} (" +
-                    "${BaseColumns._ID} INTEGER PRIMARY KEY," +
+                    "${BaseColumns._ID} INTEGER PRIMARY KEY AUTOINCREMENT," +
                     "${WordsDatabaseContract.EnglishExamplesEntry.COLUMN_NAME_WORD} TEXT," +
                     "${WordsDatabaseContract.EnglishExamplesEntry.COLUMN_NAME_PHRASE} TEXT," +
                     "${WordsDatabaseContract.EnglishExamplesEntry.COLUMN_NAME_RUS_PHRASE} TEXT)"

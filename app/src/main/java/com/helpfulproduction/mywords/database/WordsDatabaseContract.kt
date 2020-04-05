@@ -9,6 +9,7 @@ object WordsDatabaseContract {
         const val TABLE_NAME = "categories"
         const val COLUMN_NAME_CATEGORY_ID = "category_id"
         const val COLUMN_NAME_CATEGORY_NAME = "category_name"
+        const val COLUMN_NAME_SELECTED = "selected"
     }
 
     object WordsEntry: BaseColumns {

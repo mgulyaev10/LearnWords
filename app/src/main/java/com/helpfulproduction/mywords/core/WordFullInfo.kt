@@ -1,5 +1,7 @@
 package com.helpfulproduction.mywords.core
 
-class WordFullInfo(russian: String,
+class WordFullInfo(categoryId: Int,
+                   russian: String,
                    val foreignWord: ForeignWord,
-                   status: Int): Word(russian, foreignWord.word, foreignWord.transcription, status)
+                   status: Int
+): Word(categoryId, russian, foreignWord.word, foreignWord.transcription, status)

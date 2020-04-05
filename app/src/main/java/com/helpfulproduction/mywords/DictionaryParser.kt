@@ -14,13 +14,13 @@ class DictionaryParser {
         dictionaryJson.forEachJsonObject {
             val id = it.optInt("category_id")
             val name = it.optString("category")
-            val words = parseWords(it.getJSONArray("words"))
-            categories.add(CategoryFullInfo(id, name, words))
+            val words = parseWords(id, it.getJSONArray("words"))
+            categories.add(CategoryFullInfo(id, name, false, words))
         }
         return Dictionary(categories)
     }
 
-    private fun parseWords(wordsArray: JSONArray): List<WordFullInfo> {
+    private fun parseWords(categoryId: Int, wordsArray: JSONArray): List<WordFullInfo> {
         val words = ArrayList<WordFullInfo>()
         wordsArray.forEachJsonObject {
             val ru = it.optString("ru")
@@ -29,7 +29,7 @@ class DictionaryParser {
             val engTranscriprion = engObject.optString("transcription")
             // TODO: Examples
             val eng = ForeignWord(engWord, engTranscriprion, emptyList())
-            words.add(WordFullInfo(ru, eng, Word.STATUS_NEW))
+            words.add(WordFullInfo(categoryId, ru, eng, Word.STATUS_NEW))
         }
         return words
     }

@@ -6,7 +6,8 @@ import com.helpfulproduction.mywords.R
 
 open class Category(
     @CategoryIds val id: Int,
-    val title: String
+    val title: String,
+    var isSelected: Boolean
 ) {
 
     @DrawableRes
