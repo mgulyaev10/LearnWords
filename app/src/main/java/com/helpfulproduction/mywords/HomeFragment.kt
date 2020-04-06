@@ -36,7 +36,7 @@ class HomeFragment: Fragment(), NavigationDelegate {
         }
 
         override fun onNavigationItemReselected(item: MenuItem) {
-
+            rootViewPagerAdapter.onPageReselected()
         }
     }
 
@@ -98,6 +98,7 @@ class HomeFragment: Fragment(), NavigationDelegate {
         rootViewPager = view.findViewById<RootViewPager>(R.id.root_view_pager).apply {
             adapter = rootViewPagerAdapter
             currentItem = if (isFirstLaunch) 1 else 0
+            offscreenPageLimit = rootFragments.size
         }
     }
 

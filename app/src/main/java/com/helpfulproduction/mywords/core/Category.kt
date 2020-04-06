@@ -14,7 +14,7 @@ open class Category(
     fun getIcon(): Int {
         return when (id) {
             EDUCATION -> R.drawable.ic_education_40
-            FAMILY -> R.drawable.ic_family_color_40
+            FAMILY -> R.drawable.ic_family_40
             LEISURE -> R.drawable.ic_leisure_40
             BODY -> R.drawable.ic_body_40
             EMOTIONS -> R.drawable.ic_emotions_40
@@ -30,7 +30,7 @@ open class Category(
             FRUITS -> R.drawable.ic_fruits_40
             TRANSPORT -> R.drawable.ic_transport_40
             KITCHENWARE -> R.drawable.ic_kitchenware_40
-            WEATHER -> R.drawable.ic_sun_40
+            WEATHER -> R.drawable.ic_weather_40
             CITY -> R.drawable.ic_city_40
             VEGETABLES -> R.drawable.ic_vegetables_40
             CHARACTER -> R.drawable.ic_character_40

@@ -6,14 +6,14 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.ProgressBar
 import android.widget.TextView
-import com.helpfulproduction.mywords.categories.CategoriesFragment
 import com.helpfulproduction.mywords.core.Word
 import com.helpfulproduction.mywords.core.Words
 import com.helpfulproduction.mywords.mvp.BaseMvpFragment
 import com.helpfulproduction.mywords.utils.Navigator
 import com.helpfulproduction.mywords.utils.SpeechHelper
-import kotlinx.android.synthetic.main.activity_main.view.*
+import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 
 class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(),
     CardWordsContract.View {
@@ -25,16 +25,19 @@ class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(),
     private lateinit var speechButton: ImageView
     private lateinit var content: View
     private lateinit var stub: View
+    private lateinit var loading: ProgressBar
     private lateinit var chooseCategories: Button
 
-    private var words: List<Word> = Words.getWords().shuffled()
+    private var words: List<Word>? = null
     private var index = -1
 
     private var wordsUpdateListener = object: Words.WordsUpdateListener {
         override fun onWordsUpdated(words: List<Word>) {
             this@CardWordsFragment.words = words
             index = -1
-            updateUi()
+            ThreadUtils.postOnMainThread {
+                updateUi()
+            }
         }
     }
 
@@ -43,6 +46,8 @@ class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(),
         initViews(view)
 
         Words.registerWordsUpdateListener(wordsUpdateListener)
+        words = Words.getWords()
+        updateUi()
 
         return view
     }
@@ -53,51 +58,80 @@ class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(),
     }
 
     private fun updateUi() {
-        if (words.isEmpty()) {
-            showStub()
-        } else {
-            updateCard()
+        ThreadUtils.assertMainThread()
+        val currentWords = words
+        when {
+            currentWords?.isEmpty() == true -> {
+                showStub()
+            }
+            currentWords != null -> {
+                updateCard(currentWords)
+            }
+            else -> {
+                showLoading()
+                Words.reload()
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe({
+                        words = it
+                        if (it == null) {
+                            showStub()
+                        } else {
+                            updateCard(it)
+                        }
+                    }, {
+                        it.printStackTrace()
+                    })
+            }
         }
     }
 
-    private fun showStub() {
+    private fun showLoading() {
+        loading.setVisible()
         content.setGone()
-        stub.setVisible()
+        stub.setGone()
     }
 
-    private fun updateCard() {
-        if (index != words.size - 1) {
+    private fun showStub() {
+        stub.setVisible()
+        loading.setGone()
+        content.setGone()
+    }
+
+    private fun showCard() {
+        content.setVisible()
+        stub.setGone()
+        loading.setGone()
+    }
+
+    private fun updateCard(currentWords: List<Word>) {
+        if (index != currentWords.size - 1) {
             index++
         } else {
             // TODO: words end
         }
-        val currentWord = words[index]
+        val currentWord = currentWords[index]
         category.text = Words.categoryFromId(currentWord.categoryId)
         russian.text = currentWord.russian
         english.text = currentWord.english
         transcription.text = currentWord.transcription
-        content.setVisible()
-        stub.setGone()
+        showCard()
     }
 
     private fun initViews(view: View) {
-        category = view.findViewById<TextView>(R.id.category).apply {
-
-        }
-        russian = view.findViewById<TextView>(R.id.russian).apply {
-
-        }
-        english = view.findViewById<TextView>(R.id.english).apply {
-
-        }
-        transcription = view.findViewById<TextView>(R.id.transcription)
+        category = view.findViewById(R.id.category)
+        russian = view.findViewById(R.id.russian)
+        english = view.findViewById(R.id.english)
+        transcription = view.findViewById(R.id.transcription)
         speechButton = view.findViewById<ImageView>(R.id.voice).apply {
             setOnClickListener {
-                SpeechHelper.speak(context, words[index].english)
+                words?.get(index)?.let { word ->
+                    SpeechHelper.speak(context, word.english)
+                }
             }
         }
         content = view.findViewById(R.id.content)
         stub = view.findViewById(R.id.stub)
+        loading = view.findViewById(R.id.loading)
         chooseCategories = view.findViewById<Button>(R.id.choose_categories).apply {
             setOnClickListener {
                 Navigator.openCategoriesFragment()

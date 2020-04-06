@@ -29,7 +29,7 @@
             {
                 "ru": "учебник",
                 "en": {
-                    "transcription": "[skuːl bʊk]",
+                    "transcription": "[skuːl] [bʊk]",
                     "examples": [],
                     "word": "school book"
                 }
@@ -77,7 +77,7 @@
             {
                 "ru": "дисковод",
                 "en": {
-                    "transcription": "[dɪsk draɪv]",
+                    "transcription": "[dɪsk] [draɪv]",
                     "examples": [],
                     "word": "disk drive"
                 }
@@ -157,7 +157,7 @@
             {
                 "ru": "справочник",
                 "en": {
-                    "transcription": "[ˈrefrəns bʊk]",
+                    "transcription": "[ˈrefrəns] [bʊk]",
                     "examples": [],
                     "word": "reference book"
                 }
@@ -165,7 +165,7 @@
             {
                 "ru": "воспитанный",
                 "en": {
-                    "transcription": "[ˈwel bred]",
+                    "transcription": "[ˈwel] [bred]",
                     "examples": [],
                     "word": "well-bred"
                 }
@@ -173,7 +173,7 @@
             {
                 "ru": "проректор",
                 "en": {
-                    "transcription": "[vaɪs ˈprɪnsəpl]",
+                    "transcription": "[vaɪs] [ˈprɪnsəpl]",
                     "examples": [],
                     "word": "vice-principal"
                 }
@@ -189,7 +189,7 @@
             {
                 "ru": "невоспитанный",
                 "en": {
-                    "transcription": "[ˈil ˈˌbred]",
+                    "transcription": "[ˈil] [ˈˌbred]",
                     "examples": [],
                     "word": "ill-bred"
                 }
@@ -205,7 +205,7 @@
             {
                 "ru": "букварь",
                 "en": {
-                    "transcription": "[ˌeɪbiːˈsiː bʊk]",
+                    "transcription": "[ˌeɪbiːˈsiː] [bʊk]",
                     "examples": [],
                     "word": "Abc book"
                 }
@@ -221,7 +221,7 @@
             {
                 "ru": "распечатка",
                 "en": {
-                    "transcription": "[prɪnt ˈaʊts]",
+                    "transcription": "[prɪnt] [ˈaʊts]",
                     "examples": [],
                     "word": "print-outs"
                 }
@@ -245,7 +245,7 @@
             {
                 "ru": "деканат",
                 "en": {
-                    "transcription": "[ ˈɔːfɪs]",
+                    "transcription": "[] [ˈɔːfɪs]",
                     "examples": [],
                     "word": "dean's office"
                 }
@@ -253,7 +253,7 @@
             {
                 "ru": "дневник",
                 "en": {
-                    "transcription": "[ mɑːrk bʊk]",
+                    "transcription": "[] [mɑːrk] [bʊk]",
                     "examples": [],
                     "word": "pupil's mark book"
                 }
@@ -285,7 +285,7 @@
             {
                 "ru": "ректорат",
                 "en": {
-                    "transcription": "[ ˈɔːfɪs]",
+                    "transcription": "[] [ˈɔːfɪs]",
                     "examples": [],
                     "word": "principal's office"
                 }
@@ -325,7 +325,7 @@
             {
                 "ru": "аттестат",
                 "en": {
-                    "transcription": "[ sərˈtɪfɪkət]",
+                    "transcription": "[] [sərˈtɪfɪkət]",
                     "examples": [],
                     "word": "school-leaving certificate"
                 }
@@ -333,7 +333,7 @@
             {
                 "ru": "бакалавр",
                 "en": {
-                    "transcription": "[ dɪˈɡriː]",
+                    "transcription": "[] [dɪˈɡriː]",
                     "examples": [],
                     "word": "bachelor's degree"
                 }
@@ -445,7 +445,7 @@
             {
                 "ru": "воспитывать",
                 "en": {
-                    "transcription": "[brɪŋ ʌp]",
+                    "transcription": "[brɪŋ] [ʌp]",
                     "examples": [],
                     "word": "bring up"
                 }
@@ -477,7 +477,7 @@
             {
                 "ru": "практика",
                 "en": {
-                    "transcription": "[ˈpræktɪkl wɜːrk]",
+                    "transcription": "[ˈpræktɪkl] [wɜːrk]",
                     "examples": [],
                     "word": "practical work"
                 }
@@ -485,7 +485,7 @@
             {
                 "ru": "первокурсник",
                 "en": {
-                    "transcription": "[ˈstuːdnt əv ðə fɜːrst jɪr]",
+                    "transcription": "[ˈstuːdnt] [əv] [ðə] [fɜːrst] [jɪr]",
                     "examples": [],
                     "word": "student of the first year"
                 }
@@ -661,7 +661,7 @@
             {
                 "ru": "магистр",
                 "en": {
-                    "transcription": "[ dɪˈɡriː]",
+                    "transcription": "[] [dɪˈɡriː]",
                     "examples": [],
                     "word": "master's degree"
                 }
@@ -749,7 +749,7 @@
             {
                 "ru": "фломастер",
                 "en": {
-                    "transcription": "[ pen]",
+                    "transcription": "[] [pen]",
                     "examples": [],
                     "word": "felt-tip pen"
                 }
@@ -805,7 +805,7 @@
             {
                 "ru": "ясли",
                 "en": {
-                    "transcription": "[deɪ ˈnɜːrsəri]",
+                    "transcription": "[deɪ] [ˈnɜːrsəri]",
                     "examples": [],
                     "word": "day nursery"
                 }
@@ -861,7 +861,7 @@
             {
                 "ru": "старшеклассник",
                 "en": {
-                    "transcription": "[ˈsiːniər ˈpjuːpl]",
+                    "transcription": "[ˈsiːniər] [ˈpjuːpl]",
                     "examples": [],
                     "word": "senior pupil"
                 }
@@ -885,7 +885,7 @@
             {
                 "ru": "пенал",
                 "en": {
-                    "transcription": "[ˈpensl keɪs]",
+                    "transcription": "[ˈpensl] [keɪs]",
                     "examples": [],
                     "word": "pencil case"
                 }
@@ -917,7 +917,7 @@
             {
                 "ru": "кабинет",
                 "en": {
-                    "transcription": "[ˈpraɪvət ˈɔːfɪs]",
+                    "transcription": "[ˈpraɪvət] [ˈɔːfɪs]",
                     "examples": [],
                     "word": "private office"
                 }
@@ -925,7 +925,7 @@
             {
                 "ru": "списывать",
                 "en": {
-                    "transcription": "[ˈkɑːpi ɔːf]",
+                    "transcription": "[ˈkɑːpi] [ɔːf]",
                     "examples": [],
                     "word": "copy off"
                 }
@@ -965,7 +965,7 @@
             {
                 "ru": "аспирантура",
                 "en": {
-                    "transcription": "[ˌpoʊstˈɡrædʒuət ˈstʌdiz]",
+                    "transcription": "[ˌpoʊstˈɡrædʒuət] [ˈstʌdiz]",
                     "examples": [],
                     "word": "postgraduate studies"
                 }
@@ -981,7 +981,7 @@
             {
                 "ru": "отметка",
                 "en": {
-                    "transcription": "[skuːl mɑːrk]",
+                    "transcription": "[skuːl] [mɑːrk]",
                     "examples": [],
                     "word": "school mark"
                 }
@@ -997,7 +997,7 @@
             {
                 "ru": "интернат",
                 "en": {
-                    "transcription": "[ˈbɔːrdɪŋ skuːl]",
+                    "transcription": "[ˈbɔːrdɪŋ] [skuːl]",
                     "examples": [],
                     "word": "boarding school"
                 }
@@ -1037,7 +1037,7 @@
             {
                 "ru": "старшекурсник",
                 "en": {
-                    "transcription": "[ˈsiːniər ˈstuːdnt]",
+                    "transcription": "[ˈsiːniər] [ˈstuːdnt]",
                     "examples": [],
                     "word": "senior student"
                 }
@@ -1109,7 +1109,7 @@
             {
                 "ru": "черчение",
                 "en": {
-                    "transcription": "[ˈteknɪkl ˈdrɔːɪŋ]",
+                    "transcription": "[ˈteknɪkl] [ˈdrɔːɪŋ]",
                     "examples": [],
                     "word": "technical drawing"
                 }
@@ -1149,7 +1149,7 @@
             {
                 "ru": "дискета",
                 "en": {
-                    "transcription": "[ˈflɑːpi dɪsk]",
+                    "transcription": "[ˈflɑːpi] [dɪsk]",
                     "examples": [],
                     "word": "floppy disk"
                 }
@@ -1173,7 +1173,7 @@
             {
                 "ru": "доцент",
                 "en": {
-                    "transcription": "[əˈsoʊʃieɪt prəˈfesər]",
+                    "transcription": "[əˈsoʊʃieɪt] [prəˈfesər]",
                     "examples": [],
                     "word": "associate professor"
                 }
@@ -1181,7 +1181,7 @@
             {
                 "ru": "циркуль",
                 "en": {
-                    "transcription": "[per əv ˈkʌmpəsɪz]",
+                    "transcription": "[per] [əv] [ˈkʌmpəsɪz]",
                     "examples": [],
                     "word": "pair of compasses"
                 }
@@ -1205,7 +1205,7 @@
             {
                 "ru": "физкультура",
                 "en": {
-                    "transcription": "[ˈfɪzɪkl ˌedʒuˈkeɪʃn]",
+                    "transcription": "[ˈfɪzɪkl] [ˌedʒuˈkeɪʃn]",
                     "examples": [],
                     "word": "physical education"
                 }
@@ -1259,7 +1259,7 @@
             {
                 "ru": "отчим",
                 "en": {
-                    "transcription": "[step ˈfɑːðər]",
+                    "transcription": "[step] [ˈfɑːðər]",
                     "examples": [],
                     "word": "step-father"
                 }
@@ -1275,7 +1275,7 @@
             {
                 "ru": "мачеха",
                 "en": {
-                    "transcription": "[step ˈmʌðər]",
+                    "transcription": "[step] [ˈmʌðər]",
                     "examples": [],
                     "word": "step-mother"
                 }
@@ -1315,7 +1315,7 @@
             {
                 "ru": "брат-близнец",
                 "en": {
-                    "transcription": "[twɪn ˈbrʌðər]",
+                    "transcription": "[twɪn] [ˈbrʌðər]",
                     "examples": [],
                     "word": "twin-brother"
                 }
@@ -1363,7 +1363,7 @@
             {
                 "ru": "сестра-близнец",
                 "en": {
-                    "transcription": "[twɪn ˈsɪstər]",
+                    "transcription": "[twɪn] [ˈsɪstər]",
                     "examples": [],
                     "word": "twin-sister"
                 }
@@ -1419,7 +1419,7 @@
             {
                 "ru": "приемный сын",
                 "en": {
-                    "transcription": "[step sʌn]",
+                    "transcription": "[step] [sʌn]",
                     "examples": [],
                     "word": "step-son"
                 }
@@ -1443,7 +1443,7 @@
             {
                 "ru": "падчерица",
                 "en": {
-                    "transcription": "[step ˈdɔːtər]",
+                    "transcription": "[step] [ˈdɔːtər]",
                     "examples": [],
                     "word": "step-daughter"
                 }
@@ -1451,7 +1451,7 @@
             {
                 "ru": "состоять в браке",
                 "en": {
-                    "transcription": "[bi ˈmærid]",
+                    "transcription": "[bi] [ˈmærid]",
                     "examples": [],
                     "word": "be married"
                 }
@@ -1603,7 +1603,7 @@
             {
                 "ru": "свекор",
                 "en": {
-                    "transcription": "[ˈfɑːðr̩ ən ˌlɔː]",
+                    "transcription": "[ˈfɑːðr̩] [ən] [ˌlɔː]",
                     "examples": [],
                     "word": "father-in-law"
                 }
@@ -1675,7 +1675,7 @@
             {
                 "ru": "развестись",
                 "en": {
-                    "transcription": "[ɡet dɪˈvɔːrst]",
+                    "transcription": "[ɡet] [dɪˈvɔːrst]",
                     "examples": [],
                     "word": "get divorced"
                 }
@@ -1761,7 +1761,7 @@
             {
                 "ru": "турбаза",
                 "en": {
-                    "transcription": "[ˈtʊrɪst ˈsentər]",
+                    "transcription": "[ˈtʊrɪst] [ˈsentər]",
                     "examples": [],
                     "word": "tourist centre"
                 }
@@ -1785,7 +1785,7 @@
             {
                 "ru": "аптечка",
                 "en": {
-                    "transcription": "[fɜːrst eɪd kɪt]",
+                    "transcription": "[fɜːrst] [eɪd] [kɪt]",
                     "examples": [],
                     "word": "first aid kit"
                 }
@@ -1793,7 +1793,7 @@
             {
                 "ru": "сумка на поясе",
                 "en": {
-                    "transcription": "[ˈmʌni belt]",
+                    "transcription": "[ˈmʌni] [belt]",
                     "examples": [],
                     "word": "money belt"
                 }
@@ -1801,7 +1801,7 @@
             {
                 "ru": "шляпа от солнца",
                 "en": {
-                    "transcription": "[sʌn hæt]",
+                    "transcription": "[sʌn] [hæt]",
                     "examples": [],
                     "word": "sun hat"
                 }
@@ -1825,7 +1825,7 @@
             {
                 "ru": "туристическое агентство",
                 "en": {
-                    "transcription": "[ˈtʊrɪst ˈeɪdʒənsi]",
+                    "transcription": "[ˈtʊrɪst] [ˈeɪdʒənsi]",
                     "examples": [],
                     "word": "tourist agency"
                 }
@@ -1873,7 +1873,7 @@
             {
                 "ru": "поход",
                 "en": {
-                    "transcription": "[ˈwɔːkɪŋ tʊr]",
+                    "transcription": "[ˈwɔːkɪŋ] [tʊr]",
                     "examples": [],
                     "word": "walking tour"
                 }
@@ -1897,7 +1897,7 @@
             {
                 "ru": "пансионат",
                 "en": {
-                    "transcription": "[ˈbɔːrdɪŋ haʊs]",
+                    "transcription": "[ˈbɔːrdɪŋ] [haʊs]",
                     "examples": [],
                     "word": "boarding house"
                 }
@@ -1929,7 +1929,7 @@
             {
                 "ru": "путевка",
                 "en": {
-                    "transcription": "[ˈhɑːlədeɪ ˈvaʊtʃər]",
+                    "transcription": "[ˈhɑːlədeɪ] [ˈvaʊtʃər]",
                     "examples": [],
                     "word": "holiday voucher"
                 }
@@ -1937,7 +1937,7 @@
             {
                 "ru": "путеводитель",
                 "en": {
-                    "transcription": "[ˈtrævl ɡaɪd]",
+                    "transcription": "[ˈtrævl] [ɡaɪd]",
                     "examples": [],
                     "word": "travel guide"
                 }
@@ -1977,7 +1977,7 @@
             {
                 "ru": "походные ботинки",
                 "en": {
-                    "transcription": "[ˈwɔːkɪŋ ˈbuːts]",
+                    "transcription": "[ˈwɔːkɪŋ] [ˈbuːts]",
                     "examples": [],
                     "word": "walking boots"
                 }
@@ -2001,7 +2001,7 @@
             {
                 "ru": "отгул",
                 "en": {
-                    "transcription": "[deɪ ɔːf]",
+                    "transcription": "[deɪ] [ɔːf]",
                     "examples": [],
                     "word": "day off"
                 }
@@ -2025,7 +2025,7 @@
             {
                 "ru": "будильник",
                 "en": {
-                    "transcription": "[əˈlɑːrm klɑːk]",
+                    "transcription": "[əˈlɑːrm] [klɑːk]",
                     "examples": [],
                     "word": "alarm clock"
                 }
@@ -2081,7 +2081,7 @@
             {
                 "ru": "водонепроницаемая одежда",
                 "en": {
-                    "transcription": "[ˈwɔːtərpruːf kloʊðz]",
+                    "transcription": "[ˈwɔːtərpruːf] [kloʊðz]",
                     "examples": [],
                     "word": "waterproof clothes"
                 }
@@ -2145,7 +2145,7 @@
             {
                 "ru": "кэмпинг",
                 "en": {
-                    "transcription": "[ˈkæmpɪŋ saɪt]",
+                    "transcription": "[ˈkæmpɪŋ] [saɪt]",
                     "examples": [],
                     "word": "camping site"
                 }
@@ -2193,7 +2193,7 @@
             {
                 "ru": "турагентство",
                 "en": {
-                    "transcription": "[ˈtrævl ˈeɪdʒənsi]",
+                    "transcription": "[ˈtrævl] [ˈeɪdʒənsi]",
                     "examples": [],
                     "word": "travel agency"
                 }
@@ -2295,7 +2295,7 @@
             {
                 "ru": "большой палец ноги",
                 "en": {
-                    "transcription": "[bɪɡ toʊ]",
+                    "transcription": "[bɪɡ] [toʊ]",
                     "examples": [],
                     "word": "big toe"
                 }
@@ -2343,7 +2343,7 @@
             {
                 "ru": "поясница",
                 "en": {
-                    "transcription": "[smɔːl əv ðə bæk]",
+                    "transcription": "[smɔːl] [əv] [ðə] [bæk]",
                     "examples": [],
                     "word": "small of the back"
                 }
@@ -2383,7 +2383,7 @@
             {
                 "ru": "нервная система",
                 "en": {
-                    "transcription": "[ˈnɜːrvəs ˈsɪstəm]",
+                    "transcription": "[ˈnɜːrvəs] [ˈsɪstəm]",
                     "examples": [],
                     "word": "nervous system"
                 }
@@ -2391,7 +2391,7 @@
             {
                 "ru": "кровеносные сосуды",
                 "en": {
-                    "transcription": "[blʌd ˈvesəlz]",
+                    "transcription": "[blʌd] [ˈvesəlz]",
                     "examples": [],
                     "word": "blood vessels"
                 }
@@ -2415,7 +2415,7 @@
             {
                 "ru": "бронхи",
                 "en": {
-                    "transcription": "[ˈbrɑːŋkiəl tuːb]",
+                    "transcription": "[ˈbrɑːŋkiəl] [tuːb]",
                     "examples": [],
                     "word": "bronchial tube"
                 }
@@ -2495,7 +2495,7 @@
             {
                 "ru": "затылок",
                 "en": {
-                    "transcription": "[bæk əv ðə hed]",
+                    "transcription": "[bæk] [əv] [ðə] [hed]",
                     "examples": [],
                     "word": "back of the head"
                 }
@@ -2663,7 +2663,7 @@
             {
                 "ru": "кровообращение",
                 "en": {
-                    "transcription": "[blʌd ˌsɜːrkjəˈleɪʃn]",
+                    "transcription": "[blʌd] [ˌsɜːrkjəˈleɪʃn]",
                     "examples": [],
                     "word": "blood circulation"
                 }
@@ -2671,7 +2671,7 @@
             {
                 "ru": "искусственные зубы",
                 "en": {
-                    "transcription": "[fɔːls tiːθ]",
+                    "transcription": "[fɔːls] [tiːθ]",
                     "examples": [],
                     "word": "false teeth"
                 }
@@ -2695,7 +2695,7 @@
             {
                 "ru": "кровяное давление",
                 "en": {
-                    "transcription": "[blʌd ˈpreʃər]",
+                    "transcription": "[blʌd] [ˈpreʃər]",
                     "examples": [],
                     "word": "blood pressure"
                 }
@@ -2783,7 +2783,7 @@
             {
                 "ru": "мизинец на руке",
                 "en": {
-                    "transcription": "[ˈlɪtl ˈfɪŋɡər]",
+                    "transcription": "[ˈlɪtl] [ˈfɪŋɡər]",
                     "examples": [],
                     "word": "little finger"
                 }
@@ -2799,7 +2799,7 @@
             {
                 "ru": "мизинец на ноге",
                 "en": {
-                    "transcription": "[ˈlɪtl toʊ]",
+                    "transcription": "[ˈlɪtl] [toʊ]",
                     "examples": [],
                     "word": "little toe"
                 }
@@ -2927,7 +2927,7 @@
             {
                 "ru": "лопатка",
                 "en": {
-                    "transcription": "[ˈʃoʊldər bleɪd]",
+                    "transcription": "[ˈʃoʊldər] [bleɪd]",
                     "examples": [],
                     "word": "shoulder blade"
                 }
@@ -3165,7 +3165,7 @@
             {
                 "ru": "в отчаянии",
                 "en": {
-                    "transcription": "[ɪn dɪˈsper]",
+                    "transcription": "[ɪn] [dɪˈsper]",
                     "examples": [],
                     "word": "in despair"
                 }
@@ -3381,7 +3381,7 @@
             {
                 "ru": "удивляться",
                 "en": {
-                    "transcription": "[bi sərˈpraɪzd]",
+                    "transcription": "[bi] [sərˈpraɪzd]",
                     "examples": [],
                     "word": "be surprised"
                 }
@@ -3429,7 +3429,7 @@
             {
                 "ru": "в гневе",
                 "en": {
-                    "transcription": "[ɪn ˈæŋɡər]",
+                    "transcription": "[ɪn] [ˈæŋɡər]",
                     "examples": [],
                     "word": "in anger"
                 }
@@ -3541,7 +3541,7 @@
             {
                 "ru": "вызывать интерес",
                 "en": {
-                    "transcription": "[əˈraʊz ˈɪntrəst]",
+                    "transcription": "[əˈraʊz] [ˈɪntrəst]",
                     "examples": [],
                     "word": "arouse interest"
                 }
@@ -3605,7 +3605,7 @@
             {
                 "ru": "грустить",
                 "en": {
-                    "transcription": "[fiːl sæd]",
+                    "transcription": "[fiːl] [sæd]",
                     "examples": [],
                     "word": "feel sad"
                 }
@@ -3629,7 +3629,7 @@
             {
                 "ru": "завидовать",
                 "en": {
-                    "transcription": "[bi ˈenviəs]",
+                    "transcription": "[bi] [ˈenviəs]",
                     "examples": [],
                     "word": "be envious"
                 }
@@ -3653,7 +3653,7 @@
             {
                 "ru": "поразиться",
                 "en": {
-                    "transcription": "[bi əˈstɑːnɪʃt]",
+                    "transcription": "[bi] [əˈstɑːnɪʃt]",
                     "examples": [],
                     "word": "be astonished"
                 }
@@ -3837,7 +3837,7 @@
             {
                 "ru": "успокоить",
                 "en": {
-                    "transcription": "[kɑːm daʊn]",
+                    "transcription": "[kɑːm] [daʊn]",
                     "examples": [],
                     "word": "calm down"
                 }
@@ -3899,7 +3899,7 @@
             {
                 "ru": "бассейн",
                 "en": {
-                    "transcription": "[ˈswɪmɪŋ puːl]",
+                    "transcription": "[ˈswɪmɪŋ] [puːl]",
                     "examples": [],
                     "word": "swimming pool"
                 }
@@ -3923,7 +3923,7 @@
             {
                 "ru": "лыжный трамплин",
                 "en": {
-                    "transcription": "[skiː dʒʌmp]",
+                    "transcription": "[skiː] [dʒʌmp]",
                     "examples": [],
                     "word": "ski jump"
                 }
@@ -3939,7 +3939,7 @@
             {
                 "ru": "каток",
                 "en": {
-                    "transcription": "[ˈskeɪtɪŋ rɪŋ]",
+                    "transcription": "[ˈskeɪtɪŋ] [rɪŋ]",
                     "examples": [],
                     "word": "skating ring"
                 }
@@ -3963,7 +3963,7 @@
             {
                 "ru": "теннисист",
                 "en": {
-                    "transcription": "[ˈtenɪs ˈpleɪər]",
+                    "transcription": "[ˈtenɪs] [ˈpleɪər]",
                     "examples": [],
                     "word": "tennis player"
                 }
@@ -3971,7 +3971,7 @@
             {
                 "ru": "баскетболист",
                 "en": {
-                    "transcription": "[ˈbæskɪtbɔːl ˈpleɪər]",
+                    "transcription": "[ˈbæskɪtbɔːl] [ˈpleɪər]",
                     "examples": [],
                     "word": "basketball player"
                 }
@@ -4027,7 +4027,7 @@
             {
                 "ru": "метатель диска",
                 "en": {
-                    "transcription": "[ˈdɪskəs ˈθroʊər]",
+                    "transcription": "[ˈdɪskəs] [ˈθroʊər]",
                     "examples": [],
                     "word": "discus thrower"
                 }
@@ -4043,7 +4043,7 @@
             {
                 "ru": "проиграть",
                 "en": {
-                    "transcription": "[ɡet dəˈfiːtəd]",
+                    "transcription": "[ɡet] [dəˈfiːtəd]",
                     "examples": [],
                     "word": "get defeated"
                 }
@@ -4059,7 +4059,7 @@
             {
                 "ru": "баттерфляй",
                 "en": {
-                    "transcription": "[ˈbʌtərflaɪ stroʊk]",
+                    "transcription": "[ˈbʌtərflaɪ] [stroʊk]",
                     "examples": [],
                     "word": "butterfly-stroke"
                 }
@@ -4075,7 +4075,7 @@
             {
                 "ru": "волейболист",
                 "en": {
-                    "transcription": "[ˈvɑːlibɔːl ˈpleɪər]",
+                    "transcription": "[ˈvɑːlibɔːl] [ˈpleɪər]",
                     "examples": [],
                     "word": "volleyball player"
                 }
@@ -4115,7 +4115,7 @@
             {
                 "ru": "шахматист",
                 "en": {
-                    "transcription": "[tʃes ˈpleɪər]",
+                    "transcription": "[tʃes] [ˈpleɪər]",
                     "examples": [],
                     "word": "chess player"
                 }
@@ -4179,7 +4179,7 @@
             {
                 "ru": "лыжня",
                 "en": {
-                    "transcription": "[skiː træk]",
+                    "transcription": "[skiː] [træk]",
                     "examples": [],
                     "word": "ski track"
                 }
@@ -4211,7 +4211,7 @@
             {
                 "ru": "яхтклуб",
                 "en": {
-                    "transcription": "[jɑːt klʌb]",
+                    "transcription": "[jɑːt] [klʌb]",
                     "examples": [],
                     "word": "yacht club"
                 }
@@ -4227,7 +4227,7 @@
             {
                 "ru": "ринг",
                 "en": {
-                    "transcription": "[ˈbɑːksɪŋ rɪŋ]",
+                    "transcription": "[ˈbɑːksɪŋ] [rɪŋ]",
                     "examples": [],
                     "word": "boxing ring"
                 }
@@ -4411,7 +4411,7 @@
             {
                 "ru": "тренировка",
                 "en": {
-                    "transcription": "[ˈtreɪnɪŋ ˈseʃn]",
+                    "transcription": "[ˈtreɪnɪŋ] [ˈseʃn]",
                     "examples": [],
                     "word": "training (session)"
                 }
@@ -4435,7 +4435,7 @@
             {
                 "ru": "удар по воротам",
                 "en": {
-                    "transcription": "[ʃɑːt eɪ ɡoʊl]",
+                    "transcription": "[ʃɑːt] [eɪ] [ɡoʊl]",
                     "examples": [],
                     "word": "shot a goal"
                 }
@@ -4459,7 +4459,7 @@
             {
                 "ru": "забивать гол",
                 "en": {
-                    "transcription": "[skɔːr eɪ ɡoʊl]",
+                    "transcription": "[skɔːr] [eɪ] [ɡoʊl]",
                     "examples": [],
                     "word": "score a goal"
                 }
@@ -4475,7 +4475,7 @@
             {
                 "ru": "гонщик",
                 "en": {
-                    "transcription": "[ˈreɪsɪŋ ]",
+                    "transcription": "[ˈreɪsɪŋ] []",
                     "examples": [],
                     "word": "racing draver"
                 }
@@ -4491,7 +4491,7 @@
             {
                 "ru": "фигурист",
                 "en": {
-                    "transcription": "[ˈfɪɡjər ˈskeɪtər]",
+                    "transcription": "[ˈfɪɡjər] [ˈskeɪtər]",
                     "examples": [],
                     "word": "figure skater"
                 }
@@ -4499,7 +4499,7 @@
             {
                 "ru": "корт",
                 "en": {
-                    "transcription": "[ˈtenɪs kɔːrt]",
+                    "transcription": "[ˈtenɪs] [kɔːrt]",
                     "examples": [],
                     "word": "tennis court"
                 }
@@ -4507,7 +4507,7 @@
             {
                 "ru": "конькобежец",
                 "en": {
-                    "transcription": "[spiːd ˈskeɪtər]",
+                    "transcription": "[spiːd] [ˈskeɪtər]",
                     "examples": [],
                     "word": "speed skater"
                 }
@@ -4515,7 +4515,7 @@
             {
                 "ru": "ракетка",
                 "en": {
-                    "transcription": "[ˈtenɪs ˈrækɪt]",
+                    "transcription": "[ˈtenɪs] [ˈrækɪt]",
                     "examples": [],
                     "word": "tennis racket"
                 }
@@ -4571,7 +4571,7 @@
             {
                 "ru": "клюшка",
                 "en": {
-                    "transcription": "[ˈhɑːki stɪk]",
+                    "transcription": "[ˈhɑːki] [stɪk]",
                     "examples": [],
                     "word": "hockey stick"
                 }
@@ -4603,7 +4603,7 @@
             {
                 "ru": "тир",
                 "en": {
-                    "transcription": "[ˈʃuːtɪŋ ˈɡæləri]",
+                    "transcription": "[ˈʃuːtɪŋ] [ˈɡæləri]",
                     "examples": [],
                     "word": "shooting gallery"
                 }
@@ -4651,7 +4651,7 @@
             {
                 "ru": "хоккеист",
                 "en": {
-                    "transcription": "[ˈhɑːki ˈpleɪər]",
+                    "transcription": "[ˈhɑːki] [ˈpleɪər]",
                     "examples": [],
                     "word": "hockey player"
                 }
@@ -4715,7 +4715,7 @@
             {
                 "ru": "лучший игрок",
                 "en": {
-                    "transcription": "[tɑːp ˈpleɪər]",
+                    "transcription": "[tɑːp] [ˈpleɪər]",
                     "examples": [],
                     "word": "top player"
                 }
@@ -4723,7 +4723,7 @@
             {
                 "ru": "физкультура",
                 "en": {
-                    "transcription": "[ˈfɪzɪkl ˌedʒuˈkeɪʃn]",
+                    "transcription": "[ˈfɪzɪkl] [ˌedʒuˈkeɪʃn]",
                     "examples": [],
                     "word": "physical education"
                 }
@@ -4793,7 +4793,7 @@
             {
                 "ru": "фрак",
                 "en": {
-                    "transcription": "[teɪl koʊt]",
+                    "transcription": "[teɪl] [koʊt]",
                     "examples": [],
                     "word": "tail coat"
                 }
@@ -4825,7 +4825,7 @@
             {
                 "ru": "гольфы",
                 "en": {
-                    "transcription": "[niː ˈsɑːks]",
+                    "transcription": "[niː] [ˈsɑːks]",
                     "examples": [],
                     "word": "knee socks"
                 }
@@ -4841,7 +4841,7 @@
             {
                 "ru": "раздеться",
                 "en": {
-                    "transcription": "[ɡet ʌnˈdrest]",
+                    "transcription": "[ɡet] [ʌnˈdrest]",
                     "examples": [],
                     "word": "get undressed"
                 }
@@ -4873,7 +4873,7 @@
             {
                 "ru": "галстук-бабочка",
                 "en": {
-                    "transcription": "[ˌboʊ ˈtaɪ]",
+                    "transcription": "[ˌboʊ] [ˈtaɪ]",
                     "examples": [],
                     "word": "bow-tie"
                 }
@@ -4929,7 +4929,7 @@
             {
                 "ru": "одеться",
                 "en": {
-                    "transcription": "[ɡet drest]",
+                    "transcription": "[ɡet] [drest]",
                     "examples": [],
                     "word": "get dressed"
                 }
@@ -5025,7 +5025,7 @@
             {
                 "ru": "кожаная куртка",
                 "en": {
-                    "transcription": "[ˈleðər ˈdʒækɪt]",
+                    "transcription": "[ˈleðər] [ˈdʒækɪt]",
                     "examples": [],
                     "word": "leather jacket"
                 }
@@ -5049,7 +5049,7 @@
             {
                 "ru": "купальник",
                 "en": {
-                    "transcription": "[ˈswɪmɪŋ suːt]",
+                    "transcription": "[ˈswɪmɪŋ] [suːt]",
                     "examples": [],
                     "word": "swimming suit"
                 }
@@ -5073,7 +5073,7 @@
             {
                 "ru": "сарафан",
                 "en": {
-                    "transcription": "[ˈsʌmər dres]",
+                    "transcription": "[ˈsʌmər] [dres]",
                     "examples": [],
                     "word": "summer dress"
                 }
@@ -5105,7 +5105,7 @@
             {
                 "ru": "смокинг",
                 "en": {
-                    "transcription": "[ˈsmoʊkɪŋ ˈdʒækɪt]",
+                    "transcription": "[ˈsmoʊkɪŋ] [ˈdʒækɪt]",
                     "examples": [],
                     "word": "smoking jacket"
                 }
@@ -5129,7 +5129,7 @@
             {
                 "ru": "запонки",
                 "en": {
-                    "transcription": "[kʌf lɪŋks]",
+                    "transcription": "[kʌf] [lɪŋks]",
                     "examples": [],
                     "word": "cuff links"
                 }
@@ -5137,7 +5137,7 @@
             {
                 "ru": "велик",
                 "en": {
-                    "transcription": "[tuː bɪɡ]",
+                    "transcription": "[tuː] [bɪɡ]",
                     "examples": [],
                     "word": "too big"
                 }
@@ -5225,7 +5225,7 @@
             {
                 "ru": "нарядно одетый",
                 "en": {
-                    "transcription": "[wel drest]",
+                    "transcription": "[wel] [drest]",
                     "examples": [],
                     "word": "well-dressed"
                 }
@@ -5233,7 +5233,7 @@
             {
                 "ru": "мал",
                 "en": {
-                    "transcription": "[tuː smɔːl]",
+                    "transcription": "[tuː] [smɔːl]",
                     "examples": [],
                     "word": "too small"
                 }
@@ -5241,7 +5241,7 @@
             {
                 "ru": "шуба",
                 "en": {
-                    "transcription": "[fɜːr koʊt]",
+                    "transcription": "[fɜːr] [koʊt]",
                     "examples": [],
                     "word": "fur coat"
                 }
@@ -5281,7 +5281,7 @@
             {
                 "ru": "дубленка",
                 "en": {
-                    "transcription": "[ˈʃiːpskɪn koʊt]",
+                    "transcription": "[ˈʃiːpskɪn] [koʊt]",
                     "examples": [],
                     "word": "sheepskin coat"
                 }
@@ -5321,7 +5321,7 @@
             {
                 "ru": "плавки",
                 "en": {
-                    "transcription": "[ˈswɪmɪŋ trʌŋks]",
+                    "transcription": "[ˈswɪmɪŋ] [trʌŋks]",
                     "examples": [],
                     "word": "swimming trunks"
                 }
@@ -5353,7 +5353,7 @@
             {
                 "ru": "надеть",
                 "en": {
-                    "transcription": "[pʊt ɑːn]",
+                    "transcription": "[pʊt] [ɑːn]",
                     "examples": [],
                     "word": "put on"
                 }
@@ -5479,7 +5479,7 @@
             {
                 "ru": "будильник",
                 "en": {
-                    "transcription": "[əˈlɑːrm klɑːk]",
+                    "transcription": "[əˈlɑːrm] [klɑːk]",
                     "examples": [],
                     "word": "alarm clock"
                 }
@@ -5503,7 +5503,7 @@
             {
                 "ru": "тесная комната",
                 "en": {
-                    "transcription": "[kræmpt ruːm]",
+                    "transcription": "[kræmpt] [ruːm]",
                     "examples": [],
                     "word": "cramped room"
                 }
@@ -5511,7 +5511,7 @@
             {
                 "ru": "жалюзи",
                 "en": {
-                    "transcription": "[vəˈniːʃən ˈblaɪndz]",
+                    "transcription": "[vəˈniːʃən] [ˈblaɪndz]",
                     "examples": [],
                     "word": "venetian blinds"
                 }
@@ -5543,7 +5543,7 @@
             {
                 "ru": "мусорное ведро",
                 "en": {
-                    "transcription": "[ˈrʌbɪʃ bɪn]",
+                    "transcription": "[ˈrʌbɪʃ] [bɪn]",
                     "examples": [],
                     "word": "rubbish bin"
                 }
@@ -5567,7 +5567,7 @@
             {
                 "ru": "диван-кровать",
                 "en": {
-                    "transcription": "[ˈsoʊfə ˌbiː ˈed]",
+                    "transcription": "[ˈsoʊfə] [ˌbiː] [ˈed]",
                     "examples": [],
                     "word": "sofa bed"
                 }
@@ -5615,7 +5615,7 @@
             {
                 "ru": "журнальный столик",
                 "en": {
-                    "transcription": "[ˈkɔːfi ˈteɪbl]",
+                    "transcription": "[ˈkɔːfi] [ˈteɪbl]",
                     "examples": [],
                     "word": "coffee table"
                 }
@@ -5655,7 +5655,7 @@
             {
                 "ru": "вешалка",
                 "en": {
-                    "transcription": "[hɔːl stænd]",
+                    "transcription": "[hɔːl] [stænd]",
                     "examples": [],
                     "word": "hall-stand"
                 }
@@ -5663,7 +5663,7 @@
             {
                 "ru": "комод",
                 "en": {
-                    "transcription": "[tʃest əv ˈdrɔːrz]",
+                    "transcription": "[tʃest] [əv] [ˈdrɔːrz]",
                     "examples": [],
                     "word": "chest of drawers"
                 }
@@ -5711,7 +5711,7 @@
             {
                 "ru": "вешалка-плечики",
                 "en": {
-                    "transcription": "[koʊt ˈhæŋər]",
+                    "transcription": "[koʊt] [ˈhæŋər]",
                     "examples": [],
                     "word": "coat hanger"
                 }
@@ -5727,7 +5727,7 @@
             {
                 "ru": "кровать",
                 "en": {
-                    "transcription": "[ˌbiː ˈed]",
+                    "transcription": "[ˌbiː] [ˈed]",
                     "examples": [],
                     "word": "bed"
                 }
@@ -5767,7 +5767,7 @@
             {
                 "ru": "тумбочка",
                 "en": {
-                    "transcription": "[ˈbedsaɪd ˈteɪbl]",
+                    "transcription": "[ˈbedsaɪd] [ˈteɪbl]",
                     "examples": [],
                     "word": "bedside table"
                 }
@@ -5829,7 +5829,7 @@
             {
                 "ru": "дружить",
                 "en": {
-                    "transcription": "[bi frendz]",
+                    "transcription": "[bi] [frendz]",
                     "examples": [],
                     "word": "be friends"
                 }
@@ -5933,7 +5933,7 @@
             {
                 "ru": "мириться",
                 "en": {
-                    "transcription": "[meɪk ʌp]",
+                    "transcription": "[meɪk] [ʌp]",
                     "examples": [],
                     "word": "make up"
                 }
@@ -6021,7 +6021,7 @@
             {
                 "ru": "пойти в гости",
                 "en": {
-                    "transcription": "[ɡoʊ tə siː]",
+                    "transcription": "[ɡoʊ] [tə] [siː]",
                     "examples": [],
                     "word": "go to see"
                 }
@@ -6093,7 +6093,7 @@
             {
                 "ru": "заступаться",
                 "en": {
-                    "transcription": "[stænd ʌp]",
+                    "transcription": "[stænd] [ʌp]",
                     "examples": [],
                     "word": "stand up"
                 }
@@ -6189,7 +6189,7 @@
             {
                 "ru": "расстаться",
                 "en": {
-                    "transcription": "[pɑːrt wɪð]",
+                    "transcription": "[pɑːrt] [wɪð]",
                     "examples": [],
                     "word": "part with"
                 }
@@ -6269,7 +6269,7 @@
             {
                 "ru": "видеться",
                 "en": {
-                    "transcription": "[siː iːtʃ ˈʌðər]",
+                    "transcription": "[siː] [iːtʃ] [ˈʌðər]",
                     "examples": [],
                     "word": "see each other"
                 }
@@ -6389,7 +6389,7 @@
             {
                 "ru": "заботиться",
                 "en": {
-                    "transcription": "[teɪk ker]",
+                    "transcription": "[teɪk] [ker]",
                     "examples": [],
                     "word": "take care"
                 }
@@ -6491,7 +6491,7 @@
             {
                 "ru": "доплата",
                 "en": {
-                    "transcription": "[ˈekstrə peɪ]",
+                    "transcription": "[ˈekstrə] [peɪ]",
                     "examples": [],
                     "word": "extra pay"
                 }
@@ -6515,7 +6515,7 @@
             {
                 "ru": "выплачивать",
                 "en": {
-                    "transcription": "[peɪ ɔːf]",
+                    "transcription": "[peɪ] [ɔːf]",
                     "examples": [],
                     "word": "pay off"
                 }
@@ -6611,7 +6611,7 @@
             {
                 "ru": "торговый центр",
                 "en": {
-                    "transcription": "[treɪd ˈsentər]",
+                    "transcription": "[treɪd] [ˈsentər]",
                     "examples": [],
                     "word": "trade centre"
                 }
@@ -6619,7 +6619,7 @@
             {
                 "ru": "вклад",
                 "en": {
-                    "transcription": "[fɪkst dɪˈpɑːzɪt]",
+                    "transcription": "[fɪkst] [dɪˈpɑːzɪt]",
                     "examples": [],
                     "word": "fixed deposit"
                 }
@@ -6651,7 +6651,7 @@
             {
                 "ru": "наценка",
                 "en": {
-                    "transcription": "[ˈekstrə tʃeɪndʒ]",
+                    "transcription": "[ˈekstrə] [tʃeɪndʒ]",
                     "examples": [],
                     "word": "extra change"
                 }
@@ -6715,7 +6715,7 @@
             {
                 "ru": "выплачивать компенсацию",
                 "en": {
-                    "transcription": "[peɪ ˈdæmədʒəz]",
+                    "transcription": "[peɪ] [ˈdæmədʒəz]",
                     "examples": [],
                     "word": "pay damages"
                 }
@@ -6747,7 +6747,7 @@
             {
                 "ru": "кредитная карта",
                 "en": {
-                    "transcription": "[ˈkredɪt kɑːrd]",
+                    "transcription": "[ˈkredɪt] [kɑːrd]",
                     "examples": [],
                     "word": "credit card"
                 }
@@ -6755,7 +6755,7 @@
             {
                 "ru": "торговая палата",
                 "en": {
-                    "transcription": "[ˈtʃeɪmbər əv ˈkɑːmɜːrs]",
+                    "transcription": "[ˈtʃeɪmbər] [əv] [ˈkɑːmɜːrs]",
                     "examples": [],
                     "word": "chamber of commerce"
                 }
@@ -6795,7 +6795,7 @@
             {
                 "ru": "обанкротиться",
                 "en": {
-                    "transcription": "[ɡoʊ ˈbæŋkrʌpt]",
+                    "transcription": "[ɡoʊ] [ˈbæŋkrʌpt]",
                     "examples": [],
                     "word": "go bankrupt"
                 }
@@ -6803,7 +6803,7 @@
             {
                 "ru": "поставляемый товар",
                 "en": {
-                    "transcription": "[səˈplaɪd ˈɡʊdz]",
+                    "transcription": "[səˈplaɪd] [ˈɡʊdz]",
                     "examples": [],
                     "word": "supplied goods"
                 }
@@ -6843,7 +6843,7 @@
             {
                 "ru": "возвращать",
                 "en": {
-                    "transcription": "[peɪ bæk]",
+                    "transcription": "[peɪ] [bæk]",
                     "examples": [],
                     "word": "pay back"
                 }
@@ -6851,7 +6851,7 @@
             {
                 "ru": "отнять",
                 "en": {
-                    "transcription": "[teɪk əˈweɪ]",
+                    "transcription": "[teɪk] [əˈweɪ]",
                     "examples": [],
                     "word": "take away"
                 }
@@ -6883,7 +6883,7 @@
             {
                 "ru": "розничная торговля",
                 "en": {
-                    "transcription": "[ˈriːteɪl seɪl]",
+                    "transcription": "[ˈriːteɪl] [seɪl]",
                     "examples": [],
                     "word": "retail sale"
                 }
@@ -6963,7 +6963,7 @@
             {
                 "ru": "страховой полис",
                 "en": {
-                    "transcription": "[ɪnˈʃʊrəns ˈpɑːləsi]",
+                    "transcription": "[ɪnˈʃʊrəns] [ˈpɑːləsi]",
                     "examples": [],
                     "word": "insurance policy"
                 }
@@ -7019,7 +7019,7 @@
             {
                 "ru": "менять деньги",
                 "en": {
-                    "transcription": "[tʃeɪndʒ ˈmʌni]",
+                    "transcription": "[tʃeɪndʒ] [ˈmʌni]",
                     "examples": [],
                     "word": "change money"
                 }
@@ -7035,7 +7035,7 @@
             {
                 "ru": "банкомат",
                 "en": {
-                    "transcription": "[kæʃ məˈʃiːn]",
+                    "transcription": "[kæʃ] [məˈʃiːn]",
                     "examples": [],
                     "word": "cash machine"
                 }
@@ -7235,7 +7235,7 @@
             {
                 "ru": "пакет акций",
                 "en": {
-                    "transcription": "[blɑːk əv ˈʃerz]",
+                    "transcription": "[blɑːk] [əv] [ˈʃerz]",
                     "examples": [],
                     "word": "block of shares"
                 }
@@ -7251,7 +7251,7 @@
             {
                 "ru": "торговая сеть",
                 "en": {
-                    "transcription": "[ˈtreɪdɪŋ ˈnetwɜːrk]",
+                    "transcription": "[ˈtreɪdɪŋ] [ˈnetwɜːrk]",
                     "examples": [],
                     "word": "trading network"
                 }
@@ -7267,7 +7267,7 @@
             {
                 "ru": "обменный курс",
                 "en": {
-                    "transcription": "[ɪksˈtʃeɪndʒ reɪt]",
+                    "transcription": "[ɪksˈtʃeɪndʒ] [reɪt]",
                     "examples": [],
                     "word": "exchange rate"
                 }
@@ -7307,7 +7307,7 @@
             {
                 "ru": "служащий банка",
                 "en": {
-                    "transcription": "[ ˈɔːfɪsər]",
+                    "transcription": "[] [ˈɔːfɪsər]",
                     "examples": [],
                     "word": "bakn officer"
                 }
@@ -7347,7 +7347,7 @@
             {
                 "ru": "себестоимость",
                 "en": {
-                    "transcription": "[praɪm kɔːst]",
+                    "transcription": "[praɪm] [kɔːst]",
                     "examples": [],
                     "word": "prime cost"
                 }
@@ -7377,7 +7377,7 @@
             {
                 "ru": "книголюб",
                 "en": {
-                    "transcription": "[bʊk ˈlʌvər]",
+                    "transcription": "[bʊk] [ˈlʌvər]",
                     "examples": [],
                     "word": "book-lover"
                 }
@@ -7625,7 +7625,7 @@
             {
                 "ru": "видеомагнитофон",
                 "en": {
-                    "transcription": "[ˈvɪdioʊ rɪˈkɔːrdər]",
+                    "transcription": "[ˈvɪdioʊ] [rɪˈkɔːrdər]",
                     "examples": [],
                     "word": "video recorder"
                 }
@@ -7689,7 +7689,7 @@
             {
                 "ru": "видеоигра",
                 "en": {
-                    "transcription": "[ˈvɪdioʊ ɡeɪm]",
+                    "transcription": "[ˈvɪdioʊ] [ɡeɪm]",
                     "examples": [],
                     "word": "video game"
                 }
@@ -7745,7 +7745,7 @@
             {
                 "ru": "удочка",
                 "en": {
-                    "transcription": "[ˈfɪʃɪŋ rɑːd]",
+                    "transcription": "[ˈfɪʃɪŋ] [rɑːd]",
                     "examples": [],
                     "word": "fishing-rod"
                 }
@@ -7769,7 +7769,7 @@
             {
                 "ru": "видеокассета",
                 "en": {
-                    "transcription": "[ˈvɪdioʊ teɪp]",
+                    "transcription": "[ˈvɪdioʊ] [teɪp]",
                     "examples": [],
                     "word": "video tape"
                 }
@@ -7825,7 +7825,7 @@
             {
                 "ru": "швейная машинка",
                 "en": {
-                    "transcription": "[ˈsoʊɪŋ məˈʃiːn]",
+                    "transcription": "[ˈsoʊɪŋ] [məˈʃiːn]",
                     "examples": [],
                     "word": "sewing machine"
                 }
@@ -8015,7 +8015,7 @@
             {
                 "ru": "животный мир",
                 "en": {
-                    "transcription": "[ðə ˈænɪml wɜːrld]",
+                    "transcription": "[ðə] [ˈænɪml] [wɜːrld]",
                     "examples": [],
                     "word": "the animal world"
                 }
@@ -8199,7 +8199,7 @@
             {
                 "ru": "заповедник",
                 "en": {
-                    "transcription": "[ˈneɪtʃər rɪˈzɜːrv]",
+                    "transcription": "[ˈneɪtʃər] [rɪˈzɜːrv]",
                     "examples": [],
                     "word": "nature reserve"
                 }
@@ -8293,7 +8293,7 @@
             {
                 "ru": "водосточная труба",
                 "en": {
-                    "transcription": "[dreɪn paɪp]",
+                    "transcription": "[dreɪn] [paɪp]",
                     "examples": [],
                     "word": "drain pipe"
                 }
@@ -8341,7 +8341,7 @@
             {
                 "ru": "лампочка",
                 "en": {
-                    "transcription": "[ɪˈlektrɪk bʌlb]",
+                    "transcription": "[ɪˈlektrɪk] [bʌlb]",
                     "examples": [],
                     "word": "electric bulb"
                 }
@@ -8381,7 +8381,7 @@
             {
                 "ru": "микроволновка",
                 "en": {
-                    "transcription": "[ˈmaɪkrəweɪv ˈʌvn]",
+                    "transcription": "[ˈmaɪkrəweɪv] [ˈʌvn]",
                     "examples": [],
                     "word": "microwave oven"
                 }
@@ -8389,7 +8389,7 @@
             {
                 "ru": "торшер",
                 "en": {
-                    "transcription": "[flɔːr læmp]",
+                    "transcription": "[flɔːr] [læmp]",
                     "examples": [],
                     "word": "floor lamp"
                 }
@@ -8397,7 +8397,7 @@
             {
                 "ru": "туалетная бумага",
                 "en": {
-                    "transcription": "[ˈtɔɪlət ˈpeɪpər]",
+                    "transcription": "[ˈtɔɪlət] [ˈpeɪpər]",
                     "examples": [],
                     "word": "toilet paper"
                 }
@@ -8445,7 +8445,7 @@
             {
                 "ru": "многоквартирный дом",
                 "en": {
-                    "transcription": "[blɑːk əv flæts]",
+                    "transcription": "[blɑːk] [əv] [flæts]",
                     "examples": [],
                     "word": "block of flats"
                 }
@@ -8469,7 +8469,7 @@
             {
                 "ru": "пылесос",
                 "en": {
-                    "transcription": "[ˈvækjuəm ˈkliːnər]",
+                    "transcription": "[ˈvækjuəm] [ˈkliːnər]",
                     "examples": [],
                     "word": "vacuum cleaner"
                 }
@@ -8501,7 +8501,7 @@
             {
                 "ru": "гостиная",
                 "en": {
-                    "transcription": "[ˈlɪvɪŋ ruːm]",
+                    "transcription": "[ˈlɪvɪŋ] [ruːm]",
                     "examples": [],
                     "word": "living room"
                 }
@@ -8701,7 +8701,7 @@
             {
                 "ru": "кондиционер",
                 "en": {
-                    "transcription": "[er kənˈdɪʃənər]",
+                    "transcription": "[er] [kənˈdɪʃənər]",
                     "examples": [],
                     "word": "air conditioner"
                 }
@@ -8709,7 +8709,7 @@
             {
                 "ru": "водопровод",
                 "en": {
-                    "transcription": "[ˈwɔːtər səˈplaɪ ˈsɪstəm]",
+                    "transcription": "[ˈwɔːtər] [səˈplaɪ] [ˈsɪstəm]",
                     "examples": [],
                     "word": "water supply system"
                 }
@@ -8725,7 +8725,7 @@
             {
                 "ru": "форточка",
                 "en": {
-                    "transcription": "[ˈʌpər peɪn fər ˌventɪˈleɪʃn]",
+                    "transcription": "[ˈʌpər] [peɪn] [fər] [ˌventɪˈleɪʃn]",
                     "examples": [],
                     "word": "upper pane for ventilation"
                 }
@@ -8741,7 +8741,7 @@
             {
                 "ru": "газовая плита",
                 "en": {
-                    "transcription": "[ɡæs stoʊv]",
+                    "transcription": "[ɡæs] [stoʊv]",
                     "examples": [],
                     "word": "gas stove"
                 }
@@ -8757,7 +8757,7 @@
             {
                 "ru": "цепочка на двери",
                 "en": {
-                    "transcription": "[dɔːr tʃeɪn]",
+                    "transcription": "[dɔːr] [tʃeɪn]",
                     "examples": [],
                     "word": "door chain"
                 }
@@ -8813,7 +8813,7 @@
             {
                 "ru": "дома",
                 "en": {
-                    "transcription": "[ət hoʊm]",
+                    "transcription": "[ət] [hoʊm]",
                     "examples": [],
                     "word": "at home"
                 }
@@ -8837,7 +8837,7 @@
             {
                 "ru": "сигнализация",
                 "en": {
-                    "transcription": "[ˈbɜːrɡlər əˈlɑːrm]",
+                    "transcription": "[ˈbɜːrɡlər] [əˈlɑːrm]",
                     "examples": [],
                     "word": "burglar alarm"
                 }
@@ -8957,7 +8957,7 @@
             {
                 "ru": "домовладелец",
                 "en": {
-                    "transcription": "[hoʊm ˈoʊnər]",
+                    "transcription": "[hoʊm] [ˈoʊnər]",
                     "examples": [],
                     "word": "home owner"
                 }
@@ -9133,7 +9133,7 @@
             {
                 "ru": "бра",
                 "en": {
-                    "transcription": "[wɔːl laɪt]",
+                    "transcription": "[wɔːl] [laɪt]",
                     "examples": [],
                     "word": "wall light"
                 }
@@ -9141,7 +9141,7 @@
             {
                 "ru": "стиральная машина",
                 "en": {
-                    "transcription": "[ˈwɑːʃɪŋ məˈʃiːn]",
+                    "transcription": "[ˈwɑːʃɪŋ] [məˈʃiːn]",
                     "examples": [],
                     "word": "washing machine"
                 }
@@ -9227,7 +9227,7 @@
             {
                 "ru": "идти вдоль",
                 "en": {
-                    "transcription": "[ɡoʊ əˈlɔːŋ]",
+                    "transcription": "[ɡoʊ] [əˈlɔːŋ]",
                     "examples": [],
                     "word": "go along"
                 }
@@ -9251,7 +9251,7 @@
             {
                 "ru": "мчаться",
                 "en": {
-                    "transcription": "[spiːd əˈlɔːŋ]",
+                    "transcription": "[spiːd] [əˈlɔːŋ]",
                     "examples": [],
                     "word": "speed along"
                 }
@@ -9291,7 +9291,7 @@
             {
                 "ru": "натолкнуться",
                 "en": {
-                    "transcription": "[kʌm əˈkrɔːs]",
+                    "transcription": "[kʌm] [əˈkrɔːs]",
                     "examples": [],
                     "word": "come across"
                 }
@@ -9299,7 +9299,7 @@
             {
                 "ru": "ускорять",
                 "en": {
-                    "transcription": "[spiːd ʌp]",
+                    "transcription": "[spiːd] [ʌp]",
                     "examples": [],
                     "word": "speed up"
                 }
@@ -9435,7 +9435,7 @@
             {
                 "ru": "догонять",
                 "en": {
-                    "transcription": "[kætʃ ʌp]",
+                    "transcription": "[kætʃ] [ʌp]",
                     "examples": [],
                     "word": "catch up"
                 }
@@ -9459,7 +9459,7 @@
             {
                 "ru": "повернуть налево",
                 "en": {
-                    "transcription": "[tɜːrn left]",
+                    "transcription": "[tɜːrn] [left]",
                     "examples": [],
                     "word": "turn left"
                 }
@@ -9539,7 +9539,7 @@
             {
                 "ru": "повернуть направо",
                 "en": {
-                    "transcription": "[tɜːrn raɪt]",
+                    "transcription": "[tɜːrn] [raɪt]",
                     "examples": [],
                     "word": "turn right"
                 }
@@ -9603,7 +9603,7 @@
             {
                 "ru": "входить",
                 "en": {
-                    "transcription": "[ɡoʊ ɪn]",
+                    "transcription": "[ɡoʊ] [ɪn]",
                     "examples": [],
                     "word": "go in"
                 }
@@ -9611,7 +9611,7 @@
             {
                 "ru": "оставлять позади",
                 "en": {
-                    "transcription": "[liːv bɪˈhaɪnd]",
+                    "transcription": "[liːv] [bɪˈhaɪnd]",
                     "examples": [],
                     "word": "leave behind"
                 }
@@ -9619,7 +9619,7 @@
             {
                 "ru": "замедлять",
                 "en": {
-                    "transcription": "[sloʊ daʊn]",
+                    "transcription": "[sloʊ] [daʊn]",
                     "examples": [],
                     "word": "slow down"
                 }
@@ -9659,7 +9659,7 @@
             {
                 "ru": "выходить",
                 "en": {
-                    "transcription": "[ɡoʊ aʊt]",
+                    "transcription": "[ɡoʊ] [aʊt]",
                     "examples": [],
                     "word": "go out"
                 }
@@ -9675,7 +9675,7 @@
             {
                 "ru": "врезаться в",
                 "en": {
-                    "transcription": "[rʌn ˈɪntə]",
+                    "transcription": "[rʌn] [ˈɪntə]",
                     "examples": [],
                     "word": "run into"
                 }
@@ -9699,7 +9699,7 @@
             {
                 "ru": "тащиться",
                 "en": {
-                    "transcription": "[dræɡ əˈlɔːŋ]",
+                    "transcription": "[dræɡ] [əˈlɔːŋ]",
                     "examples": [],
                     "word": "drag along"
                 }
@@ -9825,7 +9825,7 @@
             {
                 "ru": "красная смородина",
                 "en": {
-                    "transcription": "[red ˈkʌrənts]",
+                    "transcription": "[red] [ˈkʌrənts]",
                     "examples": [],
                     "word": "red currants"
                 }
@@ -9913,7 +9913,7 @@
             {
                 "ru": "черная смородина",
                 "en": {
-                    "transcription": "[blæk ˈkʌrənts]",
+                    "transcription": "[blæk] [ˈkʌrənts]",
                     "examples": [],
                     "word": "black currants"
                 }
@@ -9953,7 +9953,7 @@
             {
                 "ru": "черешня",
                 "en": {
-                    "transcription": "[swiːt ˈtʃeri]",
+                    "transcription": "[swiːt] [ˈtʃeri]",
                     "examples": [],
                     "word": "sweet cherry"
                 }
@@ -10009,7 +10009,7 @@
             {
                 "ru": "киви",
                 "en": {
-                    "transcription": "[ˈkiːwiː fruːt]",
+                    "transcription": "[ˈkiːwiː] [fruːt]",
                     "examples": [],
                     "word": "kiwi fruit"
                 }
@@ -10095,7 +10095,7 @@
             {
                 "ru": "коробка передач",
                 "en": {
-                    "transcription": "[ɡɪr bɑːks]",
+                    "transcription": "[ɡɪr] [bɑːks]",
                     "examples": [],
                     "word": "gear box"
                 }
@@ -10103,7 +10103,7 @@
             {
                 "ru": "светофор",
                 "en": {
-                    "transcription": "[ˈtræfɪk ˈlaɪts]",
+                    "transcription": "[ˈtræfɪk] [ˈlaɪts]",
                     "examples": [],
                     "word": "traffic lights"
                 }
@@ -10111,7 +10111,7 @@
             {
                 "ru": "запасное колесо",
                 "en": {
-                    "transcription": "[sper wiːl]",
+                    "transcription": "[sper] [wiːl]",
                     "examples": [],
                     "word": "spare wheel"
                 }
@@ -10127,7 +10127,7 @@
             {
                 "ru": "сесть в транспорт",
                 "en": {
-                    "transcription": "[ɡet ɑːn]",
+                    "transcription": "[ɡet] [ɑːn]",
                     "examples": [],
                     "word": "get on"
                 }
@@ -10135,7 +10135,7 @@
             {
                 "ru": "дворник",
                 "en": {
-                    "transcription": "[ˈwɪndskriːn ˈwaɪpər]",
+                    "transcription": "[ˈwɪndskriːn] [ˈwaɪpər]",
                     "examples": [],
                     "word": "windscreen wiper"
                 }
@@ -10151,7 +10151,7 @@
             {
                 "ru": "железнодорожный вокзал",
                 "en": {
-                    "transcription": "[ˈreɪlweɪ ˈsteɪʃn]",
+                    "transcription": "[ˈreɪlweɪ] [ˈsteɪʃn]",
                     "examples": [],
                     "word": "railway station"
                 }
@@ -10183,7 +10183,7 @@
             {
                 "ru": "передний мост",
                 "en": {
-                    "transcription": "[frʌnt ˈæksl]",
+                    "transcription": "[frʌnt] [ˈæksl]",
                     "examples": [],
                     "word": "front axle"
                 }
@@ -10199,7 +10199,7 @@
             {
                 "ru": "водительские права",
                 "en": {
-                    "transcription": "[ˈdraɪvɪŋ ˈlaɪsns]",
+                    "transcription": "[ˈdraɪvɪŋ] [ˈlaɪsns]",
                     "examples": [],
                     "word": "driving license"
                 }
@@ -10207,7 +10207,7 @@
             {
                 "ru": "автовокзал",
                 "en": {
-                    "transcription": "[bʌs ˈtɜːrmɪnl]",
+                    "transcription": "[bʌs] [ˈtɜːrmɪnl]",
                     "examples": [],
                     "word": "bus terminal"
                 }
@@ -10215,7 +10215,7 @@
             {
                 "ru": "отплывать",
                 "en": {
-                    "transcription": "[seɪl ɔːf]",
+                    "transcription": "[seɪl] [ɔːf]",
                     "examples": [],
                     "word": "sail off"
                 }
@@ -10223,7 +10223,7 @@
             {
                 "ru": "заправочная станция",
                 "en": {
-                    "transcription": "[ˈpetrəl ˈsteɪʃn]",
+                    "transcription": "[ˈpetrəl] [ˈsteɪʃn]",
                     "examples": [],
                     "word": "petrol station"
                 }
@@ -10255,7 +10255,7 @@
             {
                 "ru": "карта дорог",
                 "en": {
-                    "transcription": "[roʊd mæp]",
+                    "transcription": "[roʊd] [mæp]",
                     "examples": [],
                     "word": "road map"
                 }
@@ -10311,7 +10311,7 @@
             {
                 "ru": "речной вокзал",
                 "en": {
-                    "transcription": "[ ˈsteɪʃn]",
+                    "transcription": "[] [ˈsteɪʃn]",
                     "examples": [],
                     "word": "river-boat station"
                 }
@@ -10327,7 +10327,7 @@
             {
                 "ru": "автоцистерна",
                 "en": {
-                    "transcription": "[ræŋk træk]",
+                    "transcription": "[ræŋk] [træk]",
                     "examples": [],
                     "word": "rank track"
                 }
@@ -10335,7 +10335,7 @@
             {
                 "ru": "топливный бак",
                 "en": {
-                    "transcription": "[ˈfjuːəl tæŋk]",
+                    "transcription": "[ˈfjuːəl] [tæŋk]",
                     "examples": [],
                     "word": "fuel tank"
                 }
@@ -10383,7 +10383,7 @@
             {
                 "ru": "пробка",
                 "en": {
-                    "transcription": "[ˈtræfɪk dʒæm]",
+                    "transcription": "[ˈtræfɪk] [dʒæm]",
                     "examples": [],
                     "word": "traffic jam"
                 }
@@ -10399,7 +10399,7 @@
             {
                 "ru": "по расписанию",
                 "en": {
-                    "transcription": "[əz / æz ˈskedʒuːld]",
+                    "transcription": "[əz] [/] [æz] [ˈskedʒuːld]",
                     "examples": [],
                     "word": "as scheduled"
                 }
@@ -10423,7 +10423,7 @@
             {
                 "ru": "подушка безопасности",
                 "en": {
-                    "transcription": "[er bæɡ]",
+                    "transcription": "[er] [bæɡ]",
                     "examples": [],
                     "word": "air bag"
                 }
@@ -10455,7 +10455,7 @@
             {
                 "ru": "багажное отделение",
                 "en": {
-                    "transcription": "[ˈlʌɡɪdʒ kəmˈpɑːrtmənt]",
+                    "transcription": "[ˈlʌɡɪdʒ] [kəmˈpɑːrtmənt]",
                     "examples": [],
                     "word": "luggage compartment"
                 }
@@ -10487,7 +10487,7 @@
             {
                 "ru": "выходить",
                 "en": {
-                    "transcription": "[ɡet ɔːf]",
+                    "transcription": "[ɡet] [ɔːf]",
                     "examples": [],
                     "word": "get off"
                 }
@@ -10495,7 +10495,7 @@
             {
                 "ru": "высшая передача",
                 "en": {
-                    "transcription": "[tɑːp ɡɪr]",
+                    "transcription": "[tɑːp] [ɡɪr]",
                     "examples": [],
                     "word": "top gear"
                 }
@@ -10519,7 +10519,7 @@
             {
                 "ru": "свеча зажигания",
                 "en": {
-                    "transcription": "[spɑːrk plʌɡ]",
+                    "transcription": "[spɑːrk] [plʌɡ]",
                     "examples": [],
                     "word": "spark plug"
                 }
@@ -10527,7 +10527,7 @@
             {
                 "ru": "камера хранения",
                 "en": {
-                    "transcription": "[ ˈɔːfɪs]",
+                    "transcription": "[] [ˈɔːfɪs]",
                     "examples": [],
                     "word": "left-luggage office"
                 }
@@ -10535,7 +10535,7 @@
             {
                 "ru": "грунтовая дорога",
                 "en": {
-                    "transcription": "[dɜːrt roʊd]",
+                    "transcription": "[dɜːrt] [roʊd]",
                     "examples": [],
                     "word": "dirt road"
                 }
@@ -10559,7 +10559,7 @@
             {
                 "ru": "дорожные знаки",
                 "en": {
-                    "transcription": "[roʊd ˈsaɪts]",
+                    "transcription": "[roʊd] [ˈsaɪts]",
                     "examples": [],
                     "word": "road sights"
                 }
@@ -10583,7 +10583,7 @@
             {
                 "ru": "контроллер",
                 "en": {
-                    "transcription": "[ˈtɪkɪt ɪnˈspektər]",
+                    "transcription": "[ˈtɪkɪt] [ɪnˈspektər]",
                     "examples": [],
                     "word": "ticket inspector"
                 }
@@ -10623,7 +10623,7 @@
             {
                 "ru": "ручной багаж",
                 "en": {
-                    "transcription": "[hænd ˈlʌɡɪdʒ]",
+                    "transcription": "[hænd] [ˈlʌɡɪdʒ]",
                     "examples": [],
                     "word": "hand luggage"
                 }
@@ -10639,7 +10639,7 @@
             {
                 "ru": "оель",
                 "en": {
-                    "transcription": "[ˈstɪrɪŋ wiːl]",
+                    "transcription": "[ˈstɪrɪŋ] [wiːl]",
                     "examples": [],
                     "word": "steering wheel"
                 }
@@ -10655,7 +10655,7 @@
             {
                 "ru": "касса",
                 "en": {
-                    "transcription": "[ˈtɪkɪt ˈɔːfɪs]",
+                    "transcription": "[ˈtɪkɪt] [ˈɔːfɪs]",
                     "examples": [],
                     "word": "ticket office"
                 }
@@ -10671,7 +10671,7 @@
             {
                 "ru": "железнодорожный транспорт",
                 "en": {
-                    "transcription": "[ˈreɪlweɪ ˈtrænspɔːrt]",
+                    "transcription": "[ˈreɪlweɪ] [ˈtrænspɔːrt]",
                     "examples": [],
                     "word": "railway transport"
                 }
@@ -10687,7 +10687,7 @@
             {
                 "ru": "задний мост",
                 "en": {
-                    "transcription": "[rɪr ˈæksl]",
+                    "transcription": "[rɪr] [ˈæksl]",
                     "examples": [],
                     "word": "rear axle"
                 }
@@ -10695,7 +10695,7 @@
             {
                 "ru": "самосвал",
                 "en": {
-                    "transcription": "[dʌmp træk]",
+                    "transcription": "[dʌmp] [træk]",
                     "examples": [],
                     "word": "dump track"
                 }
@@ -10711,7 +10711,7 @@
             {
                 "ru": "воздушный шар",
                 "en": {
-                    "transcription": "[hɑːt er ]",
+                    "transcription": "[hɑːt] [er] []",
                     "examples": [],
                     "word": "hot air ballon"
                 }
@@ -10719,7 +10719,7 @@
             {
                 "ru": "пассажирский транспорт",
                 "en": {
-                    "transcription": "[ˈpæsɪndʒər ˈtræfɪk]",
+                    "transcription": "[ˈpæsɪndʒər] [ˈtræfɪk]",
                     "examples": [],
                     "word": "passenger traffic"
                 }
@@ -10791,7 +10791,7 @@
             {
                 "ru": "ремень безопасности",
                 "en": {
-                    "transcription": "[siːt belt]",
+                    "transcription": "[siːt] [belt]",
                     "examples": [],
                     "word": "seat belt"
                 }
@@ -10807,7 +10807,7 @@
             {
                 "ru": "первая передача",
                 "en": {
-                    "transcription": "[loʊ ɡɪr]",
+                    "transcription": "[loʊ] [ɡɪr]",
                     "examples": [],
                     "word": "low gear"
                 }
@@ -10823,7 +10823,7 @@
             {
                 "ru": "часы пик",
                 "en": {
-                    "transcription": "[rʌʃ ˈaʊərz]",
+                    "transcription": "[rʌʃ] [ˈaʊərz]",
                     "examples": [],
                     "word": "rush hours"
                 }
@@ -10831,7 +10831,7 @@
             {
                 "ru": "воздушный транспорт",
                 "en": {
-                    "transcription": "[er ˈtrænspɔːrt]",
+                    "transcription": "[er] [ˈtrænspɔːrt]",
                     "examples": [],
                     "word": "air transport"
                 }
@@ -10847,7 +10847,7 @@
             {
                 "ru": "дизельное топливо",
                 "en": {
-                    "transcription": "[ˈdiːzl ˈfjuːəl]",
+                    "transcription": "[ˈdiːzl] [ˈfjuːəl]",
                     "examples": [],
                     "word": "diesel fuel"
                 }
@@ -10871,7 +10871,7 @@
             {
                 "ru": "билет в оба конца",
                 "en": {
-                    "transcription": "[rɪˈtɜːrn ˈtɪkɪt]",
+                    "transcription": "[rɪˈtɜːrn] [ˈtɪkɪt]",
                     "examples": [],
                     "word": "return ticket"
                 }
@@ -10879,7 +10879,7 @@
             {
                 "ru": "морской транспорт",
                 "en": {
-                    "transcription": "[siː ˈtrænspɔːrt]",
+                    "transcription": "[siː] [ˈtrænspɔːrt]",
                     "examples": [],
                     "word": "sea transport"
                 }
@@ -10887,7 +10887,7 @@
             {
                 "ru": "подземный переход",
                 "en": {
-                    "transcription": "[ˌʌndərˈɡraʊnd ˈpæsɪdʒ]",
+                    "transcription": "[ˌʌndərˈɡraʊnd] [ˈpæsɪdʒ]",
                     "examples": [],
                     "word": "underground passage"
                 }
@@ -10911,7 +10911,7 @@
             {
                 "ru": "подъездная дорога",
                 "en": {
-                    "transcription": "[ˈækses roʊd]",
+                    "transcription": "[ˈækses] [roʊd]",
                     "examples": [],
                     "word": "access road"
                 }
@@ -10951,7 +10951,7 @@
             {
                 "ru": "автомобильный транспорт",
                 "en": {
-                    "transcription": "[ˈmoʊtər ˈtrænspɔːrt]",
+                    "transcription": "[ˈmoʊtər] [ˈtrænspɔːrt]",
                     "examples": [],
                     "word": "motor transport"
                 }
@@ -10959,7 +10959,7 @@
             {
                 "ru": "заяц(о безбилетном пассажире)",
                 "en": {
-                    "transcription": "[fer ˈdɑːdʒər]",
+                    "transcription": "[fer] [ˈdɑːdʒər]",
                     "examples": [],
                     "word": "fare dodger"
                 }
@@ -10991,7 +10991,7 @@
             {
                 "ru": "распределительный вал",
                 "en": {
-                    "transcription": "[ˌdɪstrɪˈbjuːʃn ʃæft]",
+                    "transcription": "[ˌdɪstrɪˈbjuːʃn] [ʃæft]",
                     "examples": [],
                     "word": "distribution shaft"
                 }
@@ -11031,7 +11031,7 @@
             {
                 "ru": "бензобак",
                 "en": {
-                    "transcription": "[ˈpetrəl tæŋk]",
+                    "transcription": "[ˈpetrəl] [tæŋk]",
                     "examples": [],
                     "word": "petrol tank"
                 }
@@ -11069,7 +11069,7 @@
             {
                 "ru": "подавать к столу",
                 "en": {
-                    "transcription": "[sɜːrv ʌp]",
+                    "transcription": "[sɜːrv] [ʌp]",
                     "examples": [],
                     "word": "serve up"
                 }
@@ -11101,7 +11101,7 @@
             {
                 "ru": "чайный сервиз",
                 "en": {
-                    "transcription": "[tiː set]",
+                    "transcription": "[tiː] [set]",
                     "examples": [],
                     "word": "tea set"
                 }
@@ -11133,7 +11133,7 @@
             {
                 "ru": "рюмка",
                 "en": {
-                    "transcription": "[waɪn ɡlæs]",
+                    "transcription": "[waɪn] [ɡlæs]",
                     "examples": [],
                     "word": "wine glass"
                 }
@@ -11157,7 +11157,7 @@
             {
                 "ru": "хрусталь",
                 "en": {
-                    "transcription": "[ˈˌkət ˈˌɡlas wer]",
+                    "transcription": "[ˈˌkət] [ˈˌɡlas] [wer]",
                     "examples": [],
                     "word": "cut-glass ware"
                 }
@@ -11165,7 +11165,7 @@
             {
                 "ru": "чайная посуда",
                 "en": {
-                    "transcription": "[tiː ˈθɪŋz]",
+                    "transcription": "[tiː] [ˈθɪŋz]",
                     "examples": [],
                     "word": "tea things"
                 }
@@ -11197,7 +11197,7 @@
             {
                 "ru": "кипятильник",
                 "en": {
-                    "transcription": "[ɪˈmɜːrʃn ˈhiːtər]",
+                    "transcription": "[ɪˈmɜːrʃn] [ˈhiːtər]",
                     "examples": [],
                     "word": "immersion heater"
                 }
@@ -11205,7 +11205,7 @@
             {
                 "ru": "скатерть",
                 "en": {
-                    "transcription": "[ˈteɪbl klɔːθ]",
+                    "transcription": "[ˈteɪbl] [klɔːθ]",
                     "examples": [],
                     "word": "table cloth"
                 }
@@ -11261,7 +11261,7 @@
             {
                 "ru": "накрывать на стол",
                 "en": {
-                    "transcription": "[leɪ ðə ˈteɪbl]",
+                    "transcription": "[leɪ] [ðə] [ˈteɪbl]",
                     "examples": [],
                     "word": "lay the table"
                 }
@@ -11269,7 +11269,7 @@
             {
                 "ru": "салатница",
                 "en": {
-                    "transcription": "[ˈsæləd boʊl]",
+                    "transcription": "[ˈsæləd] [boʊl]",
                     "examples": [],
                     "word": "salad bowl"
                 }
@@ -11301,7 +11301,7 @@
             {
                 "ru": "сковорода",
                 "en": {
-                    "transcription": "[ˈfraɪɪŋ pæn]",
+                    "transcription": "[ˈfraɪɪŋ] [pæn]",
                     "examples": [],
                     "word": "frying pan"
                 }
@@ -11341,7 +11341,7 @@
             {
                 "ru": "мясорубка",
                 "en": {
-                    "transcription": "[miːt ˈmɪnsər]",
+                    "transcription": "[miːt] [ˈmɪnsər]",
                     "examples": [],
                     "word": "meat mincer"
                 }
@@ -11355,7 +11355,7 @@
             {
                 "ru": "непогода",
                 "en": {
-                    "transcription": "[bæd ˈweðər]",
+                    "transcription": "[bæd] [ˈweðər]",
                     "examples": [],
                     "word": "bad weather"
                 }
@@ -11371,7 +11371,7 @@
             {
                 "ru": "лед",
                 "en": {
-                    "transcription": "[ˌaɪ siː ˈiː]",
+                    "transcription": "[ˌaɪ] [siː] [ˈiː]",
                     "examples": [],
                     "word": "ice"
                 }
@@ -11483,7 +11483,7 @@
             {
                 "ru": "похолодание",
                 "en": {
-                    "transcription": "[koʊld spel]",
+                    "transcription": "[koʊld] [spel]",
                     "examples": [],
                     "word": "cold spell"
                 }
@@ -11491,7 +11491,7 @@
             {
                 "ru": "потепление",
                 "en": {
-                    "transcription": "[ˈwɔːrmər spel]",
+                    "transcription": "[ˈwɔːrmər] [spel]",
                     "examples": [],
                     "word": "warmer spell"
                 }
@@ -11619,7 +11619,7 @@
             {
                 "ru": "туча",
                 "en": {
-                    "transcription": "[reɪn klaʊd]",
+                    "transcription": "[reɪn] [klaʊd]",
                     "examples": [],
                     "word": "rain cloud"
                 }
@@ -11723,7 +11723,7 @@
             {
                 "ru": "цунами",
                 "en": {
-                    "transcription": "[ˈtaɪdl weɪv]",
+                    "transcription": "[ˈtaɪdl] [weɪv]",
                     "examples": [],
                     "word": "tidal wave"
                 }
@@ -11769,7 +11769,7 @@
             {
                 "ru": "приморский бульвар",
                 "en": {
-                    "transcription": "[siː frʌnt]",
+                    "transcription": "[siː] [frʌnt]",
                     "examples": [],
                     "word": "sea front"
                 }
@@ -11777,7 +11777,7 @@
             {
                 "ru": "городские власти",
                 "en": {
-                    "transcription": "[mjuːˈnɪsɪpl əˈθɔːrətiz]",
+                    "transcription": "[mjuːˈnɪsɪpl] [əˈθɔːrətiz]",
                     "examples": [],
                     "word": "municipal authorities"
                 }
@@ -11793,7 +11793,7 @@
             {
                 "ru": "сельское население",
                 "en": {
-                    "transcription": "[ˈrʊrəl ˈpiːpl]",
+                    "transcription": "[ˈrʊrəl] [ˈpiːpl]",
                     "examples": [],
                     "word": "rural people"
                 }
@@ -11817,7 +11817,7 @@
             {
                 "ru": "картинная галерея",
                 "en": {
-                    "transcription": "[ɑːrt ˈɡæləri]",
+                    "transcription": "[ɑːrt] [ˈɡæləri]",
                     "examples": [],
                     "word": "art gallery"
                 }
@@ -11857,7 +11857,7 @@
             {
                 "ru": "районный совет",
                 "en": {
-                    "transcription": "[ˈdɪstrɪkt ˈkaʊnsl]",
+                    "transcription": "[ˈdɪstrɪkt] [ˈkaʊnsl]",
                     "examples": [],
                     "word": "district council"
                 }
@@ -11865,7 +11865,7 @@
             {
                 "ru": "булыжная мостовая",
                 "en": {
-                    "transcription": "[ roʊd]",
+                    "transcription": "[] [roʊd]",
                     "examples": [],
                     "word": "cobbed road"
                 }
@@ -11969,7 +11969,7 @@
             {
                 "ru": "торговый центр",
                 "en": {
-                    "transcription": "[ˈʃɑːpɪŋ ˈsentər]",
+                    "transcription": "[ˈʃɑːpɪŋ] [ˈsentər]",
                     "examples": [],
                     "word": "shopping centre"
                 }
@@ -11993,7 +11993,7 @@
             {
                 "ru": "загородный дом",
                 "en": {
-                    "transcription": "[ˈkʌntri haʊs]",
+                    "transcription": "[ˈkʌntri] [haʊs]",
                     "examples": [],
                     "word": "country house"
                 }
@@ -12009,7 +12009,7 @@
             {
                 "ru": "центр города",
                 "en": {
-                    "transcription": "[ˈsɪti ˈsentər]",
+                    "transcription": "[ˈsɪti] [ˈsentər]",
                     "examples": [],
                     "word": "city centre"
                 }
@@ -12041,7 +12041,7 @@
             {
                 "ru": "коттедж",
                 "en": {
-                    "transcription": "[ˈlɪvɪŋ ˈkɑːtɪdʒ]",
+                    "transcription": "[ˈlɪvɪŋ] [ˈkɑːtɪdʒ]",
                     "examples": [],
                     "word": "living cottage"
                 }
@@ -12097,7 +12097,7 @@
             {
                 "ru": "городской житель",
                 "en": {
-                    "transcription": "[taʊn ˈdwelər]",
+                    "transcription": "[taʊn] [ˈdwelər]",
                     "examples": [],
                     "word": "town dweller"
                 }
@@ -12169,7 +12169,7 @@
             {
                 "ru": "пригородный поезд",
                 "en": {
-                    "transcription": "[ˈloʊkl treɪn]",
+                    "transcription": "[ˈloʊkl] [treɪn]",
                     "examples": [],
                     "word": "local train"
                 }
@@ -12185,7 +12185,7 @@
             {
                 "ru": "автостоянка",
                 "en": {
-                    "transcription": "[kɑːr pɑːrk]",
+                    "transcription": "[kɑːr] [pɑːrk]",
                     "examples": [],
                     "word": "car park"
                 }
@@ -12233,7 +12233,7 @@
             {
                 "ru": "микрорайон",
                 "en": {
-                    "transcription": "[ˈmaɪkroʊ ˈdɪstrɪkt]",
+                    "transcription": "[ˈmaɪkroʊ] [ˈdɪstrɪkt]",
                     "examples": [],
                     "word": "micro-district"
                 }
@@ -12265,7 +12265,7 @@
             {
                 "ru": "глухой переулок",
                 "en": {
-                    "transcription": "[dɑːrk ˈæli]",
+                    "transcription": "[dɑːrk] [ˈæli]",
                     "examples": [],
                     "word": "dark alley"
                 }
@@ -12273,7 +12273,7 @@
             {
                 "ru": "жилой дом",
                 "en": {
-                    "transcription": "[əˈpɑːrtmənt blɑːk]",
+                    "transcription": "[əˈpɑːrtmənt] [blɑːk]",
                     "examples": [],
                     "word": "apartment block"
                 }
@@ -12327,7 +12327,7 @@
             {
                 "ru": "зеленый лук",
                 "en": {
-                    "transcription": "[ˈsprɪŋ ˈʌnjən]",
+                    "transcription": "[ˈsprɪŋ] [ˈʌnjən]",
                     "examples": [],
                     "word": "spring onion"
                 }
@@ -12351,7 +12351,7 @@
             {
                 "ru": "репчатый лук",
                 "en": {
-                    "transcription": "[lɑːrdʒ ˈʌnjən]",
+                    "transcription": "[lɑːrdʒ] [ˈʌnjən]",
                     "examples": [],
                     "word": "large onion"
                 }
@@ -12557,7 +12557,7 @@
             {
                 "ru": "прощаться",
                 "en": {
-                    "transcription": "[seɪ ˌɡʊdˈbaɪ]",
+                    "transcription": "[seɪ] [ˌɡʊdˈbaɪ]",
                     "examples": [],
                     "word": "say goodbye"
                 }
@@ -12565,7 +12565,7 @@
             {
                 "ru": "интеллигентный",
                 "en": {
-                    "transcription": "[ˈkʌltʃərd ənd ˈedʒukeɪtɪd]",
+                    "transcription": "[ˈkʌltʃərd] [ənd] [ˈedʒukeɪtɪd]",
                     "examples": [],
                     "word": "cultured and educated"
                 }
@@ -12685,7 +12685,7 @@
             {
                 "ru": "воспитанный",
                 "en": {
-                    "transcription": "[wel bred]",
+                    "transcription": "[wel] [bred]",
                     "examples": [],
                     "word": "well-bread"
                 }
@@ -12725,7 +12725,7 @@
             {
                 "ru": "невоспитанный",
                 "en": {
-                    "transcription": "[ˈil ˈˌbred]",
+                    "transcription": "[ˈil] [ˈˌbred]",
                     "examples": [],
                     "word": "ill-bred"
                 }
@@ -12845,7 +12845,7 @@
             {
                 "ru": "пожать руку",
                 "en": {
-                    "transcription": "[ʃeɪk hænd]",
+                    "transcription": "[ʃeɪk] [hænd]",
                     "examples": [],
                     "word": "shake hand"
                 }
@@ -12859,7 +12859,7 @@
             {
                 "ru": "худеть",
                 "en": {
-                    "transcription": "[ɡroʊ θɪn]",
+                    "transcription": "[ɡroʊ] [θɪn]",
                     "examples": [],
                     "word": "grow thin"
                 }
@@ -12875,7 +12875,7 @@
             {
                 "ru": "особые приметы",
                 "en": {
-                    "transcription": "[ˌdɪˈstɪŋɡwɪʃɪŋ ˈfiːtʃərz]",
+                    "transcription": "[ˌdɪˈstɪŋɡwɪʃɪŋ] [ˈfiːtʃərz]",
                     "examples": [],
                     "word": "distinguishing features"
                 }
@@ -12891,7 +12891,7 @@
             {
                 "ru": "русый",
                 "en": {
-                    "transcription": "[laɪt braʊn]",
+                    "transcription": "[laɪt] [braʊn]",
                     "examples": [],
                     "word": "light-brown"
                 }
@@ -12907,7 +12907,7 @@
             {
                 "ru": "кудрявые волосы",
                 "en": {
-                    "transcription": "[ˈkɜːrli her]",
+                    "transcription": "[ˈkɜːrli] [her]",
                     "examples": [],
                     "word": "curly hair"
                 }
@@ -12947,7 +12947,7 @@
             {
                 "ru": "брюнет",
                 "en": {
-                    "transcription": "[dɑːrk herd]",
+                    "transcription": "[dɑːrk] [herd]",
                     "examples": [],
                     "word": "dark-haired"
                 }
@@ -12987,7 +12987,7 @@
             {
                 "ru": "рыжий",
                 "en": {
-                    "transcription": "[red herd]",
+                    "transcription": "[red] [herd]",
                     "examples": [],
                     "word": "red-haired"
                 }
@@ -13019,7 +13019,7 @@
             {
                 "ru": "седой",
                 "en": {
-                    "transcription": "[ɡreɪ herd]",
+                    "transcription": "[ɡreɪ] [herd]",
                     "examples": [],
                     "word": "grey-haired"
                 }
@@ -13083,7 +13083,7 @@
             {
                 "ru": "полнеть",
                 "en": {
-                    "transcription": "[pʊt ɑːn weɪt]",
+                    "transcription": "[pʊt] [ɑːn] [weɪt]",
                     "examples": [],
                     "word": "put on weight"
                 }
@@ -13091,7 +13091,7 @@
             {
                 "ru": "карие глаза",
                 "en": {
-                    "transcription": "[ˈheɪzl ˈaɪz]",
+                    "transcription": "[ˈheɪzl] [ˈaɪz]",
                     "examples": [],
                     "word": "hazel eyes"
                 }
@@ -13131,7 +13131,7 @@
             {
                 "ru": "шатен",
                 "en": {
-                    "transcription": "[braʊn herd]",
+                    "transcription": "[braʊn] [herd]",
                     "examples": [],
                     "word": "brown-haired"
                 }
@@ -13187,7 +13187,7 @@
             {
                 "ru": "курносый",
                 "en": {
-                    "transcription": "[snʌb ˈnoʊzd]",
+                    "transcription": "[snʌb] [ˈnoʊzd]",
                     "examples": [],
                     "word": "snub-nosed"
                 }
@@ -13211,7 +13211,7 @@
             {
                 "ru": "широкоплечий",
                 "en": {
-                    "transcription": "[brɔːd ˈʃoʊldəd]",
+                    "transcription": "[brɔːd] [ˈʃoʊldəd]",
                     "examples": [],
                     "word": "broad-shouldered"
                 }
@@ -13243,7 +13243,7 @@
             {
                 "ru": "силач",
                 "en": {
-                    "transcription": "[strɔːŋ mæn]",
+                    "transcription": "[strɔːŋ] [mæn]",
                     "examples": [],
                     "word": "strong man"
                 }
@@ -13297,7 +13297,7 @@
             {
                 "ru": "наркоман",
                 "en": {
-                    "transcription": "[drʌɡ ˈædɪkt]",
+                    "transcription": "[drʌɡ] [ˈædɪkt]",
                     "examples": [],
                     "word": "drug addict"
                 }
@@ -13313,7 +13313,7 @@
             {
                 "ru": "горчичник",
                 "en": {
-                    "transcription": "[ˈkʌstərd ˈplæstər]",
+                    "transcription": "[ˈkʌstərd] [ˈplæstər]",
                     "examples": [],
                     "word": "custard plaster"
                 }
@@ -13321,7 +13321,7 @@
             {
                 "ru": "насморк",
                 "en": {
-                    "transcription": "[ˈrʌni noʊz]",
+                    "transcription": "[ˈrʌni] [noʊz]",
                     "examples": [],
                     "word": "runny nose"
                 }
@@ -13345,7 +13345,7 @@
             {
                 "ru": "лечиться",
                 "en": {
-                    "transcription": "[ˌʌndərˈɡoʊ ˈtriːtmənt]",
+                    "transcription": "[ˌʌndərˈɡoʊ] [ˈtriːtmənt]",
                     "examples": [],
                     "word": "undergo treatment"
                 }
@@ -13353,7 +13353,7 @@
             {
                 "ru": "простудиться",
                 "en": {
-                    "transcription": "[kætʃ eɪ koʊld]",
+                    "transcription": "[kætʃ] [eɪ] [koʊld]",
                     "examples": [],
                     "word": "catch a cold"
                 }
@@ -13361,7 +13361,7 @@
             {
                 "ru": "наркомания",
                 "en": {
-                    "transcription": "[drʌɡ əˈdɪkʃn]",
+                    "transcription": "[drʌɡ] [əˈdɪkʃn]",
                     "examples": [],
                     "word": "drug addiction"
                 }
@@ -13369,7 +13369,7 @@
             {
                 "ru": "болеть",
                 "en": {
-                    "transcription": "[bi ɪl]",
+                    "transcription": "[bi] [ɪl]",
                     "examples": [],
                     "word": "be ill"
                 }
@@ -13385,7 +13385,7 @@
             {
                 "ru": "заболеть",
                 "en": {
-                    "transcription": "[ɡet ɪl]",
+                    "transcription": "[ɡet] [ɪl]",
                     "examples": [],
                     "word": "get ill"
                 }
@@ -13393,7 +13393,7 @@
             {
                 "ru": "отоларинголог",
                 "en": {
-                    "transcription": "[ɪr noʊz ənd θroʊt ˈspeʃəlɪst]",
+                    "transcription": "[ɪr] [noʊz] [ənd] [θroʊt] [ˈspeʃəlɪst]",
                     "examples": [],
                     "word": "ear nose and throat specialist"
                 }
@@ -13457,7 +13457,7 @@
             {
                 "ru": "родильный дом",
                 "en": {
-                    "transcription": "[məˈtɜːrnəti ˈhɑːspɪtl]",
+                    "transcription": "[məˈtɜːrnəti] [ˈhɑːspɪtl]",
                     "examples": [],
                     "word": "maternity hospital"
                 }
@@ -13489,7 +13489,7 @@
             {
                 "ru": "контактный линзы",
                 "en": {
-                    "transcription": "[aɪ ˈlenzəz]",
+                    "transcription": "[aɪ] [ˈlenzəz]",
                     "examples": [],
                     "word": "eye-lenses"
                 }
@@ -13537,7 +13537,7 @@
             {
                 "ru": "выздоравливать",
                 "en": {
-                    "transcription": "[ɡet wel]",
+                    "transcription": "[ɡet] [wel]",
                     "examples": [],
                     "word": "get well"
                 }
@@ -13657,7 +13657,7 @@
             {
                 "ru": "радикулит",
                 "en": {
-                    "transcription": "[ˈloʊər bæk peɪn]",
+                    "transcription": "[ˈloʊər] [bæk] [peɪn]",
                     "examples": [],
                     "word": "lower back pain"
                 }
@@ -13689,7 +13689,7 @@
             {
                 "ru": "скарлатина",
                 "en": {
-                    "transcription": "[ˈskɑːrlət ˈfiːvər]",
+                    "transcription": "[ˈskɑːrlət] [ˈfiːvər]",
                     "examples": [],
                     "word": "scarlet fever"
                 }
@@ -13705,7 +13705,7 @@
             {
                 "ru": "инфаркт",
                 "en": {
-                    "transcription": "[hɑːrt əˈtæk]",
+                    "transcription": "[hɑːrt] [əˈtæk]",
                     "examples": [],
                     "word": "heart attack"
                 }
@@ -13737,7 +13737,7 @@
             {
                 "ru": "терапевт",
                 "en": {
-                    "transcription": "[ˈdʒenrəl prækˈtɪʃənər]",
+                    "transcription": "[ˈdʒenrəl] [prækˈtɪʃənər]",
                     "examples": [],
                     "word": "general practitioner"
                 }
@@ -13761,7 +13761,7 @@
             {
                 "ru": "госпиталь",
                 "en": {
-                    "transcription": "[ˈmɪləteri ˈhɑːspɪtl]",
+                    "transcription": "[ˈmɪləteri] [ˈhɑːspɪtl]",
                     "examples": [],
                     "word": "military hospital"
                 }
@@ -13793,7 +13793,7 @@
             {
                 "ru": "рентген",
                 "en": {
-                    "transcription": "[ˈeks reɪ]",
+                    "transcription": "[ˈeks] [reɪ]",
                     "examples": [],
                     "word": "x-ray"
                 }
@@ -13921,7 +13921,7 @@
             {
                 "ru": "здравоохранение",
                 "en": {
-                    "transcription": "[helθ ker]",
+                    "transcription": "[helθ] [ker]",
                     "examples": [],
                     "word": "health care"
                 }
@@ -13953,7 +13953,7 @@
             {
                 "ru": "орз",
                 "en": {
-                    "transcription": "[əˈkjuːt ˈrespərətɔːri dɪˈziːz]",
+                    "transcription": "[əˈkjuːt] [ˈrespərətɔːri] [dɪˈziːz]",
                     "examples": [],
                     "word": "acute respiratory disease"
                 }
@@ -13993,7 +13993,7 @@
             {
                 "ru": "дальнозоркость",
                 "en": {
-                    "transcription": "[lɔːŋ ]",
+                    "transcription": "[lɔːŋ] []",
                     "examples": [],
                     "word": "long-sightedness"
                 }
@@ -14009,7 +14009,7 @@
             {
                 "ru": "банки",
                 "en": {
-                    "transcription": "[ˈkʌpɪŋ ]",
+                    "transcription": "[ˈkʌpɪŋ] []",
                     "examples": [],
                     "word": "cupping glassed"
                 }
@@ -14025,7 +14025,7 @@
             {
                 "ru": "ангина",
                 "en": {
-                    "transcription": "[sɔːr θroʊt]",
+                    "transcription": "[sɔːr] [θroʊt]",
                     "examples": [],
                     "word": "sore throat"
                 }
@@ -14033,7 +14033,7 @@
             {
                 "ru": "справка",
                 "en": {
-                    "transcription": "[ˈsɪk liːv sərˈtɪfɪkət]",
+                    "transcription": "[ˈsɪk] [liːv] [sərˈtɪfɪkət]",
                     "examples": [],
                     "word": "sick-leave certificate"
                 }
@@ -14161,7 +14161,7 @@
             {
                 "ru": "медпункт",
                 "en": {
-                    "transcription": "[eɪd poʊst]",
+                    "transcription": "[eɪd] [poʊst]",
                     "examples": [],
                     "word": "first-aid post"
                 }
@@ -14295,7 +14295,7 @@
             {
                 "ru": "яичница",
                 "en": {
-                    "transcription": "[fraɪd eɡz]",
+                    "transcription": "[fraɪd] [eɡz]",
                     "examples": [],
                     "word": "fried eggs"
                 }
@@ -14319,7 +14319,7 @@
             {
                 "ru": "борщ",
                 "en": {
-                    "transcription": "[ˈbiːtruːt suːp]",
+                    "transcription": "[ˈbiːtruːt] [suːp]",
                     "examples": [],
                     "word": "beetroot soup"
                 }
@@ -14327,7 +14327,7 @@
             {
                 "ru": "щи",
                 "en": {
-                    "transcription": "[ˈkæbɪdʒ suːp]",
+                    "transcription": "[ˈkæbɪdʒ] [suːp]",
                     "examples": [],
                     "word": "cabbage soup"
                 }
@@ -14375,7 +14375,7 @@
             {
                 "ru": "буженина",
                 "en": {
-                    "transcription": "[koʊld ˌbɔɪld pɔːrk]",
+                    "transcription": "[koʊld] [ˌbɔɪld] [pɔːrk]",
                     "examples": [],
                     "word": "cold boiled pork"
                 }
@@ -14391,7 +14391,7 @@
             {
                 "ru": "красная икра",
                 "en": {
-                    "transcription": "[red ]",
+                    "transcription": "[red] []",
                     "examples": [],
                     "word": "red caviar"
                 }
@@ -14415,7 +14415,7 @@
             {
                 "ru": "вкрутую",
                 "en": {
-                    "transcription": "[hɑːrd ˈbɔɪld eɡ]",
+                    "transcription": "[hɑːrd] [ˈbɔɪld] [eɡ]",
                     "examples": [],
                     "word": "hard-boiled egg"
                 }
@@ -14439,7 +14439,7 @@
             {
                 "ru": "баранья нога",
                 "en": {
-                    "transcription": "[leɡ əv læm]",
+                    "transcription": "[leɡ] [əv] [læm]",
                     "examples": [],
                     "word": "leg of lamb"
                 }
@@ -14447,7 +14447,7 @@
             {
                 "ru": "первое блюдо",
                 "en": {
-                    "transcription": "[fɜːrst kɔːrs]",
+                    "transcription": "[fɜːrst] [kɔːrs]",
                     "examples": [],
                     "word": "first course"
                 }
@@ -14543,7 +14543,7 @@
             {
                 "ru": "творог",
                 "en": {
-                    "transcription": "[ˈkɑːtɪdʒ tʃiːz]",
+                    "transcription": "[ˈkɑːtɪdʒ] [tʃiːz]",
                     "examples": [],
                     "word": "cottage cheese"
                 }
@@ -14583,7 +14583,7 @@
             {
                 "ru": "жареный картофель",
                 "en": {
-                    "transcription": "[fraɪd pəˈteɪtoʊz]",
+                    "transcription": "[fraɪd] [pəˈteɪtoʊz]",
                     "examples": [],
                     "word": "fried potatoes"
                 }
@@ -14631,7 +14631,7 @@
             {
                 "ru": "гарнир",
                 "en": {
-                    "transcription": "[saɪd dɪʃ]",
+                    "transcription": "[saɪd] [dɪʃ]",
                     "examples": [],
                     "word": "side dish"
                 }
@@ -14639,7 +14639,7 @@
             {
                 "ru": "всмятку",
                 "en": {
-                    "transcription": "[ˈsɔftˈbɔɪld eɡ]",
+                    "transcription": "[ˈsɔftˈbɔɪld] [eɡ]",
                     "examples": [],
                     "word": "soft-boiled egg"
                 }
@@ -14687,7 +14687,7 @@
             {
                 "ru": "квашеная капуста",
                 "en": {
-                    "transcription": "[ˈsaʊər ˈkæbɪdʒ]",
+                    "transcription": "[ˈsaʊər] [ˈkæbɪdʒ]",
                     "examples": [],
                     "word": "sour cabbage"
                 }
@@ -14695,7 +14695,7 @@
             {
                 "ru": "ржаной хлеб",
                 "en": {
-                    "transcription": "[raɪ bred]",
+                    "transcription": "[raɪ] [bred]",
                     "examples": [],
                     "word": "rye bread"
                 }
@@ -14703,7 +14703,7 @@
             {
                 "ru": "сметана",
                 "en": {
-                    "transcription": "[ˈsaʊər kriːm]",
+                    "transcription": "[ˈsaʊər] [kriːm]",
                     "examples": [],
                     "word": "sour cream"
                 }
@@ -14751,7 +14751,7 @@
             {
                 "ru": "консервы",
                 "en": {
-                    "transcription": "[kænd fuːd]",
+                    "transcription": "[kænd] [fuːd]",
                     "examples": [],
                     "word": "canned food"
                 }
@@ -14759,7 +14759,7 @@
             {
                 "ru": "жаркое",
                 "en": {
-                    "transcription": "[fraɪd miːt]",
+                    "transcription": "[fraɪd] [miːt]",
                     "examples": [],
                     "word": "fried meat"
                 }
@@ -14807,7 +14807,7 @@
             {
                 "ru": "мороженое",
                 "en": {
-                    "transcription": "[ˌaɪ siː ˈiː kriːm]",
+                    "transcription": "[ˌaɪ] [siː] [ˈiː] [kriːm]",
                     "examples": [],
                     "word": "ice cream"
                 }
@@ -14815,7 +14815,7 @@
             {
                 "ru": "холодец",
                 "en": {
-                    "transcription": "[ miːt]",
+                    "transcription": "[] [miːt]",
                     "examples": [],
                     "word": "jelled meat"
                 }
@@ -14823,7 +14823,7 @@
             {
                 "ru": "закусочная",
                 "en": {
-                    "transcription": "[ʃæk bɑːr]",
+                    "transcription": "[ʃæk] [bɑːr]",
                     "examples": [],
                     "word": "shack bar"
                 }
@@ -14887,7 +14887,7 @@
             {
                 "ru": "пряник",
                 "en": {
-                    "transcription": "[spaɪs keɪk]",
+                    "transcription": "[spaɪs] [keɪk]",
                     "examples": [],
                     "word": "spice-cake"
                 }
@@ -14941,7 +14941,7 @@
             {
                 "ru": "апельсиновый сок",
                 "en": {
-                    "transcription": "[ˈɔːrɪndʒ dʒuːs]",
+                    "transcription": "[ˈɔːrɪndʒ] [dʒuːs]",
                     "examples": [],
                     "word": "orange juice"
                 }
@@ -14957,7 +14957,7 @@
             {
                 "ru": "минеральная вода",
                 "en": {
-                    "transcription": "[ˈmɪnərəl ˈwɔːtər]",
+                    "transcription": "[ˈmɪnərəl] [ˈwɔːtər]",
                     "examples": [],
                     "word": "mineral water"
                 }
@@ -15005,7 +15005,7 @@
             {
                 "ru": "безалкогольные напитки",
                 "en": {
-                    "transcription": "[sɔːft ˈdrɪŋks]",
+                    "transcription": "[sɔːft] [ˈdrɪŋks]",
                     "examples": [],
                     "word": "soft drinks"
                 }
@@ -15021,7 +15021,7 @@
             {
                 "ru": "сухое вино",
                 "en": {
-                    "transcription": "[draɪ waɪn]",
+                    "transcription": "[draɪ] [waɪn]",
                     "examples": [],
                     "word": "dry wine"
                 }
@@ -15045,7 +15045,7 @@
             {
                 "ru": "компот",
                 "en": {
-                    "transcription": "[fruːt ˈkɑːmpoʊt]",
+                    "transcription": "[fruːt] [ˈkɑːmpoʊt]",
                     "examples": [],
                     "word": "fruit compote"
                 }
@@ -15053,7 +15053,7 @@
             {
                 "ru": "газировка",
                 "en": {
-                    "transcription": "[ˈfɪzi drɪŋk]",
+                    "transcription": "[ˈfɪzi] [drɪŋk]",
                     "examples": [],
                     "word": "fizzy drink"
                 }
@@ -15077,7 +15077,7 @@
             {
                 "ru": "алкогольные напитки",
                 "en": {
-                    "transcription": "[ˌælkəˈhɔːlɪk ˈdrɪŋks]",
+                    "transcription": "[ˌælkəˈhɔːlɪk] [ˈdrɪŋks]",
                     "examples": [],
                     "word": "alcoholic drinks"
                 }
@@ -15109,7 +15109,7 @@
             {
                 "ru": "вода без газа",
                 "en": {
-                    "transcription": "[stɪl ˈwɔːtər]",
+                    "transcription": "[stɪl] [ˈwɔːtər]",
                     "examples": [],
                     "word": "still water"
                 }
@@ -15117,7 +15117,7 @@
             {
                 "ru": "вода с газом",
                 "en": {
-                    "transcription": "[ˈspɑːrkl ˈwɔːtər]",
+                    "transcription": "[ˈspɑːrkl] [ˈwɔːtər]",
                     "examples": [],
                     "word": "sparkle water"
                 }
@@ -15241,7 +15241,7 @@
             {
                 "ru": "личный помощник",
                 "en": {
-                    "transcription": "[ˈpɜːrsənl əˈsɪstənt]",
+                    "transcription": "[ˈpɜːrsənl] [əˈsɪstənt]",
                     "examples": [],
                     "word": "personal assistant"
                 }
@@ -15249,7 +15249,7 @@
             {
                 "ru": "полицейский",
                 "en": {
-                    "transcription": "[pəˈliːs ˈɔːfɪsər]",
+                    "transcription": "[pəˈliːs] [ˈɔːfɪsər]",
                     "examples": [],
                     "word": "police officer"
                 }
@@ -15281,7 +15281,7 @@
             {
                 "ru": "телеведущий",
                 "en": {
-                    "transcription": "[ˌtiːˈviː prɪˈzentər]",
+                    "transcription": "[ˌtiːˈviː] [prɪˈzentər]",
                     "examples": [],
                     "word": "tv presenter"
                 }
@@ -15361,7 +15361,7 @@
             {
                 "ru": "ассистент менеджера по продажам",
                 "en": {
-                    "transcription": "[ˈseɪlz əˈsɪstənt]",
+                    "transcription": "[ˈseɪlz] [əˈsɪstənt]",
                     "examples": [],
                     "word": "sales assistant"
                 }
@@ -15393,7 +15393,7 @@
             {
                 "ru": "агент по продаже недвижимости",
                 "en": {
-                    "transcription": "[ɪˈsteɪt ˈeɪdʒənt]",
+                    "transcription": "[ɪˈsteɪt] [ˈeɪdʒənt]",
                     "examples": [],
                     "word": "estate agent"
                 }
@@ -15519,7 +15519,7 @@
             {
                 "ru": "лангуст",
                 "en": {
-                    "transcription": "[rɑːk ˈlɑːbstər]",
+                    "transcription": "[rɑːk] [ˈlɑːbstər]",
                     "examples": [],
                     "word": "rock lobster"
                 }
@@ -15637,7 +15637,7 @@
             {
                 "ru": "ботинки",
                 "en": {
-                    "transcription": "[ˈæŋkl ˈbuːts]",
+                    "transcription": "[ˈæŋkl] [ˈbuːts]",
                     "examples": [],
                     "word": "ankle boots"
                 }

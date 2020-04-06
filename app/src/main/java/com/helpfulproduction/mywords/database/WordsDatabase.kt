@@ -53,7 +53,7 @@ class WordsDatabase(context: Context) {
             ids.map { it.toString() }.toTypedArray(),
             null,
             null,
-            null
+            WordsDatabaseContract.WordsEntry.COLUMN_NAME_ENG
         )
 
         val words = arrayListOf<Word>()

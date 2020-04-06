@@ -8,15 +8,18 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.appbar.AppBarLayout
 import com.helpfulproduction.mywords.R
+import com.helpfulproduction.mywords.ScrolledToTop
 import com.helpfulproduction.mywords.utils.Navigator
 import com.helpfulproduction.mywords.core.Category
 import com.helpfulproduction.mywords.core.Words
 
-class CategoriesFragment: Fragment() {
+class CategoriesFragment: Fragment(), ScrolledToTop {
 
     private lateinit var recycler: RecyclerView
     private lateinit var title: TextView
+    private lateinit var appbar: AppBarLayout
 
     private val categoryClickListener = object : CategoryClickListener {
         override fun onClick(category: Category) {
@@ -34,16 +37,20 @@ class CategoriesFragment: Fragment() {
         return view
     }
 
+    override fun scrollToTop() {
+        appbar.setExpanded(true, true)
+        recycler.scrollToPosition(0)
+    }
+
     private fun initViews(view: View) {
         recycler = view.findViewById<RecyclerView>(R.id.recycler).apply {
             layoutManager = LinearLayoutManager(view.context, LinearLayoutManager.VERTICAL, false)
-            adapter =
-                CategoriesAdapter(categoryClickListener)
+            adapter = CategoriesAdapter(categoryClickListener)
         }
         title = view.findViewById<TextView>(R.id.title).apply {
             text = view.context.getString(R.string.categories)
         }
-
+        appbar = view.findViewById(R.id.appbar)
     }
 
     private fun openDetailedCategoryFragment(category: Category) {

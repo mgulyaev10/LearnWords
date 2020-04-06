@@ -5,6 +5,8 @@ import com.helpfulproduction.mywords.ThreadUtils
 import com.helpfulproduction.mywords.database.WordsDatabase
 import com.helpfulproduction.mywords.utils.Preference
 import io.reactivex.rxjava3.core.Observable
+import io.reactivex.rxjava3.core.ObservableOnSubscribe
+import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
 
 object Words {
@@ -36,6 +38,16 @@ object Words {
             }
     }
 
+    fun reload(): Single<List<Word>> {
+        categories?.let { categories ->
+            Single.create<List<Word>> { emitter ->
+                downloadWordsToLearn(categories)
+                emitter.onSuccess(words)
+            }.subscribeOn(Schedulers.io())
+        }
+        return Single.just(null)
+    }
+
     fun getCategories(): Observable<List<Category>> {
         return when (categories) {
             null -> Observable.fromCallable {
@@ -48,7 +60,8 @@ object Words {
     fun getWordsByCategoryIds(ids: List<Int>): Observable<List<Word>> {
         return Observable.fromCallable{
             database.getWordsByCategoryIds(ids)
-        }.subscribeOn(Schedulers.io())
+        }
+            .subscribeOn(Schedulers.io())
     }
 
     fun onCategoryCheck(category: Category, isChecked: Boolean) {
@@ -65,8 +78,8 @@ object Words {
         }
     }
 
-    fun getWords(): List<Word> {
-        return words ?: emptyList()
+    fun getWords(): List<Word>? {
+        return words
     }
 
     fun categoryFromId(@Category.CategoryIds id: Int): String {
@@ -76,15 +89,17 @@ object Words {
     private fun downloadWordsToLearn(categories: List<Category>) {
         ThreadUtils.assertNotMainThread()
         val ids = categories.filter { it.isSelected }.map { it.id }
-        getWordsByCategoryIds(ids)
-            .subscribe {
-                words = it
-            }
+        words = shuffleWords(database.getWordsByCategoryIds(ids))
     }
 
     @Deprecated("DEBUG")
     fun clear() {
         database.clear()
+    }
+
+    private fun shuffleWords(words: List<Word>): List<Word> {
+        ThreadUtils.assertNotMainThread()
+        return words.shuffled().sortedWith(Comparator { o1, o2 -> o1?.status?.compareTo(o2?.status ?: 0) ?: -1 })
     }
 
     private fun initDatabase(context: Context) {

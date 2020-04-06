@@ -24,6 +24,9 @@ class CategoryViewHolder(
             clickListener.onClick(adapterPosition)
         }
         checkbox.setOnCheckedChangeListener { buttonView, isChecked ->
+            if (!buttonView.isPressed) {
+                return@setOnCheckedChangeListener
+            }
             clickListener.onChecked(adapterPosition, isChecked)
         }
     }

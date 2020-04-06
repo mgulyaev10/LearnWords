@@ -13,6 +13,8 @@
         android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="48dp"
         android:background="@null"
         android:visibility="gone"
         app:cardElevation="8dp"
@@ -105,7 +107,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/stub"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:visibility="gone">
 
         <TextView
             android:id="@+id/text_stub"
@@ -131,7 +134,14 @@
             app:layout_constraintStart_toStartOf="@id/stub"
             app:layout_constraintTop_toBottomOf="@id/text_stub" />
 
-
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android:indeterminateTint="@color/bottom_nav_icon_tint" />
 
 </FrameLayout>
