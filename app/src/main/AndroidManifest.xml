@@ -3,14 +3,14 @@
     package="com.helpfulproduction.mywords">
 
     <application
-        android:name=".MyApplication"
+        android:name=".android.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name="com.helpfulproduction.mywords.MainActivity">
+        <activity android:name="com.helpfulproduction.mywords.android.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,10 +1,11 @@
-package com.helpfulproduction.mywords
+package com.helpfulproduction.mywords.utils
 
 import android.os.Handler
 import android.view.Gravity
 import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.FragmentActivity
+import com.helpfulproduction.mywords.R
 
 object ExitManager {
 

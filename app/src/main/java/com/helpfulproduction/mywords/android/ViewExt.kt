@@ -1,4 +1,4 @@
-package com.helpfulproduction.mywords
+package com.helpfulproduction.mywords.android
 
 import android.view.View
 

@@ -1,7 +1,8 @@
-package com.helpfulproduction.mywords
+package com.helpfulproduction.mywords.android
 
 import android.app.Application
 import com.helpfulproduction.mywords.core.Words
+import com.helpfulproduction.mywords.android.AppContextHolder
 
 class MyApplication: Application() {
 

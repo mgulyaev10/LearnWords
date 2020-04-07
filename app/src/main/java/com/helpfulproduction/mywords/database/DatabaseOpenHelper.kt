@@ -4,8 +4,8 @@ import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import android.provider.BaseColumns
-import com.helpfulproduction.mywords.AppContextHolder
-import com.helpfulproduction.mywords.utils.Preference
+import com.helpfulproduction.mywords.android.AppContextHolder
+import com.helpfulproduction.mywords.android.Preference
 
 class DatabaseOpenHelper(context: Context) : SQLiteOpenHelper(context, NAME, null, VERSION) {
 

@@ -4,13 +4,13 @@ import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import androidx.annotation.WorkerThread
-import com.helpfulproduction.mywords.AppContextHolder
-import com.helpfulproduction.mywords.DictionaryParser
-import com.helpfulproduction.mywords.ThreadUtils
+import com.helpfulproduction.mywords.android.AppContextHolder
+import com.helpfulproduction.mywords.utils.DictionaryParser
+import com.helpfulproduction.mywords.android.ThreadUtils
 import com.helpfulproduction.mywords.core.Category
 import com.helpfulproduction.mywords.core.ForeignWord.Companion.STATUS_DEFAULT
 import com.helpfulproduction.mywords.core.Word
-import com.helpfulproduction.mywords.utils.Preference
+import com.helpfulproduction.mywords.android.Preference
 
 class WordsDatabase(context: Context) {
 

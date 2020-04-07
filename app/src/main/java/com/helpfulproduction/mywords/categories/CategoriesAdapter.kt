@@ -3,7 +3,6 @@ package com.helpfulproduction.mywords.categories
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.helpfulproduction.mywords.CategoryViewHolderClickListener
 import com.helpfulproduction.mywords.R
 import com.helpfulproduction.mywords.core.Category
 import com.helpfulproduction.mywords.core.Words

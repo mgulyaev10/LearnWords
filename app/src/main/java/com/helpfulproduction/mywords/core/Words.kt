@@ -1,11 +1,10 @@
 package com.helpfulproduction.mywords.core
 
 import android.content.Context
-import com.helpfulproduction.mywords.ThreadUtils
+import com.helpfulproduction.mywords.android.ThreadUtils
 import com.helpfulproduction.mywords.database.WordsDatabase
-import com.helpfulproduction.mywords.utils.Preference
+import com.helpfulproduction.mywords.android.Preference
 import io.reactivex.rxjava3.core.Observable
-import io.reactivex.rxjava3.core.ObservableOnSubscribe
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
 

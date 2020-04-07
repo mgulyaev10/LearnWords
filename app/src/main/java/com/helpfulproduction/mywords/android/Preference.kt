@@ -1,7 +1,6 @@
-package com.helpfulproduction.mywords.utils
+package com.helpfulproduction.mywords.android
 
 import android.content.Context
-import com.helpfulproduction.mywords.AppContextHolder
 
 object Preference {
     private const val PREF_WORDS_APP_NAME = "pref_myWords_app"

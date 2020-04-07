@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.appbar.AppBarLayout
 import com.helpfulproduction.mywords.R
-import com.helpfulproduction.mywords.ScrolledToTop
+import com.helpfulproduction.mywords.navigation.ScrolledToTop
 import com.helpfulproduction.mywords.utils.Navigator
 import com.helpfulproduction.mywords.core.Category
 import com.helpfulproduction.mywords.core.Words

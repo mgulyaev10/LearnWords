@@ -1,4 +1,4 @@
-package com.helpfulproduction.mywords
+package com.helpfulproduction.mywords.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,9 +8,14 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
+import com.helpfulproduction.mywords.R
+import com.helpfulproduction.mywords.android.ThreadUtils
 import com.helpfulproduction.mywords.core.Word
 import com.helpfulproduction.mywords.core.Words
 import com.helpfulproduction.mywords.mvp.BaseMvpFragment
+import com.helpfulproduction.mywords.android.setGone
+import com.helpfulproduction.mywords.android.setVisible
+import com.helpfulproduction.mywords.cards.CardWordsContract
 import com.helpfulproduction.mywords.utils.Navigator
 import com.helpfulproduction.mywords.utils.SpeechHelper
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers

@@ -1,9 +1,10 @@
-package com.helpfulproduction.mywords
+package com.helpfulproduction.mywords.android
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.helpfulproduction.mywords.utils.Preference
-import com.helpfulproduction.mywords.core.Words
+import com.helpfulproduction.mywords.ui.HomeFragment
+import com.helpfulproduction.mywords.R
+import com.helpfulproduction.mywords.navigation.NavigationDelegate
 
 class MainActivity : AppCompatActivity() {
 
@@ -28,10 +29,15 @@ class MainActivity : AppCompatActivity() {
             return
         }
         val isFirstLaunch = Preference.isFirstLaunch(this)
-        val fragment = HomeFragment.Builder(isFirstLaunch).build()
+        val fragment = HomeFragment.Builder(
+            isFirstLaunch
+        ).build()
 
         supportFragmentManager.beginTransaction()
-            .add(R.id.container, fragment, HomeFragment.TAG)
+            .add(
+                R.id.container, fragment,
+                HomeFragment.TAG
+            )
             .commit()
     }
 

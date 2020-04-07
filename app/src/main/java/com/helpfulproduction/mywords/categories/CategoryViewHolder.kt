@@ -6,7 +6,6 @@ import android.widget.TextView
 import androidx.appcompat.widget.AppCompatCheckBox
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.helpfulproduction.mywords.CategoryViewHolderClickListener
 import com.helpfulproduction.mywords.R
 import com.helpfulproduction.mywords.core.Category
 

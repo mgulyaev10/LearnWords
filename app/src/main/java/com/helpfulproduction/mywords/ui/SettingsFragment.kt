@@ -1,4 +1,4 @@
-package com.helpfulproduction.mywords
+package com.helpfulproduction.mywords.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,8 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
+import com.helpfulproduction.mywords.R
 import com.helpfulproduction.mywords.core.Words
-import com.helpfulproduction.mywords.utils.Preference
+import com.helpfulproduction.mywords.android.Preference
 
 class SettingsFragment: Fragment() {
 

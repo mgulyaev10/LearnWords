@@ -1,7 +1,7 @@
 package com.helpfulproduction.mywords.utils
 
 import androidx.fragment.app.Fragment
-import com.helpfulproduction.mywords.NavigationDelegate
+import com.helpfulproduction.mywords.navigation.NavigationDelegate
 
 object Navigator {
 

@@ -1,4 +1,4 @@
-package com.helpfulproduction.mywords
+package com.helpfulproduction.mywords.cards
 
 import com.helpfulproduction.mywords.mvp.BaseContract
 

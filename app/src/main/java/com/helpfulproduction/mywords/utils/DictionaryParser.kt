@@ -1,4 +1,4 @@
-package com.helpfulproduction.mywords
+package com.helpfulproduction.mywords.utils
 
 import com.helpfulproduction.mywords.core.*
 import com.helpfulproduction.mywords.utils.forEachJsonObject

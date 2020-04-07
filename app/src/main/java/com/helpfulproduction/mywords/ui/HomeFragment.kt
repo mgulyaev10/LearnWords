@@ -1,4 +1,4 @@
-package com.helpfulproduction.mywords
+package com.helpfulproduction.mywords.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,9 +8,15 @@ import android.view.ViewGroup
 import androidx.appcompat.view.menu.MenuBuilder
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.helpfulproduction.mywords.R
 import com.helpfulproduction.mywords.categories.CategoriesFragment
+import com.helpfulproduction.mywords.utils.ExitManager
 import com.helpfulproduction.mywords.utils.Navigator
-import com.helpfulproduction.mywords.utils.Preference
+import com.helpfulproduction.mywords.android.Preference
+import com.helpfulproduction.mywords.navigation.NavigationDelegate
+import com.helpfulproduction.mywords.navigation.RootViewPager
+import com.helpfulproduction.mywords.navigation.RootViewPagerAdapter
+import com.helpfulproduction.mywords.navigation.RootViewPagerListener
 import java.util.*
 
 class HomeFragment: Fragment(), NavigationDelegate {
@@ -94,7 +100,11 @@ class HomeFragment: Fragment(), NavigationDelegate {
 
     private fun initRootViewPager(view: View, isFirstLaunch: Boolean) {
         rootFragments = createRootFragments(isFirstLaunch)
-        rootViewPagerAdapter = RootViewPagerAdapter(childFragmentManager, rootFragments, rootViewPagerListener)
+        rootViewPagerAdapter = RootViewPagerAdapter(
+                childFragmentManager,
+                rootFragments,
+                rootViewPagerListener
+        )
         rootViewPager = view.findViewById<RootViewPager>(R.id.root_view_pager).apply {
             adapter = rootViewPagerAdapter
             currentItem = if (isFirstLaunch) 1 else 0
