@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.appcompat.view.menu.MenuBuilder
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.helpfulproduction.mywords.AdsManager
 import com.helpfulproduction.mywords.R
 import com.helpfulproduction.mywords.categories.CategoriesFragment
 import com.helpfulproduction.mywords.utils.ExitManager
@@ -55,6 +56,7 @@ class HomeFragment: Fragment(), NavigationDelegate {
         }
 
         Navigator.init(this)
+        AdsManager.init(context)
 
         bottomNavigationView = view.findViewById<BottomNavigationView>(
             R.id.bottom_nav_view

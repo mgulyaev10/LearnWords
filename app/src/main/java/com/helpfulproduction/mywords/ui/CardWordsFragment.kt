@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
+import com.helpfulproduction.mywords.AdsManager
 import com.helpfulproduction.mywords.R
 import com.helpfulproduction.mywords.android.ThreadUtils
 import com.helpfulproduction.mywords.core.Word
@@ -120,6 +121,7 @@ class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(),
         } else {
             index = 0
         }
+        AdsManager.onCardShow()
         val currentWord = currentWords[index]
         this.currentWord = currentWord
         category.text = Words.categoryFromId(currentWord.categoryId)
