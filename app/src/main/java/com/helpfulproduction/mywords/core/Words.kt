@@ -69,8 +69,11 @@ object Words {
         if (isChecked) {
             getWordsByCategoryIds(listOf(category.id))
                 .subscribeOn(Schedulers.io())
+                .observeOn(Schedulers.io())
                 .subscribe {
-                    words = words?.plus(it) ?: it
+                    val allWords = words?.plus(it) ?: it
+                    val shuffledList = shuffleWords(allWords)
+                    words = shuffledList
                 }
         } else {
             words = words?.filter { it.categoryId != category.id }

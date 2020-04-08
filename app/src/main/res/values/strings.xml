@@ -11,5 +11,7 @@
     <string name="category_title_default">Категория</string>
     <string name="choose_categories_stub">Выберите одну или несколько категорий, чтобы изучать новые слова</string>
     <string name="choose_categories">Выбрать категории</string>
+    <string name="i_know_this_word">Я знаю это слово</string>
+    <string name="i_dont_know_word">Я не знаю это слово</string>
 
 </resources>

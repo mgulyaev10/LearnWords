@@ -32,16 +32,22 @@ class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(),
     private lateinit var stub: View
     private lateinit var loading: ProgressBar
     private lateinit var chooseCategories: Button
+    private lateinit var knownWord: TextView
+    private lateinit var unknownWord: TextView
 
     private var words: List<Word>? = null
+    private var currentWord: Word? = null
     private var index = -1
 
     private var wordsUpdateListener = object: Words.WordsUpdateListener {
         override fun onWordsUpdated(words: List<Word>) {
             this@CardWordsFragment.words = words
+            val needUpdateUi = !words.contains(currentWord)
             index = -1
-            ThreadUtils.postOnMainThread {
-                updateUi()
+            if (needUpdateUi) {
+                ThreadUtils.postOnMainThread {
+                    updateUi()
+                }
             }
         }
     }
@@ -109,12 +115,13 @@ class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(),
     }
 
     private fun updateCard(currentWords: List<Word>) {
-        if (index != currentWords.size - 1) {
+        if (index < currentWords.size - 1) {
             index++
         } else {
-            // TODO: words end
+            index = 0
         }
         val currentWord = currentWords[index]
+        this.currentWord = currentWord
         category.text = Words.categoryFromId(currentWord.categoryId)
         russian.text = currentWord.russian
         english.text = currentWord.english
@@ -140,6 +147,20 @@ class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(),
         chooseCategories = view.findViewById<Button>(R.id.choose_categories).apply {
             setOnClickListener {
                 Navigator.openCategoriesFragment()
+            }
+        }
+        knownWord = view.findViewById<TextView>(R.id.known_word).apply {
+            setOnClickListener {
+                words?.let {
+                    updateCard(it)
+                }
+            }
+        }
+        unknownWord = view.findViewById<TextView>(R.id.unknown_word).apply {
+            setOnClickListener {
+                words?.let {
+                    updateCard(it)
+                }
             }
         }
     }

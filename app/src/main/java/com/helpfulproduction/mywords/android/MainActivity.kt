@@ -2,6 +2,7 @@ package com.helpfulproduction.mywords.android
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.google.android.gms.ads.MobileAds
 import com.helpfulproduction.mywords.ui.HomeFragment
 import com.helpfulproduction.mywords.R
 import com.helpfulproduction.mywords.navigation.NavigationDelegate
@@ -11,6 +12,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        initMobileAds()
         openHomeFragment()
     }
 
@@ -39,6 +41,10 @@ class MainActivity : AppCompatActivity() {
                 HomeFragment.TAG
             )
             .commit()
+    }
+
+    private fun initMobileAds() {
+        MobileAds.initialize(this)
     }
 
 }
