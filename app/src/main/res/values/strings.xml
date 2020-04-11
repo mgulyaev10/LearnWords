@@ -5,7 +5,8 @@
     <string name="menu_learn">Учить</string>
     <string name="menu_categories">Категории</string>
     <string name="menu_statistics">Статистика</string>
-    <string name="menu_settings">Настройки</string>
+    <string name="menu_menu">Меню</string>
+    <string name="settings">Настройки</string>
 
     <string name="categories">Категории</string>
     <string name="exit_explanation">Нажмите кнопку "Назад" ещё раз, чтобы закрыть приложение</string>
@@ -17,6 +18,8 @@
 
     <string name="common">Общие</string>
     <string name="settings_bad_device">Слабое устройство</string>
+    <string name="settings_bad_device_subtitle_checked">Отключить анимации</string>
+    <string name="settings_bad_device_subtitle_unchecked">Включить анимации</string>
 
     <string name="loading_toast">Загрузка данных. Пожалуйста, подождите</string>
 

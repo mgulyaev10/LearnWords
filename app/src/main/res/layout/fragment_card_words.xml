@@ -92,7 +92,7 @@
                 android:layout_marginEnd="8dp"
                 android:padding="4dp"
                 android:src="@drawable/ic_volume_28"
-                android:tint="#528bcc"
+                android:tint="@color/azure_300"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:clickable="true"
                 android:focusable="true"

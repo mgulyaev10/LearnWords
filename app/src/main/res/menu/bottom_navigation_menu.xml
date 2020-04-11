@@ -14,9 +14,9 @@
         android:checked="false"
         app:showAsAction="withText" />
 
-    <item android:id="@+id/menu_settings"
-        android:title="@string/menu_settings"
-        android:icon="@drawable/ic_settings_24"
+    <item android:id="@+id/menu_menu"
+        android:title="@string/menu_menu"
+        android:icon="@drawable/ic_menu_24"
         android:checked="false"
         app:showAsAction="withText" />
 

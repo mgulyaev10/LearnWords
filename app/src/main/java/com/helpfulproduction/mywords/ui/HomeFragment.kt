@@ -9,6 +9,7 @@ import androidx.appcompat.view.menu.MenuBuilder
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.helpfulproduction.mywords.AdsManager
+import com.helpfulproduction.mywords.MenuFragment
 import com.helpfulproduction.mywords.R
 import com.helpfulproduction.mywords.categories.CategoriesFragment
 import com.helpfulproduction.mywords.utils.ExitManager
@@ -91,7 +92,7 @@ class HomeFragment: Fragment(), NavigationDelegate {
             push(createCategoriesFragment(isFirstLaunch))
         }
         val thirdPage = Stack<Fragment>().apply {
-            push(createSettingsFragment())
+            push(createMenuFragment())
         }
         return arrayListOf(
             firstPage,
@@ -124,8 +125,8 @@ class HomeFragment: Fragment(), NavigationDelegate {
             .build()
     }
 
-    private fun createSettingsFragment(): Fragment {
-        return SettingsFragment.Builder()
+    private fun createMenuFragment(): Fragment {
+        return MenuFragment.Builder()
             .build()
     }
 
