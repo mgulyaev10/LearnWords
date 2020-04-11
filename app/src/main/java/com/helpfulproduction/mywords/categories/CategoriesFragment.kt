@@ -10,6 +10,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.appbar.AppBarLayout
 import com.helpfulproduction.mywords.R
+import com.helpfulproduction.mywords.android.Preference
+import com.helpfulproduction.mywords.android.ToastUtils
 import com.helpfulproduction.mywords.navigation.ScrolledToTop
 import com.helpfulproduction.mywords.utils.Navigator
 import com.helpfulproduction.mywords.core.Category
@@ -23,7 +25,11 @@ class CategoriesFragment: Fragment(), ScrolledToTop {
 
     private val categoryClickListener = object : CategoryClickListener {
         override fun onClick(category: Category) {
-            openDetailedCategoryFragment(category)
+            if (Preference.isDataUnpacked(context)) {
+                openDetailedCategoryFragment(category)
+            } else {
+                ToastUtils.showLoadingToast(context)
+            }
         }
 
         override fun onChecked(category: Category, isChecked: Boolean) {

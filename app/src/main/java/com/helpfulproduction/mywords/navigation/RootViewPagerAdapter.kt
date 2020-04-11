@@ -56,8 +56,8 @@ class RootViewPagerAdapter(
     fun onPageReselected() {
         val currentStack = fragments[currentPosition]
         val currentFragment = currentStack.peek()
-        if (currentStack.size == 1 && currentFragment is ScrolledToTop) {
-            currentFragment.scrollToTop()
+        if (currentStack.size == 1) {
+            (currentFragment as? ScrolledToTop)?.scrollToTop()
             return
         }
         changedFragment = currentFragment

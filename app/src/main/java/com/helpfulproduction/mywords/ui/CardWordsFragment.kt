@@ -15,6 +15,8 @@ import com.helpfulproduction.mywords.core.Words
 import com.helpfulproduction.mywords.mvp.BaseMvpFragment
 import com.helpfulproduction.mywords.android.setGone
 import com.helpfulproduction.mywords.android.setVisible
+import com.helpfulproduction.mywords.animation.AnimationHelper
+import com.helpfulproduction.mywords.animation.CardAnimationListener
 import com.helpfulproduction.mywords.cards.CardWordsContract
 import com.helpfulproduction.mywords.utils.Navigator
 import com.helpfulproduction.mywords.utils.SpeechHelper
@@ -80,18 +82,6 @@ class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(),
             }
             else -> {
                 showLoading()
-                Words.reload()
-                    .observeOn(AndroidSchedulers.mainThread())
-                    .subscribe({
-                        words = it
-                        if (it == null) {
-                            showStub()
-                        } else {
-                            updateCard(it)
-                        }
-                    }, {
-                        it.printStackTrace()
-                    })
             }
         }
     }
@@ -109,6 +99,9 @@ class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(),
     }
 
     private fun showCard() {
+        if (isResumed) {
+            AdsManager.onCardShow()
+        }
         content.setVisible()
         stub.setGone()
         loading.setGone()
@@ -120,7 +113,6 @@ class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(),
         } else {
             index = 0
         }
-        AdsManager.onCardShow()
         val currentWord = currentWords[index]
         this.currentWord = currentWord
         category.text = Words.categoryFromId(currentWord.categoryId)
@@ -153,18 +145,28 @@ class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(),
         knownWord = view.findViewById<TextView>(R.id.known_word).apply {
             setOnClickListener {
                 words?.let {
-                    AnimationHelper.swipeCardAnimation(context, content, CardAnimationListener({
-                        updateCard(it)
-                    }, isLeft = true))
+                    AnimationHelper.swipeCardAnimation(context, content,
+                        CardAnimationListener(
+                            {
+                                updateCard(it)
+                            },
+                            isLeft = true
+                        )
+                    )
                 }
             }
         }
         unknownWord = view.findViewById<TextView>(R.id.unknown_word).apply {
             setOnClickListener {
                 words?.let {
-                    AnimationHelper.swipeCardAnimation(context, content, CardAnimationListener({
-                        updateCard(it)
-                    }, isLeft = false))
+                    AnimationHelper.swipeCardAnimation(context, content,
+                        CardAnimationListener(
+                            {
+                                updateCard(it)
+                            },
+                            isLeft = false
+                        )
+                    )
                 }
             }
         }

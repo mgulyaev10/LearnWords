@@ -7,6 +7,8 @@ import androidx.appcompat.widget.AppCompatCheckBox
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.helpfulproduction.mywords.R
+import com.helpfulproduction.mywords.android.Preference
+import com.helpfulproduction.mywords.android.ToastUtils
 import com.helpfulproduction.mywords.core.Category
 
 class CategoryViewHolder(
@@ -24,6 +26,11 @@ class CategoryViewHolder(
         }
         checkbox.setOnCheckedChangeListener { buttonView, isChecked ->
             if (!buttonView.isPressed) {
+                return@setOnCheckedChangeListener
+            }
+            if (!Preference.isDataUnpacked(view.context)) {
+                ToastUtils.showLoadingToast(view.context)
+                buttonView.isChecked = !isChecked
                 return@setOnCheckedChangeListener
             }
             clickListener.onChecked(adapterPosition, isChecked)

@@ -1,15 +1,17 @@
-package com.helpfulproduction.mywords
+package com.helpfulproduction.mywords.animation
 
 import android.content.Context
 import android.view.View
 import android.view.animation.AnimationUtils
+import com.helpfulproduction.mywords.R
 import com.helpfulproduction.mywords.android.Preference
 
 object AnimationHelper {
 
     fun swipeCardAnimation(context: Context?,
                            view: View,
-                           animationListener: CardAnimationListener) {
+                           animationListener: CardAnimationListener
+    ) {
         if (context == null) {
             return
         }

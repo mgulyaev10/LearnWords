@@ -4,6 +4,7 @@ import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import androidx.annotation.WorkerThread
+import com.helpfulproduction.mywords.DatabaseFillException
 import com.helpfulproduction.mywords.android.AppContextHolder
 import com.helpfulproduction.mywords.utils.DictionaryParser
 import com.helpfulproduction.mywords.android.ThreadUtils
@@ -108,47 +109,89 @@ class WordsDatabase(context: Context) {
             }
         }
 
-        fillCategories(databaseCategories)
-        fillWords(databaseWords)
-        fillEnglishExamples(databaseEnglishExamples)
-        Preference.setDataUnpacked(AppContextHolder.context, isDataUnpacked = true)
+        try {
+            fillCategories(databaseCategories)
+            fillWords(databaseWords)
+            fillEnglishExamples(databaseEnglishExamples)
+            Preference.setDataUnpacked(AppContextHolder.context, isDataUnpacked = true)
+        } catch (e: DatabaseFillException) {
+            fillDatabase(jsonInfo)
+        }
     }
 
     private fun fillCategories(categories: List<WordsDatabaseContract.DatabaseCategory>) {
-        categories.forEach { category ->
-            val value = ContentValues().apply {
-                put(WordsDatabaseContract.CategoriesEntry.COLUMN_NAME_CATEGORY_ID, category.id)
-                put(WordsDatabaseContract.CategoriesEntry.COLUMN_NAME_CATEGORY_NAME, category.name)
-                put(WordsDatabaseContract.CategoriesEntry.COLUMN_NAME_SELECTED, false)
-            }
+        try {
+            database.beginTransaction()
+            categories.forEach { category ->
+                val value = ContentValues().apply {
+                    put(WordsDatabaseContract.CategoriesEntry.COLUMN_NAME_CATEGORY_ID, category.id)
+                    put(
+                        WordsDatabaseContract.CategoriesEntry.COLUMN_NAME_CATEGORY_NAME,
+                        category.name
+                    )
+                    put(WordsDatabaseContract.CategoriesEntry.COLUMN_NAME_SELECTED, false)
+                }
 
-            database.insert(WordsDatabaseContract.CategoriesEntry.TABLE_NAME, null, value)
+                database.insert(WordsDatabaseContract.CategoriesEntry.TABLE_NAME, null, value)
+            }
+        } catch (e: Exception) {
+            throw DatabaseFillException(e)
+        } finally {
+            database.setTransactionSuccessful()
+            database.endTransaction()
         }
     }
 
     private fun fillWords(words: List<WordsDatabaseContract.DatabaseWord>) {
-        words.forEach { word ->
-            val value = ContentValues().apply {
-                put(WordsDatabaseContract.WordsEntry.COLUMN_NAME_CATEGORY_ID, word.categoryId)
-                put(WordsDatabaseContract.WordsEntry.COLUMN_NAME_RU, word.ru)
-                put(WordsDatabaseContract.WordsEntry.COLUMN_NAME_ENG, word.eng)
-                put(WordsDatabaseContract.WordsEntry.COLUMN_NAME_TRANSCRIPTION, word.transcription)
-                put(WordsDatabaseContract.WordsEntry.COLUMN_NAME_STATUS, STATUS_DEFAULT)
-            }
+        try {
+            database.beginTransaction()
+            words.forEach { word ->
+                val value = ContentValues().apply {
+                    put(WordsDatabaseContract.WordsEntry.COLUMN_NAME_CATEGORY_ID, word.categoryId)
+                    put(WordsDatabaseContract.WordsEntry.COLUMN_NAME_RU, word.ru)
+                    put(WordsDatabaseContract.WordsEntry.COLUMN_NAME_ENG, word.eng)
+                    put(
+                        WordsDatabaseContract.WordsEntry.COLUMN_NAME_TRANSCRIPTION,
+                        word.transcription
+                    )
+                    put(WordsDatabaseContract.WordsEntry.COLUMN_NAME_STATUS, STATUS_DEFAULT)
+                }
 
-            database.insert(WordsDatabaseContract.WordsEntry.TABLE_NAME, null, value)
+                database.insert(WordsDatabaseContract.WordsEntry.TABLE_NAME, null, value)
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+            throw DatabaseFillException(e)
+        } finally {
+            database.setTransactionSuccessful()
+            database.endTransaction()
         }
     }
 
     private fun fillEnglishExamples(examples: List<WordsDatabaseContract.DatabaseEnglishExample>) {
-        examples.forEach { example ->
-            val value = ContentValues().apply {
-                put(WordsDatabaseContract.EnglishExamplesEntry.COLUMN_NAME_WORD, example.word)
-                put(WordsDatabaseContract.EnglishExamplesEntry.COLUMN_NAME_RUS_PHRASE, example.rusPhrase)
-                put(WordsDatabaseContract.EnglishExamplesEntry.COLUMN_NAME_PHRASE, example.phrase)
-            }
+        try {
+            database.beginTransaction()
+            examples.forEach { example ->
+                val value = ContentValues().apply {
+                    put(WordsDatabaseContract.EnglishExamplesEntry.COLUMN_NAME_WORD, example.word)
+                    put(
+                        WordsDatabaseContract.EnglishExamplesEntry.COLUMN_NAME_RUS_PHRASE,
+                        example.rusPhrase
+                    )
+                    put(
+                        WordsDatabaseContract.EnglishExamplesEntry.COLUMN_NAME_PHRASE,
+                        example.phrase
+                    )
+                }
 
-            database.insert(WordsDatabaseContract.EnglishExamplesEntry.TABLE_NAME, null, value)
+                database.insert(WordsDatabaseContract.EnglishExamplesEntry.TABLE_NAME, null, value)
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+            throw DatabaseFillException(e)
+        } finally {
+            database.setTransactionSuccessful()
+            database.endTransaction()
         }
     }
 

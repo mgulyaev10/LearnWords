@@ -22,10 +22,11 @@ object Preference {
             ?.apply()
     }
 
-    fun isDataUnpacked(context: Context): Boolean {
-        context.getSharedPreferences(PREF_WORDS_APP_NAME, Context.MODE_PRIVATE).let { pref ->
+    fun isDataUnpacked(context: Context?): Boolean {
+        context?.getSharedPreferences(PREF_WORDS_APP_NAME, Context.MODE_PRIVATE)?.let { pref ->
             return pref.getBoolean(KEY_IS_DATA_UNPACKED, false)
         }
+        return false
     }
 
     fun setDataUnpacked(context: Context?, isDataUnpacked: Boolean) {

@@ -5,7 +5,6 @@ import com.helpfulproduction.mywords.android.ThreadUtils
 import com.helpfulproduction.mywords.database.WordsDatabase
 import com.helpfulproduction.mywords.android.Preference
 import io.reactivex.rxjava3.core.Observable
-import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
 
 object Words {
@@ -35,16 +34,6 @@ object Words {
                     }
                 }
             }
-    }
-
-    fun reload(): Single<List<Word>> {
-        categories?.let { categories ->
-            Single.create<List<Word>> { emitter ->
-                downloadWordsToLearn(categories)
-                emitter.onSuccess(words)
-            }.subscribeOn(Schedulers.io())
-        }
-        return Single.just(null)
     }
 
     fun getCategories(): Observable<List<Category>> {

@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">myWords</string>
+    <string name="key_bad_device">key_bad_device</string>
 
     <string name="menu_learn">Учить</string>
     <string name="menu_categories">Категории</string>
@@ -16,5 +17,7 @@
 
     <string name="common">Общие</string>
     <string name="settings_bad_device">Слабое устройство</string>
+
+    <string name="loading_toast">Загрузка данных. Пожалуйста, подождите</string>
 
 </resources>
