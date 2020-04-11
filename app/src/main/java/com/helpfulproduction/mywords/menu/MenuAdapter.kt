@@ -31,4 +31,9 @@ class MenuAdapter(
     override fun getItemViewType(position: Int): Int {
         return items[position].getViewType()
     }
+
+    fun isLastInBlock(position: Int): Boolean {
+        return items[position].lastInBlock
+    }
+
 }
