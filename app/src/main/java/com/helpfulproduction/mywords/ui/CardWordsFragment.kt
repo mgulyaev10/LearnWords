@@ -147,8 +147,12 @@ class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(),
                 words?.let {
                     AnimationHelper.swipeCardAnimation(context, content,
                         CardAnimationListener(
-                            {
+                            actionBefore = {
+                                enableButtons(false)
+                            },
+                            actionAfter = {
                                 updateCard(it)
+                                enableButtons(true)
                             },
                             isLeft = true
                         )
@@ -161,8 +165,12 @@ class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(),
                 words?.let {
                     AnimationHelper.swipeCardAnimation(context, content,
                         CardAnimationListener(
-                            {
+                            actionBefore = {
+                                enableButtons(false)
+                            },
+                            actionAfter = {
                                 updateCard(it)
+                                enableButtons(true)
                             },
                             isLeft = false
                         )
@@ -170,6 +178,11 @@ class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(),
                 }
             }
         }
+    }
+
+    private fun enableButtons(isEnabled: Boolean) {
+        knownWord.isEnabled = isEnabled
+        unknownWord.isEnabled = isEnabled
     }
 
     class Builder(isNew: Boolean) {

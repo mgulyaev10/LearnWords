@@ -16,7 +16,7 @@ object AnimationHelper {
             return
         }
         if (Preference.isBadDevice(context)) {
-            animationListener.actionAfter.invoke()
+            animationListener.actionAfter?.invoke()
             return
         }
         val attr = if (animationListener.isLeft) {

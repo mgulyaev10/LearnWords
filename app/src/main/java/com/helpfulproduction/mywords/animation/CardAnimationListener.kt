@@ -1,8 +1,7 @@
 package com.helpfulproduction.mywords.animation
 
-import com.helpfulproduction.mywords.animation.AnimationActionAfterListener
-
 class CardAnimationListener(
-    actionAfter: () -> Unit,
+    actionBefore: (() -> Unit)? = null,
+    actionAfter: (() -> Unit)? = null,
     val isLeft: Boolean
-): AnimationActionAfterListener(actionAfter)
+): AnimationListener(actionBefore, actionAfter)
