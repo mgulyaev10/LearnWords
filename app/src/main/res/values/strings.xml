@@ -13,7 +13,7 @@
     <string name="categories">Категории</string>
     <string name="exit_explanation">Нажмите кнопку "Назад" ещё раз, чтобы закрыть приложение</string>
     <string name="category_title_default">Категория</string>
-    <string name="choose_categories_stub">Выберите одну или несколько категорий, чтобы изучать новые слова</string>
+    <string name="choose_categories_stub">Выберите одну или&#160;несколько категорий, чтобы изучать новые слова</string>
     <string name="choose_categories">Выбрать категории</string>
     <string name="i_know_this_word">Я знаю это слово</string>
     <string name="i_dont_know_word">Я не знаю это слово</string>
@@ -29,7 +29,7 @@
     <string name="pro_version_title">PRO-версия</string>
     <string name="pro_version_without_restriction">Неограниченное число новых слов каждый день</string>
     <string name="pro_version_without_ads">Никакой рекламы</string>
-    <string name="pro_version_access_to_updates">Доступ к разрабатывающимся функциям приложения в будущих обновлениях</string>
+    <string name="pro_version_access_to_updates">Доступ к&#160;разрабатывающимся функциям приложения в&#160;будущих обновлениях</string>
 
     <string name="intro_categories">Выберите категории слов, которые Вы хотите изучать</string>
 
