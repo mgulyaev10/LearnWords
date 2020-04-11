@@ -27,12 +27,13 @@ object Words {
             initDatabase(context)
         }.subscribeOn(Schedulers.io())
             .subscribe {
-                categories = database.getCategories().apply {
-                    downloadWordsToLearn(this)
-                    this.forEach {
+                val categories = database.getCategories()
+                this.categories = categories.apply {
+                    forEach {
                         categoriesMap[it.id] = it.title
                     }
                 }
+                downloadWordsToLearn(categories)
             }
     }
 
