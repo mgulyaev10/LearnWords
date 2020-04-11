@@ -5,15 +5,14 @@ import android.view.LayoutInflater
 import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
-import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.view.menu.MenuBuilder
-import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.Fragment
+import com.google.android.material.appbar.AppBarLayout
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.helpfulproduction.mywords.AdsManager
+import com.helpfulproduction.mywords.FragmentWrapper
 import com.helpfulproduction.mywords.MenuFragment
 import com.helpfulproduction.mywords.R
 import com.helpfulproduction.mywords.categories.CategoriesFragment
@@ -30,14 +29,19 @@ import java.util.*
 
 class HomeFragment: Fragment(), NavigationDelegate {
 
-    private lateinit var toolbar: FrameLayout
+    private lateinit var toolbar: AppBarLayout
     private lateinit var toolbarTitle: TextView
-    private lateinit var rootFragments: List<Stack<Fragment>>
+    private lateinit var rootFragments: List<Stack<FragmentWrapper>>
     private lateinit var rootViewPager: RootViewPager
     private lateinit var rootViewPagerAdapter: RootViewPagerAdapter
     private val rootViewPagerListener = object: RootViewPagerListener {
-        override fun onPageChanged(position: Int) {
+        override fun onPageChanged(position: Int, toolbarTitle: String?) {
             bottomNavigationView.menu.getItem(position).isChecked = true
+            if (toolbarTitle != null) {
+                showToolbar(toolbarTitle)
+            } else {
+                hideToolbar()
+            }
         }
 
         override fun onEmptyStack() {
@@ -55,6 +59,7 @@ class HomeFragment: Fragment(), NavigationDelegate {
     private val menuClickListener = object: BottomNavigationView.OnNavigationItemSelectedListener, BottomNavigationView.OnNavigationItemReselectedListener {
         override fun onNavigationItemSelected(item: MenuItem): Boolean {
             onMenuItemSelected(item)
+            hideToolbar()
             return true
         }
 
@@ -103,10 +108,7 @@ class HomeFragment: Fragment(), NavigationDelegate {
     }
 
     override fun go(fragment: Fragment, actionBarTitle: String?) {
-        if (actionBarTitle != null) {
-            showToolbar(actionBarTitle)
-        }
-        rootViewPagerAdapter.openInCurrentStack(fragment)
+        rootViewPagerAdapter.openInCurrentStack(fragment, actionBarTitle)
     }
 
     override fun openFullScreen(fragment: Fragment) {
@@ -116,14 +118,14 @@ class HomeFragment: Fragment(), NavigationDelegate {
             ?.commit()
     }
 
-    private fun createRootFragments(isFirstLaunch: Boolean): List<Stack<Fragment>> {
-        val firstPage = Stack<Fragment>().apply {
+    private fun createRootFragments(isFirstLaunch: Boolean): List<Stack<FragmentWrapper>> {
+        val firstPage = Stack<FragmentWrapper>().apply {
             push(createCardWordsFragment())
         }
-        val secondPage = Stack<Fragment>().apply {
+        val secondPage = Stack<FragmentWrapper>().apply {
             push(createCategoriesFragment(isFirstLaunch))
         }
-        val thirdPage = Stack<Fragment>().apply {
+        val thirdPage = Stack<FragmentWrapper>().apply {
             push(createMenuFragment())
         }
         return arrayListOf(
@@ -147,19 +149,25 @@ class HomeFragment: Fragment(), NavigationDelegate {
         }
     }
 
-    private fun createCategoriesFragment(isFirstLaunch: Boolean = false): Fragment {
-        return CategoriesFragment.Builder(isFirstLaunch = isFirstLaunch)
+    private fun createCategoriesFragment(isFirstLaunch: Boolean = false): FragmentWrapper {
+        return FragmentWrapper(
+            CategoriesFragment.Builder(isFirstLaunch = isFirstLaunch)
             .build()
+        )
     }
 
-    private fun createCardWordsFragment(): Fragment {
-        return CardWordsFragment.Builder(isNew = false)
+    private fun createCardWordsFragment(): FragmentWrapper {
+        return FragmentWrapper(
+            CardWordsFragment.Builder(isNew = false)
             .build()
+        )
     }
 
-    private fun createMenuFragment(): Fragment {
-        return MenuFragment.Builder()
+    private fun createMenuFragment(): FragmentWrapper {
+        return FragmentWrapper(
+            MenuFragment.Builder()
             .build()
+        )
     }
 
     private fun onMenuItemSelected(item: MenuItem) {
@@ -168,7 +176,7 @@ class HomeFragment: Fragment(), NavigationDelegate {
     }
 
     private fun initAndHideToolbar(view: View) {
-        toolbar = view.findViewById<FrameLayout>(R.id.toolbar).apply {
+        toolbar = view.findViewById<AppBarLayout>(R.id.toolbar).apply {
             findViewById<ImageView>(R.id.back).apply {
                 setOnClickListener {
                     Navigator.onBackPressed()

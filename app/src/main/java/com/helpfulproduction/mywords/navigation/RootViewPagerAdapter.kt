@@ -5,11 +5,12 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
 import androidx.viewpager.widget.PagerAdapter
+import com.helpfulproduction.mywords.FragmentWrapper
 import java.util.*
 
 class RootViewPagerAdapter(
     fragmentManager: FragmentManager,
-    private val fragments: List<Stack<Fragment>>,
+    private val fragments: List<Stack<FragmentWrapper>>,
     private val listener: RootViewPagerListener
 ): FragmentStatePagerAdapter(fragmentManager, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
 
@@ -19,11 +20,12 @@ class RootViewPagerAdapter(
     override fun setPrimaryItem(container: ViewGroup, position: Int, `object`: Any) {
         currentPosition = position
         super.setPrimaryItem(container, position, `object`)
-        listener.onPageChanged(position)
+        val toolbarTitle = fragments[currentPosition].peek().toolbarTitle
+        listener.onPageChanged(position, toolbarTitle)
     }
 
     override fun getItem(position: Int): Fragment {
-        return fragments[position].peek()
+        return fragments[position].peek().fragment
     }
 
     override fun getCount(): Int {
@@ -42,15 +44,15 @@ class RootViewPagerAdapter(
         if (fragments[currentPosition].size == 1) {
             listener.onEmptyStack()
         } else {
-            changedFragment = fragments[currentPosition].pop()
+            changedFragment = fragments[currentPosition].pop().fragment
             listener.onBackPressed(fragments[currentPosition].size)
             notifyDataSetChanged()
         }
     }
 
-    fun openInCurrentStack(fragment: Fragment) {
-        changedFragment = fragments[currentPosition].peek()
-        fragments[currentPosition].push(fragment)
+    fun openInCurrentStack(fragment: Fragment, toolbarTitle: String? = null) {
+        changedFragment = fragments[currentPosition].peek().fragment
+        fragments[currentPosition].push(FragmentWrapper(fragment, toolbarTitle))
         notifyDataSetChanged()
     }
 
@@ -58,10 +60,10 @@ class RootViewPagerAdapter(
         val currentStack = fragments[currentPosition]
         val currentFragment = currentStack.peek()
         if (currentStack.size == 1) {
-            (currentFragment as? ScrolledToTop)?.scrollToTop()
+            (currentFragment.fragment as? ScrolledToTop)?.scrollToTop()
             return
         }
-        changedFragment = currentFragment
+        changedFragment = currentFragment.fragment
         while (currentStack.size > 1) {
            currentStack.pop()
         }

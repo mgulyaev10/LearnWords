@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -12,6 +13,7 @@ import com.google.android.material.appbar.AppBarLayout
 import com.helpfulproduction.mywords.R
 import com.helpfulproduction.mywords.android.Preference
 import com.helpfulproduction.mywords.android.ToastUtils
+import com.helpfulproduction.mywords.android.setGone
 import com.helpfulproduction.mywords.navigation.ScrolledToTop
 import com.helpfulproduction.mywords.utils.Navigator
 import com.helpfulproduction.mywords.core.Category
@@ -49,6 +51,7 @@ class CategoriesFragment: Fragment(), ScrolledToTop {
     }
 
     private fun initViews(view: View) {
+        view.findViewById<ImageView>(R.id.back).setGone()
         recycler = view.findViewById<RecyclerView>(R.id.recycler).apply {
             layoutManager = LinearLayoutManager(view.context, LinearLayoutManager.VERTICAL, false)
             adapter = CategoriesAdapter(categoryClickListener)

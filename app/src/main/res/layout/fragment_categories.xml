@@ -15,6 +15,16 @@
             android:layout_height="56dp"
             app:layout_scrollFlags="enterAlways|scroll">
 
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="16dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_back_28"
+                android:tint="@color/azure_300"
+                android:background="?attr/selectableItemBackgroundBorderless"/>
+
             <TextView
                 android:id="@+id/title"
                 android:layout_width="wrap_content"

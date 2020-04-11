@@ -4,21 +4,24 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <FrameLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:visibility="gone"
+        android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toTopOf="@id/root_view_pager">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:elevation="12dp">
 
         <ImageView
             android:id="@+id/back"
             android:layout_width="28dp"
             android:layout_height="28dp"
-            android:layout_marginStart="12dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_gravity="center_vertical"
             android:src="@drawable/ic_back_28"
             android:tint="@color/azure_300"
             android:background="?attr/selectableItemBackgroundBorderless"/>
@@ -30,7 +33,14 @@
             android:layout_gravity="center"
             style="@style/TextAppearance.AppCompat.Title" />
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom" />
+
     </FrameLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
 
     <com.helpfulproduction.mywords.navigation.RootViewPager
         android:id="@+id/root_view_pager"

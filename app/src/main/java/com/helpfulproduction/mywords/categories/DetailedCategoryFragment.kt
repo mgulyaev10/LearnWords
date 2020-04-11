@@ -4,11 +4,13 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.helpfulproduction.mywords.R
+import com.helpfulproduction.mywords.utils.Navigator
 
 class DetailedCategoryFragment: Fragment() {
 
@@ -21,6 +23,11 @@ class DetailedCategoryFragment: Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_categories, container, false)
         unpackArguments()
+        view.findViewById<ImageView>(R.id.back).apply {
+            setOnClickListener {
+                Navigator.onBackPressed()
+            }
+        }
         title = view.findViewById<TextView>(R.id.title).apply {
             text = categoryTitle
         }
