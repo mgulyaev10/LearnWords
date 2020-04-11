@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_promo_gradient"
+    android:clipToPadding="false">
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/ic_close_24"
+        android:tint="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="64dp"
+        android:background="@color/card_word_background"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:gravity="center_horizontal"
+                android:text="@string/pro_version_title"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Title"
+                app:layout_constraintTop_toTopOf="@id/card"
+                app:layout_constraintStart_toStartOf="@id/card"
+                app:layout_constraintEnd_toEndOf="@id/card"/>
+
+            <TextView
+                android:id="@+id/first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:text="@string/pro_version_without_restriction"
+                android:drawableStart="@drawable/ic_books_24"
+                style="@style/TextBuySubscriptionStyle"
+                app:layout_constraintVertical_bias="0.4"
+                app:layout_constraintVertical_chainStyle="packed"
+                app:layout_constraintTop_toBottomOf="@id/title"
+                app:layout_constraintBottom_toTopOf="@id/second"
+                app:layout_constraintStart_toStartOf="@id/card"
+                app:layout_constraintEnd_toEndOf="@id/card" />
+
+            <TextView
+                android:id="@+id/second"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:text="@string/pro_version_without_ads"
+                android:drawableStart="@drawable/ic_megaphone_24"
+                style="@style/TextBuySubscriptionStyle"
+                app:layout_constraintTop_toBottomOf="@id/first"
+                app:layout_constraintBottom_toTopOf="@id/third"
+                app:layout_constraintStart_toStartOf="@id/card"
+                app:layout_constraintEnd_toEndOf="@id/card" />
+
+            <TextView
+                android:id="@+id/third"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:text="@string/pro_version_access_to_updates"
+                android:drawableStart="@drawable/ic_game_24"
+                style="@style/TextBuySubscriptionStyle"
+                app:layout_constraintTop_toBottomOf="@id/second"
+                app:layout_constraintStart_toStartOf="@id/card"
+                app:layout_constraintEnd_toEndOf="@id/card"
+                app:layout_constraintBottom_toTopOf="@id/buy_month"/>
+
+            <LinearLayout
+                android:id="@+id/buy_month"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="12dp"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="@drawable/bg_buy_button"
+                android:padding="8dp"
+                app:layout_constraintBottom_toTopOf="@id/buy_forever"
+                app:layout_constraintStart_toStartOf="@id/card"
+                app:layout_constraintEnd_toEndOf="@id/card">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    style="@style/TextAppearance.AppCompat.Subhead"
+                    android:text="Купить на месяц"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    style="@style/TextAppearance.AppCompat.Subhead"
+                    android:text="49p/месяц" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/buy_forever"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="@drawable/bg_buy_button"
+                android:padding="8dp"
+                app:layout_constraintBottom_toBottomOf="@id/card"
+                app:layout_constraintStart_toStartOf="@id/card"
+                app:layout_constraintEnd_toEndOf="@id/card">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    style="@style/TextAppearance.AppCompat.Subhead"
+                    android:text="Купить навсегда"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    style="@style/TextAppearance.AppCompat.Subhead"
+                    android:text="149p" />
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

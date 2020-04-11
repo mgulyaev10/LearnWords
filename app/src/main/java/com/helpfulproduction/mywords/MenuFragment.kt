@@ -25,7 +25,12 @@ class MenuFragment: Fragment() {
 
     private fun createMenu(): List<MenuItem> {
         return listOf(
-            MenuListItem(R.drawable.ic_settings_24, R.string.settings) {openSettingsFragment()}
+            MenuListItem(R.drawable.ic_diamond_24, R.string.buy_pro_version, {
+                openPromoFragment()
+            }, iconTint = null),
+            MenuListItem(R.drawable.ic_settings_24, R.string.settings, {
+                openSettingsFragment()
+            })
         )
     }
 
@@ -33,6 +38,12 @@ class MenuFragment: Fragment() {
         val fragment = SettingsFragment.Builder()
             .build()
         Navigator.go(fragment)
+    }
+
+    private fun openPromoFragment() {
+        val fragment = PromoFragment.Builder()
+            .build()
+        Navigator.openFullScreen(fragment)
     }
 
     class Builder {

@@ -23,4 +23,10 @@
 
     <string name="loading_toast">Загрузка данных. Пожалуйста, подождите</string>
 
+    <string name="buy_pro_version">Купить PRO-версию</string>
+    <string name="pro_version_title">PRO-версия</string>
+    <string name="pro_version_without_restriction">Неограниченное число новых слов каждый день</string>
+    <string name="pro_version_without_ads">Никакой рекламы</string>
+    <string name="pro_version_access_to_updates">Доступ к разрабатывающимся функциям приложения в будущих обновлениях</string>
+
 </resources>

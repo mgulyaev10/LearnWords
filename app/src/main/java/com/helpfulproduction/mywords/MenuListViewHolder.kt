@@ -10,11 +10,20 @@ class MenuListViewHolder(view: View): BaseMenuViewHolder<MenuListItem>(view) {
     private val title = view.findViewById<TextView>(R.id.title)
 
     override fun bind(menuItem: MenuListItem) {
-        icon.setImageResource(menuItem.iconResId)
+        icon.apply {
+            updateIconTint(menuItem.iconTint)
+            setImageResource(menuItem.iconResId)
+        }
         title.setText(menuItem.textResId)
         itemView.setOnClickListener {
             menuItem.action.invoke()
         }
     }
 
+    private fun updateIconTint(tint: Int?) {
+        if (tint == null) {
+            icon.clearColorFilter()
+            icon.imageTintList = null
+        }
+    }
 }

@@ -19,4 +19,12 @@ object Navigator {
         navigationDelegate.go(fragment)
     }
 
+    fun openFullScreen(fragment: Fragment) {
+        navigationDelegate.openFullScreen(fragment)
+    }
+
+    fun onBackPressed() {
+        navigationDelegate.onBackPressed()
+    }
+
 }

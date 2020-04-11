@@ -72,8 +72,13 @@ class HomeFragment: Fragment(), NavigationDelegate {
     }
 
     override fun onBackPressed() {
+        activity?.supportFragmentManager?.backStackEntryCount?.let { count ->
+            if (count > 0) {
+                activity?.supportFragmentManager?.popBackStack()
+                return
+            }
+        }
         rootViewPagerAdapter.onBackPressed()
-        return
     }
 
     override fun openCategories() {
@@ -82,6 +87,13 @@ class HomeFragment: Fragment(), NavigationDelegate {
 
     override fun go(fragment: Fragment) {
         rootViewPagerAdapter.openInCurrentStack(fragment)
+    }
+
+    override fun openFullScreen(fragment: Fragment) {
+        activity?.supportFragmentManager?.beginTransaction()
+            ?.add(R.id.container, fragment)
+            ?.addToBackStack(null)
+            ?.commit()
     }
 
     private fun createRootFragments(isFirstLaunch: Boolean): List<Stack<Fragment>> {

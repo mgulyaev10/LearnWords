@@ -6,4 +6,5 @@ interface NavigationDelegate {
     fun onBackPressed()
     fun openCategories()
     fun go(fragment: Fragment)
+    fun openFullScreen(fragment: Fragment)
 }
