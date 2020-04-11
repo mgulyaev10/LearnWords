@@ -9,6 +9,8 @@
     <string name="menu_statistics">Статистика</string>
     <string name="menu_menu">Меню</string>
     <string name="settings">Настройки</string>
+    <string name="rate_app">Оценить приложение</string>
+    <string name="feedback">Обратная связь</string>
 
     <string name="categories">Категории</string>
     <string name="exit_explanation">Нажмите кнопку "Назад" ещё раз, чтобы закрыть приложение</string>
@@ -33,4 +35,5 @@
 
     <string name="intro_categories">Выберите категории слов, которые Вы хотите изучать</string>
 
+    <string name="toast_feedback_error">На устройстве не установлена ни одна из программ: Telegram, WhatsApp, VK</string>
 </resources>

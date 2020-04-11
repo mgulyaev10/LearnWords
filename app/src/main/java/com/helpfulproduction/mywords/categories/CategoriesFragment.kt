@@ -84,6 +84,7 @@ class CategoriesFragment: Fragment(), ScrolledToTop {
         if (!isFirstLaunch) {
             return
         }
+        isFirstLaunch = false
         val introFragment = IntroFragment.Builder()
             .build()
         activity?.supportFragmentManager?.beginTransaction()

@@ -30,13 +30,13 @@ class CheckBoxSubtitlePreference: CheckBoxPreference {
 
     private fun syncCheckBoxView(view: View) {
         if (view is CompoundButton) {
-            (view as CompoundButton).setOnCheckedChangeListener(null)
+            view.setOnCheckedChangeListener(null)
         }
         if (view is Checkable) {
-            (view as Checkable).isChecked = mChecked
+            view.isChecked = mChecked
         }
         if (view is CompoundButton) {
-            (view as CompoundButton).setOnCheckedChangeListener(listener)
+            view.setOnCheckedChangeListener(listener)
         }
     }
 
