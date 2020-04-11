@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_promo_gradient"
-    android:clipToPadding="false">
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true">
 
     <ImageView
         android:id="@+id/close"
@@ -105,7 +106,7 @@
                 android:orientation="vertical"
                 android:clickable="true"
                 android:focusable="true"
-                android:background="@drawable/bg_buy_button"
+                android:background="@drawable/bg_pressable_button"
                 android:padding="8dp"
                 app:layout_constraintBottom_toTopOf="@id/buy_forever"
                 app:layout_constraintStart_toStartOf="@id/card"
@@ -138,7 +139,7 @@
                 android:orientation="vertical"
                 android:clickable="true"
                 android:focusable="true"
-                android:background="@drawable/bg_buy_button"
+                android:background="@drawable/bg_pressable_button"
                 android:padding="8dp"
                 app:layout_constraintBottom_toBottomOf="@id/card"
                 app:layout_constraintStart_toStartOf="@id/card"

@@ -7,4 +7,5 @@
     <color name="separator">#e8e8e8</color>
     <color name="azure_300">#3F8AE0</color>
     <color name="gradient_start">#799afc</color>
+    <color name="pressed_button">#ffd6d6d6</color>
 </resources>
