@@ -17,7 +17,7 @@ object SpeechHelper {
         }
     }
 
-    fun speak(context: Context, word: CharSequence) {
+    fun speak(context: Context?, word: CharSequence) {
         textToSpeech = TextToSpeech(context,
             listener
         )

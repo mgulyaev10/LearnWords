@@ -8,8 +8,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
-import com.helpfulproduction.mywords.AdsManager
-import com.helpfulproduction.mywords.R
+import com.helpfulproduction.mywords.*
 import com.helpfulproduction.mywords.android.ThreadUtils
 import com.helpfulproduction.mywords.core.Word
 import com.helpfulproduction.mywords.core.Words
@@ -154,14 +153,18 @@ class CardWordsFragment: BaseMvpFragment<CardWordsContract.Presenter>(),
         knownWord = view.findViewById<TextView>(R.id.known_word).apply {
             setOnClickListener {
                 words?.let {
-                    updateCard(it)
+                    AnimationHelper.swipeCardAnimation(context, content, CardAnimationListener({
+                        updateCard(it)
+                    }, isLeft = true))
                 }
             }
         }
         unknownWord = view.findViewById<TextView>(R.id.unknown_word).apply {
             setOnClickListener {
                 words?.let {
-                    updateCard(it)
+                    AnimationHelper.swipeCardAnimation(context, content, CardAnimationListener({
+                        updateCard(it)
+                    }, isLeft = false))
                 }
             }
         }

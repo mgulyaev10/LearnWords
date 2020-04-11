@@ -1,6 +1,8 @@
 package com.helpfulproduction.mywords.android
 
 import android.content.Context
+import androidx.preference.PreferenceManager
+import com.helpfulproduction.mywords.R
 
 object Preference {
     private const val PREF_WORDS_APP_NAME = "pref_myWords_app"
@@ -31,6 +33,12 @@ object Preference {
             ?.edit()
             ?.putBoolean(KEY_IS_DATA_UNPACKED, isDataUnpacked)
             ?.apply()
+    }
+
+    fun isBadDevice(context: Context): Boolean {
+        val key = context.getString(R.string.key_bad_device)
+        return PreferenceManager.getDefaultSharedPreferences(context)
+            .getBoolean(key, false)
     }
 
     @Deprecated("DEBUG")

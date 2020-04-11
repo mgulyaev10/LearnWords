@@ -4,16 +4,9 @@
     android:layout_height="match_parent"
     android:background="@color/app_background">
 
-    <Button
-        android:id="@+id/clear_database"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Очистить БД" />
-
-    <Button
-        android:id="@+id/clear_prefs"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Очистить Prefs" />
+        android:layout_height="match_parent" />
 
 </LinearLayout>
