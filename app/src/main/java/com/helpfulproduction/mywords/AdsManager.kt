@@ -28,19 +28,23 @@ object AdsManager {
 
     fun onCardShow() {
         if (wordsCounter >= ADS_INTERVAL) {
-            showInterstitialAd()
-            wordsCounter = 0
-            return
+            val isShown = showInterstitialAd()
+            if (isShown) {
+                wordsCounter = 0
+                return
+            }
         }
         wordsCounter++
     }
 
-    private fun showInterstitialAd() {
-        if (interstitialAd.isLoaded) {
+    private fun showInterstitialAd(): Boolean {
+        val isLoaded = interstitialAd.isLoaded
+        if (isLoaded) {
             interstitialAd.show()
         } else {
             Log.e(TAG, "interstitialAd is not loaded!")
         }
+        return isLoaded
     }
 
 }

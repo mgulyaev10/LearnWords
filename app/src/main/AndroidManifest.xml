@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.helpfulproduction.mywords">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:name=".android.MyApplication"
         android:allowBackup="true"
@@ -15,7 +17,8 @@
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="@string/admob"/>
 
-        <activity android:name="com.helpfulproduction.mywords.android.MainActivity">
+        <activity android:name="com.helpfulproduction.mywords.android.MainActivity"
+            android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
