@@ -5,6 +5,6 @@ import androidx.fragment.app.Fragment
 interface NavigationDelegate {
     fun onBackPressed()
     fun openCategories()
-    fun go(fragment: Fragment)
+    fun go(fragment: Fragment, actionBarTitle: String?)
     fun openFullScreen(fragment: Fragment)
 }

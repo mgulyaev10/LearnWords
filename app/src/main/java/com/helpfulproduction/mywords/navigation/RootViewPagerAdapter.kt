@@ -43,6 +43,7 @@ class RootViewPagerAdapter(
             listener.onEmptyStack()
         } else {
             changedFragment = fragments[currentPosition].pop()
+            listener.onBackPressed(fragments[currentPosition].size)
             notifyDataSetChanged()
         }
     }

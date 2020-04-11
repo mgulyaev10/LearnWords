@@ -15,8 +15,8 @@ object Navigator {
         navigationDelegate.openCategories()
     }
 
-    fun go(fragment: Fragment) {
-        navigationDelegate.go(fragment)
+    fun go(fragment: Fragment, actionBarTitle: String? = null) {
+        navigationDelegate.go(fragment, actionBarTitle)
     }
 
     fun openFullScreen(fragment: Fragment) {

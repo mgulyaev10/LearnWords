@@ -37,7 +37,8 @@ class MenuFragment: Fragment() {
     private fun openSettingsFragment() {
         val fragment = SettingsFragment.Builder()
             .build()
-        Navigator.go(fragment)
+        val title = context?.getString(R.string.settings) ?: "Settings"
+        Navigator.go(fragment, actionBarTitle = title)
     }
 
     private fun openPromoFragment() {

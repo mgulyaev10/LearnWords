@@ -2,6 +2,8 @@
     <string name="app_name">myWords</string>
     <string name="key_bad_device">key_bad_device</string>
 
+    <string name="accessibility_close">Закрыть</string>
+
     <string name="menu_learn">Учить</string>
     <string name="menu_categories">Категории</string>
     <string name="menu_statistics">Статистика</string>
