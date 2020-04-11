@@ -31,4 +31,6 @@
     <string name="pro_version_without_ads">Никакой рекламы</string>
     <string name="pro_version_access_to_updates">Доступ к разрабатывающимся функциям приложения в будущих обновлениях</string>
 
+    <string name="intro_categories">Выберите категории слов, которые Вы хотите изучать</string>
+
 </resources>

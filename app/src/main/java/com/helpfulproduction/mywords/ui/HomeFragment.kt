@@ -12,8 +12,8 @@ import androidx.fragment.app.Fragment
 import com.google.android.material.appbar.AppBarLayout
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.helpfulproduction.mywords.AdsManager
-import com.helpfulproduction.mywords.FragmentWrapper
-import com.helpfulproduction.mywords.MenuFragment
+import com.helpfulproduction.mywords.navigation.FragmentWrapper
+import com.helpfulproduction.mywords.menu.MenuFragment
 import com.helpfulproduction.mywords.R
 import com.helpfulproduction.mywords.categories.CategoriesFragment
 import com.helpfulproduction.mywords.utils.ExitManager
@@ -152,21 +152,21 @@ class HomeFragment: Fragment(), NavigationDelegate {
     private fun createCategoriesFragment(isFirstLaunch: Boolean = false): FragmentWrapper {
         return FragmentWrapper(
             CategoriesFragment.Builder(isFirstLaunch = isFirstLaunch)
-            .build()
+                .build()
         )
     }
 
     private fun createCardWordsFragment(): FragmentWrapper {
         return FragmentWrapper(
             CardWordsFragment.Builder(isNew = false)
-            .build()
+                .build()
         )
     }
 
     private fun createMenuFragment(): FragmentWrapper {
         return FragmentWrapper(
             MenuFragment.Builder()
-            .build()
+                .build()
         )
     }
 

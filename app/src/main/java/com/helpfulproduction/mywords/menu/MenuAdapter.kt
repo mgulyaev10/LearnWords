@@ -1,8 +1,9 @@
-package com.helpfulproduction.mywords
+package com.helpfulproduction.mywords.menu
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.helpfulproduction.mywords.R
 
 class MenuAdapter(
     private val items: List<MenuItem>
@@ -11,7 +12,9 @@ class MenuAdapter(
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BaseMenuViewHolder<MenuItem> {
         val view = LayoutInflater.from(parent.context).inflate(viewType, parent, false)
         val viewHolder = when (viewType) {
-            R.layout.menu_list_item -> MenuListViewHolder(view)
+            R.layout.menu_list_item -> MenuListViewHolder(
+                view
+            )
             else -> throw IllegalStateException("Unsupported type")
         }
         return viewHolder as BaseMenuViewHolder<MenuItem>

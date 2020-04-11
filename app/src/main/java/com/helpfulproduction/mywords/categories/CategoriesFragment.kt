@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.appbar.AppBarLayout
+import com.helpfulproduction.mywords.IntroFragment
 import com.helpfulproduction.mywords.R
 import com.helpfulproduction.mywords.android.Preference
 import com.helpfulproduction.mywords.android.ToastUtils
@@ -24,6 +25,8 @@ class CategoriesFragment: Fragment(), ScrolledToTop {
     private lateinit var recycler: RecyclerView
     private lateinit var title: TextView
     private lateinit var appbar: AppBarLayout
+
+    private var isFirstLaunch = false
 
     private val categoryClickListener = object : CategoryClickListener {
         override fun onClick(category: Category) {
@@ -41,6 +44,7 @@ class CategoriesFragment: Fragment(), ScrolledToTop {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_categories, container, false)
+        isFirstLaunch = arguments?.getBoolean(ARGS_FIRST_LAUNCH, false) ?: false
         initViews(view)
         return view
     }
@@ -48,6 +52,11 @@ class CategoriesFragment: Fragment(), ScrolledToTop {
     override fun scrollToTop() {
         appbar.setExpanded(true, true)
         recycler.scrollToPosition(0)
+    }
+
+    override fun onResume() {
+        super.onResume()
+        showIntroIfNeed()
     }
 
     private fun initViews(view: View) {
@@ -71,11 +80,23 @@ class CategoriesFragment: Fragment(), ScrolledToTop {
         Navigator.go(fragment)
     }
 
+    private fun showIntroIfNeed() {
+        if (!isFirstLaunch) {
+            return
+        }
+        val introFragment = IntroFragment.Builder()
+            .build()
+        activity?.supportFragmentManager?.beginTransaction()
+            ?.add(R.id.container, introFragment)
+            ?.addToBackStack(null)
+            ?.commit()
+    }
+
     class Builder(isFirstLaunch: Boolean = false) {
-        val args = Bundle()
+        private val args = Bundle()
 
         init {
-            args.putBoolean(TAG, isFirstLaunch)
+            args.putBoolean(ARGS_FIRST_LAUNCH, isFirstLaunch)
         }
 
         fun build(): CategoriesFragment {
@@ -87,5 +108,6 @@ class CategoriesFragment: Fragment(), ScrolledToTop {
 
     companion object {
         val TAG = CategoriesFragment::class.java.simpleName
+        private const val ARGS_FIRST_LAUNCH = "args_first_launch"
     }
 }

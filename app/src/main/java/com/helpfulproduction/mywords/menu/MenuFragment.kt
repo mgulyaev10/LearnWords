@@ -1,4 +1,4 @@
-package com.helpfulproduction.mywords
+package com.helpfulproduction.mywords.menu
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,6 +7,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.helpfulproduction.mywords.R
+import com.helpfulproduction.mywords.ui.PromoFragment
 import com.helpfulproduction.mywords.ui.SettingsFragment
 import com.helpfulproduction.mywords.utils.Navigator
 
@@ -18,19 +20,28 @@ class MenuFragment: Fragment() {
         val view = inflater.inflate(R.layout.fragment_menu, container, false)
         view.findViewById<RecyclerView>(R.id.recycler).apply {
             layoutManager = LinearLayoutManager(view.context, LinearLayoutManager.VERTICAL, false)
-            adapter = MenuAdapter(createMenu())
+            adapter =
+                MenuAdapter(createMenu())
         }
         return view
     }
 
     private fun createMenu(): List<MenuItem> {
         return listOf(
-            MenuListItem(R.drawable.ic_diamond_24, R.string.buy_pro_version, {
-                openPromoFragment()
-            }, iconTint = null),
-            MenuListItem(R.drawable.ic_settings_24, R.string.settings, {
-                openSettingsFragment()
-            })
+            MenuListItem(
+                R.drawable.ic_diamond_24,
+                R.string.buy_pro_version,
+                {
+                    openPromoFragment()
+                },
+                iconTint = null
+            ),
+            MenuListItem(
+                R.drawable.ic_settings_24,
+                R.string.settings,
+                {
+                    openSettingsFragment()
+                })
         )
     }
 

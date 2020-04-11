@@ -4,7 +4,6 @@ import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import androidx.annotation.WorkerThread
-import com.helpfulproduction.mywords.DatabaseFillException
 import com.helpfulproduction.mywords.android.AppContextHolder
 import com.helpfulproduction.mywords.utils.DictionaryParser
 import com.helpfulproduction.mywords.android.ThreadUtils

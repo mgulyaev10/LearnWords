@@ -1,4 +1,4 @@
-package com.helpfulproduction.mywords
+package com.helpfulproduction.mywords.menu
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

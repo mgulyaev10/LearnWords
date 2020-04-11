@@ -5,7 +5,6 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
 import androidx.viewpager.widget.PagerAdapter
-import com.helpfulproduction.mywords.FragmentWrapper
 import java.util.*
 
 class RootViewPagerAdapter(
@@ -52,7 +51,12 @@ class RootViewPagerAdapter(
 
     fun openInCurrentStack(fragment: Fragment, toolbarTitle: String? = null) {
         changedFragment = fragments[currentPosition].peek().fragment
-        fragments[currentPosition].push(FragmentWrapper(fragment, toolbarTitle))
+        fragments[currentPosition].push(
+            FragmentWrapper(
+                fragment,
+                toolbarTitle
+            )
+        )
         notifyDataSetChanged()
     }
 

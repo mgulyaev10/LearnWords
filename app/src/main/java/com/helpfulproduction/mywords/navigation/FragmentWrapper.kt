@@ -1,4 +1,4 @@
-package com.helpfulproduction.mywords
+package com.helpfulproduction.mywords.navigation
 
 import androidx.fragment.app.Fragment
 

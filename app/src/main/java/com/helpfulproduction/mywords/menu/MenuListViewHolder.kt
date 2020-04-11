@@ -1,8 +1,9 @@
-package com.helpfulproduction.mywords
+package com.helpfulproduction.mywords.menu
 
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
+import com.helpfulproduction.mywords.R
 
 class MenuListViewHolder(view: View): BaseMenuViewHolder<MenuListItem>(view) {
 
