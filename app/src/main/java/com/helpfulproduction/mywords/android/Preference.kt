@@ -1,11 +1,12 @@
 package com.helpfulproduction.mywords.android
 
 import android.content.Context
-import androidx.preference.PreferenceManager
+import androidx.annotation.StringRes
 import com.helpfulproduction.mywords.R
 
 object Preference {
     private const val PREF_WORDS_APP_NAME = "pref_myWords_app"
+    private const val PREF_SETTINGS_NAME = "pref_settings"
     private const val KEY_IS_FIRST_LAUNCH = "is_first_launch"
     private const val KEY_IS_DATA_UNPACKED = "is_data_unpacked"
 
@@ -36,10 +37,20 @@ object Preference {
             ?.apply()
     }
 
-    fun isBadDevice(context: Context): Boolean {
-        val key = context.getString(R.string.key_bad_device)
-        return PreferenceManager.getDefaultSharedPreferences(context)
+    fun isBadDevice(context: Context): Boolean = getSettings(context, R.string.key_bad_device)
+
+    fun getSettings(context: Context, @StringRes keyRes: Int): Boolean {
+        val key = context.getString(keyRes)
+        return context.getSharedPreferences(PREF_SETTINGS_NAME, Context.MODE_PRIVATE)
             .getBoolean(key, false)
+    }
+
+    fun setSettings(context: Context, @StringRes keyRes: Int, value: Boolean) {
+        val key = context.getString(keyRes)
+        context.getSharedPreferences(PREF_SETTINGS_NAME, Context.MODE_PRIVATE)
+            .edit()
+            .putBoolean(key, value)
+            .apply()
     }
 
     @Deprecated("DEBUG")

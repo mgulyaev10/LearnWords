@@ -8,5 +8,6 @@
     <color name="azure_300">#3F8AE0</color>
     <color name="gradient_start">#799afc</color>
     <color name="pressed_button">#d6d6d6</color>
-    <color name="gray_transparent">#b34d4d4d</color>
+    <color name="gray_intro_bg">#b34d4d4d</color>
+    <color name="separator_gray_transparent">#204d4d4d</color>
 </resources>

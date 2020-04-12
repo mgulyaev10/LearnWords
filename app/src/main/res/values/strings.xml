@@ -22,9 +22,10 @@
     <string name="i_dont_know_word">Я не знаю это слово</string>
 
     <string name="common">Общие</string>
+    <string name="notifications">Уведомления</string>
     <string name="settings_bad_device">Слабое устройство</string>
-    <string name="settings_bad_device_subtitle_checked">Отключить анимации</string>
-    <string name="settings_bad_device_subtitle_unchecked">Включить анимации</string>
+    <string name="settings_bad_device_subtitle_checked">Анимации отключены</string>
+    <string name="settings_bad_device_subtitle_unchecked">Анимации включены</string>
 
     <string name="loading_toast">Загрузка данных. Пожалуйста, подождите</string>
 
