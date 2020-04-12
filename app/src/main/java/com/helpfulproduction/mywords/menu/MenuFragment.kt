@@ -13,13 +13,12 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.helpfulproduction.mywords.MenuItemDecoration
 import com.helpfulproduction.mywords.R
+import com.helpfulproduction.mywords.android.ToastUtils
 import com.helpfulproduction.mywords.ui.PromoFragment
 import com.helpfulproduction.mywords.ui.SettingsFragment
 import com.helpfulproduction.mywords.utils.Navigator
 
 class MenuFragment: Fragment() {
-
-    private lateinit var recycler: RecyclerView
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -45,31 +44,29 @@ class MenuFragment: Fragment() {
                     openPromoFragment()
                 },
                 iconTint = null,
-                lastInBlock = true
+                lastInBlock = true,
+                textColor = R.color.azure_300
             ),
             MenuListItem(
                 R.drawable.ic_settings_24,
                 R.string.settings,
                 {
                     openSettingsFragment()
-                },
-                lastInBlock = false
+                }
             ),
             MenuListItem(
                 R.drawable.ic_star_24,
                 R.string.rate_app,
                 {
                     openRateApp()
-                },
-                lastInBlock = false
+                }
             ),
             MenuListItem (
                 R.drawable.ic_feedback_24,
                 R.string.feedback,
                 {
                     sendFeedbackTg()
-                },
-                lastInBlock = false
+                }
             )
         )
     }
@@ -91,7 +88,7 @@ class MenuFragment: Fragment() {
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/migulyaev")).apply {
             setPackage("org.telegram.messenger")
         }
-        trySendFeedback(intent) {
+        tryOpenActivity(intent) {
             sendFeedbackWhatsapp()
         }
     }
@@ -100,7 +97,7 @@ class MenuFragment: Fragment() {
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://wa.me/79117857445")).apply {
             setPackage("com.whatsapp")
         }
-        trySendFeedback(intent) {
+        tryOpenActivity(intent) {
             sendFeedbackVk()
         }
     }
@@ -110,13 +107,13 @@ class MenuFragment: Fragment() {
             Intent(Intent.ACTION_VIEW, Uri.parse("https://vk.com/im?sel=281484485")).apply {
                 setPackage("com.vkontakte.android")
             }
-        trySendFeedback(intent) {
+        tryOpenActivity(intent) {
             Toast.makeText(context, R.string.toast_feedback_error, Toast.LENGTH_LONG)
                 .show()
         }
     }
 
-    private fun trySendFeedback(intent: Intent, fallback: () -> Unit) {
+    private fun tryOpenActivity(intent: Intent, fallback: () -> Unit) {
         context?.packageManager?.let { packageManager ->
             if (intent.resolveActivity(packageManager) != null) {
                 context?.startActivity(intent)
@@ -135,15 +132,13 @@ class MenuFragment: Fragment() {
                         Intent.FLAG_ACTIVITY_NEW_DOCUMENT or
                         Intent.FLAG_ACTIVITY_MULTIPLE_TASK
             )
-            try {
-                startActivity(goToMarket)
-            } catch (e: ActivityNotFoundException) {
-                startActivity(
-                    Intent(
-                        Intent.ACTION_VIEW,
-                        Uri.parse("http://play.google.com/store/apps/details?id=$packageName")
-                    )
-                )
+            tryOpenActivity(goToMarket) {
+                tryOpenActivity(Intent(
+                    Intent.ACTION_VIEW,
+                    Uri.parse("http://play.google.com/store/apps/details?id=$packageName")
+                )) {
+                    ToastUtils.showErrorToast(context)
+                }
             }
         }
     }

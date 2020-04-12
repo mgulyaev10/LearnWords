@@ -9,4 +9,9 @@ object ToastUtils {
         Toast.makeText(context, R.string.loading_toast, Toast.LENGTH_LONG)
             .show()
     }
+
+    fun showErrorToast(context: Context?) {
+        Toast.makeText(context, R.string.error, Toast.LENGTH_LONG)
+            .show()
+    }
 }

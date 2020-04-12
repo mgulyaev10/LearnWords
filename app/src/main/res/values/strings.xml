@@ -11,6 +11,7 @@
     <string name="settings">Настройки</string>
     <string name="rate_app">Оценить приложение</string>
     <string name="feedback">Обратная связь</string>
+    <string name="error">Ошибка</string>
 
     <string name="categories">Категории</string>
     <string name="exit_explanation">Нажмите кнопку "Назад" ещё раз, чтобы закрыть приложение</string>

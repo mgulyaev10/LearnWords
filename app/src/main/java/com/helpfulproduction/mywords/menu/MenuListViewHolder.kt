@@ -3,6 +3,7 @@ package com.helpfulproduction.mywords.menu
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.content.ContextCompat
 import com.helpfulproduction.mywords.R
 
 class MenuListViewHolder(view: View): BaseMenuViewHolder<MenuListItem>(view) {
@@ -15,7 +16,10 @@ class MenuListViewHolder(view: View): BaseMenuViewHolder<MenuListItem>(view) {
             updateIconTint(menuItem.iconTint)
             setImageResource(menuItem.iconResId)
         }
-        title.setText(menuItem.textResId)
+        title.apply {
+            setText(menuItem.textResId)
+            updateTextColor(menuItem.textColor)
+        }
         itemView.setOnClickListener {
             menuItem.action.invoke()
         }
@@ -25,6 +29,12 @@ class MenuListViewHolder(view: View): BaseMenuViewHolder<MenuListItem>(view) {
         if (tint == null) {
             icon.clearColorFilter()
             icon.imageTintList = null
+        }
+    }
+
+    private fun updateTextColor(color: Int?) {
+        if (color != null) {
+            title.setTextColor(ContextCompat.getColor(itemView.context, color))
         }
     }
 }
